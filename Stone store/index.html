@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>MAIN PAGE</title>
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" type="text/css" href="css/fonts.css">
+  <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/swipebox.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">    
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/media.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="js/jquery.swipebox.js"></script>
+</head>
+
+<body>
+  <header>
+    <div id="header-wrapper">
+      <div class="container">
+        <div class="row">
+          <nav class="navbar navbar-default">
+            <div class="container-fluid">
+              <!--W toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+              </div>
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav main-menu">
+                  <li>
+                    <a href="index.html">Главная 
+                      <!-- <span class="sr-only">(current)</span> -->
+                    </a>
+                  </li>
+                  <li><a href="about.html">О компании</a></li>
+                  <li><a href="services.html">Услуги</a></li>
+                  <li><a href="catalog.html">Каталог работы</a></li>
+                  <li><a href="portfolio.html">Портфолио</a></li>
+                  <li class="dropdown">
+                    <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Каталог камня 
+                      <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                      <div class="container">
+                        <div class="row">
+                          <li class="col-md-3"><a href="catalog-list.html">Мрамор</a></li>
+                          <li class="col-md-3"><a href="#catalog-list.html">Гранит</a></li>
+                          <li class="col-md-3"><a href="catalog-list.html">Кварц</a></li>
+                          <li class="col-md-3"><a href="catalog-list.html">Акрил</a></li>
+                        </div>
+                      </div>
+                    </ul>
+                  </li>
+                  <li><a href="about.html">Информация</a></li>
+                  <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+              </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+          </nav>
+        </div><!--row end-->
+      </div>
+    </div>
+
+    <div id="postheader">
+      <div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 col-sm-4 col-xs-6">
+              <div class="online-calc">
+                <div>
+                  <a href="#" class="btn orange-button">Он-лайн калькулятор</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-12">
+              <div class="logo">
+                <img class="img-responsive" src="images/header-logo.jpg">
+            </div>
+          </div>
+          <div class="col-md-3 col-md-offset-1 col-sm-4 col-xs-6">
+            <div class="header-contacts">
+              <div class="phone">
+                <a href="tel:+74957663817">+7 (495) 766-38-17</a>
+              </div>
+              <div class="schedule">
+                <p>ежедневно без выходных</p>
+              </div>
+              <div class="schedule">
+                <p>
+                  с 10.00 до 21.00
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section id="main-slider">
+  <div class="sl-slide">
+    <img class="img-responsive" src="images/slider1_cut.jpg">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 slider-form-wrapper">
+
+          <img src="images/slider-form-image.png" alt="" class="img-responsive slider-form-image" />
+
+          <div class="slider-form">
+            <form class="form-horizontal">
+              <div class="form-group">
+                <div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-6 col-xs-offset-3">
+                  <input type="text" class="form-control" id="Name" placeholder="ФИО">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-6 col-xs-offset-3">
+                  <input type="phone" class="form-control" id="Tel" placeholder="Телефон">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-6 col-xs-offset-3 text-center">
+                  <button type="submit" class="btn deep-orange-button">Оставить заявку</button>
+                </div>
+              </div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+</div>
+</section>
+
+<section id="online-calculator">
+  <div class="online-calculator-wrapper">
+    <div class="container-fluid">
+      <div class="row">
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs" role="tablist">
+          <li role="presentation" class="col-md-6 col-sm-6 col-xs-12 active">
+            <a href="#home" aria-controls="home" role="tab" data-toggle="tab">
+              <span>Калькулятор он-лайн</span>
+            </a>
+          </li>
+          <li role="presentation" class="col-md-6 col-sm-6 col-xs-12">
+            <a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">
+              <span>Калькулятор акрил он-лайн</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="tab-content">
+            <div role="tabpanel" class="tab-pane active" id="home" style="color: #000">
+              <h2 class="text-center">Выберите производителя и цвет камня</h2>
+              <div class="grey-line"></div>
+              <div class="row">
+                <div class="col-md-2 col-sm-4 col-xs-6">
+                  <div>
+                    <img src="images/producer1.png" alt="" class="img-responsive producer">
+                  </div>
+                </div>
+                <div class="col-md-2 col-sm-4 col-xs-6">
+                  <div>
+                    <img src="images/producer2.png" alt="" class="img-responsive producer">
+                  </div>
+                </div>
+                <div class="col-md-2 col-sm-4 col-xs-6">
+                  <div>
+                    <img src="images/producer3.png" alt="" class="img-responsive producer">
+                  </div>
+                </div>
+                <div class="col-md-2 col-sm-4 col-xs-6">
+                  <div>
+                    <img src="images/producer4.png" alt="" class="img-responsive producer">
+                  </div>
+                </div>
+                <div class="col-md-2 col-sm-4 col-xs-6">
+                  <div>
+                    <img src="images/producer5.png" alt="" class="img-responsive producer">
+                  </div>
+                </div>
+                <div class="col-md-2 col-sm-4 col-xs-6">
+                  <div>
+                    <img src="images/producer6.png" alt="" class="img-responsive producer">
+                  </div>
+                </div>
+              </div><!--end row-->
+              <div class="grey-line"></div>
+
+              <h2 class="text-center">Укажите размеры будущего изделия и стороны обработки кромки!</h2>
+              <div class="row">
+                <div class="options-wrapper">
+
+
+                  <div class="col-md-3 col-sm-6">
+                    <div class="item-wrapper thickness">
+                      <p class="col-name text-center">Толщина столешницы</p>
+                      <div class="settings-wrapper">
+                        <input class="custom-radio" name="thickness" type="radio" id="20mm" /><label class="custom-label" for="20mm">20мм</label>
+                        <input class="custom-radio" name="thickness" type="radio" id="30mm" /><label class="custom-label" for="30mm">30мм</label>
+                        <input class="custom-radio" name="thickness" type="radio" id="40mm" /><label class="custom-label" for="40mm">40мм</label>
+                        <input class="custom-radio" name="thickness" type="radio" id="60mm" /><label class="custom-label" for="60mm">60мм</label>
+                      </div>
+
+                    </div>
+                  </div>
+
+                  <!--FORM-->
+                  <div class="col-md-3 col-sm-6">
+                    <div class="item-wrapper shape">
+                      <p class="col-name text-center">Форма столешницы</p>
+                      <div class="settings-wrapper">
+                        <input class="custom-radio" name="form" type="radio" id="rectangular" checked /><label class="custom-label" for="rectangular">Прямая столешница</label>
+                        <input class="custom-radio" name="form" type="radio" id="G-shape" /><label class="custom-label" for="G-shape">Г-образная столешница</label>
+                        <input class="custom-radio" name="form" type="radio" id="P-shape" /><label class="custom-label" for="P-shape">П-образная столешница</label>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!--EDGE-->
+
+                  <div class="col-md-3 col-sm-6">
+                    <div class="item-wrapper edge">
+                      <p class="col-name text-center">Обработка кромки</p>
+                      <div class="settings-wrapper">
+                        <div class="row">
+                          <div class="col-md-6 col-sm-6 col-xs-6">
+                            <div>
+                              <input class="custom-radio" name="edge" type="radio" id="edge1" checked />
+                              <label class="custom-label" for="edge1">
+                                <img src="images/edge1.png" alt="" class="img-responsive">
+                              </label>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-sm-6 col-xs-6">
+                            <div>
+                              <input class="custom-radio" name="edge" type="radio" id="edge2" /><label class="custom-label" for="edge2">
+                              <img src="images/edge2.png" alt="" class="img-responsive">
+                            </label>
+                          </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-6">
+                          <div>
+                            <input class="custom-radio" name="edge" type="radio" id="edge3" /><label class="custom-label" for="edge3">
+                            <img src="images/edge1.png" alt="" class="img-responsive">
+                          </label>
+                        </div>
+                      </div>
+                      <div class="col-md-6 col-sm-6 col-xs-6">
+                        <div>
+                          <input class="custom-radio" name="edge" type="radio" id="edge4" /><label class="custom-label" for="edge4">
+                          <img src="images/edge1.png" alt="" class="img-responsive"></label>
+                        </div>
+                      </div>
+
+                      <div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
+                        <div>
+                          <input class="custom-radio" name="edge" type="radio" id="edge5" /><label class="custom-label" for="edge5">
+                          <img src="images/edge5.png" alt="" class="img-responsive"></label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!--вырез-->
+              <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="item-wrapper neckline">
+                  <p class="col-name text-center">Обработка кромки</p>
+                  <div class="settings-wrapper">
+                    <div class="row">
+                      <div class="col-md-6 col-sm-6 col-xs-6">
+                        <div>
+                          <input class="custom-radio" name="neckline" type="radio" id="neckline1" />
+                          <label class="custom-label" for="neckline1">
+                            <img src="images/neckline1.jpg" alt="" class="img-responsive">
+                          </label>  
+                        </div>
+                      </div>
+                      <div class="col-md-6 col-sm-6 col-xs-6">
+                        <div>
+                          <input class="custom-radio" name="neckline" type="radio" id="neckline2" /><label class="custom-label" for="neckline2">
+                          <img src="images/neckline2.jpg" alt="" class="img-responsive">
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-6">
+                      <div>
+                        <input class="custom-radio" name="neckline" type="radio" id="neckline3" /><label class="custom-label" for="neckline3">
+                        <img src="images/neckline3.jpg" alt="" class="img-responsive">
+                      </label>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-sm-6 col-xs-6">
+                    <div>
+                      <input class="custom-radio" name="neckline" type="radio" id="neckline4" /><label class="custom-label" for="neckline4">
+                      <img src="images/neckline4.jpg" alt="" class="img-responsive"></label>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6 col-sm-6 col-xs-6">
+                    <div>
+                      <input class="custom-radio" name="neckline" type="radio" id="neckline5" /><label class="custom-label" for="neckline5">
+                      <img src="images/neckline5.jpg" alt="" class="img-responsive"></label>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6 col-sm-6 col-xs-6">
+                    <div>
+                      <input class="custom-radio" name="neckline" type="radio" id="neckline6" /><label class="custom-label" for="neckline6">
+                      <img src="images/neckline6.jpg" alt="" class="img-responsive"></label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="form-group">
+          <div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 text-center">
+            <button type="submit" class="btn deep-orange-button">Узнать стоимость</button>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+
+
+
+    <div role="tabpanel" class="tab-pane" id="profile" style="color: #000">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="offer">
+  <div class="container">
+    <div class="row">
+      <h2 class="text-center">Какой материал вам интересен?</h2>
+      <div class="circle-group-wrapper">
+        <div class="col-md-3 col-sm-3 col-xs-6">
+
+          <div class="circle-wrapper">
+            <img class="img-responsive" src="images/offer-1.png" />
+
+          <h2>
+            Гранит
+          </h2>
+
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-3 col-xs-6">
+        <div class="circle-wrapper">
+          <img class="img-responsive" src="images/offer-2.png" />
+
+        <h2>
+          Мрамор
+        </h2>
+
+      </div>
+    </div>
+
+    <div class="col-md-3 col-sm-3 col-xs-6">
+      <div class="circle-wrapper">
+        <img class="img-responsive" src="images/offer-3.png" />
+
+      <h2>
+        Кварц
+      </h2>
+
+    </div>
+  </div>
+
+  <div class="col-md-3 col-sm-3 col-xs-6">
+    <div class="circle-wrapper">
+      <img class="img-responsive" src="images/offer-4.png" />
+
+    <h2>
+      Акрил
+    </h2>
+
+  </div>
+</div>
+</div>
+
+</div>
+<div class="row">
+  <h2 class="text-center">Мы изготовим для вас</h2>
+</div>
+<div class="row">
+  <div class="images-wrapper">
+    <div class="col-md-6 col-sm-6 col-xs-12">
+
+      <div class="product-advert-wrapper">
+        <a href="">
+          <div class="ribbon">
+           <h2>Столешницы</h2>
+         </div>
+       </a>
+     </div>
+   </div>
+   <div class="col-md-6 col-sm-6 col-xs-12">
+    <div class="product-advert-wrapper">
+      <a href="">
+        <div class="ribbon">
+         <h2>Подоконники</h2>
+       </div>
+     </a>
+   </div>
+ </div>
+ <div class="col-md-6 col-sm-6 col-xs-12">
+  <div class="product-advert-wrapper">
+    <a href="">
+      <div class="ribbon">
+       <h2>Ступени</h2>
+     </div>
+   </a>
+ </div>
+</div>
+<div class="col-md-6 col-sm-6 col-xs-12">
+  <div class="product-advert-wrapper">
+    <a href="">
+      <div class="ribbon">
+       <h2>Часы</h2>
+     </div>
+   </a>
+ </div>      
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="advantages">
+  <div class="advantages-wrapper">
+    <div class="container">
+      <h2 class="text-center">С нами будет легко и удобно:</h2>
+      <div class="row">
+
+
+        <div class="col-md-3 col-sm-3 col-xs-6">
+          <div class="item-wrapper">
+            <span>Замер</span>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-3 col-xs-6">
+          <div class="item-wrapper">
+            <span>Изготовление</span>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-3 col-xs-6">
+          <div class="item-wrapper">
+            <span>Доставка</span>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-3 col-xs-6">
+          <div class="item-wrapper">
+            <span>Монтаж</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>  
+</section>
+
+
+<section id="contacts">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        <div class="contacts text-center  ">
+          <h2>Ждем вас</h2>
+          <div class="address">
+            <p>МО, Красногорский район, д. Путилково, стр.16</p>
+            <p>ТЦ "КУХНИПАРК"</p>
+            <p>ПН-ВС 10-21</p>
+            <a href="tel:+74957663817" class="tel">+7(495) 766-38-17</a>
+            <a href="mailto:sherlstone@yandex.ru" class="mail">sherlstone@yandex.ru</a>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<footer>
+  <p class="text-center">Copyright by sherlstone. All rights reserved.</p>
+</footer>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/js.js"></script>
+</body>
+</html>
+
+

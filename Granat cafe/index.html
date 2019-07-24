@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css"/>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,700italic,700' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="css/orbit-1.2.3.css">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/jquery.orbit-1.2.3.js" type="text/javascript"></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script type="text/javascript">
+        $(window).load(function() {
+            $('#featured').orbit();
+        });
+    </script>
+</head>
+<body>
+
+<header>
+    <a class="navbar-brand" href="#"><img src="images/header/logo.png" alt="logo"/></a>
+    <nav class="navbar navbar-default menu_nav">
+        <div class="container-fluid menu_holder">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav menu_left">
+                    <li><a href="#">О нас</a><img src="images/header/separator.jpg" alt="separator"/></li>
+                    <li><a href="#">Меню</a><img src="images/header/separator.jpg" alt="separator"/></li>
+                    <li><a href="#">Новости</a><img src="images/header/separator.jpg" alt="separator"/></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right our_info">
+                    <li><div class="phone"><img src="images/header/phone.png" alt="Phone"/><strong> 048 701 31 31</strong></div></li>
+                    <li><div class="address"><img src="images/header/place.png" alt=""/> ул. Екатерининская</div></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+
+</header>
+<section>
+    <div class="container-fluid cont_granat">
+        <div class="sec_top_wrapper">
+            <div class="row"><!--slider-->
+              <div class="">
+
+                <div class="bs-docs-example col-md-6 ">
+
+                    <div id="myCarousel" class="carousel slide carousel-fade" data-interval="2500" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <div class="big_word">Лаунж<br/> кафе</div>
+                                <div class="small_desk">
+                                    <p>Перекусить, пообедать и </p>
+                                    <p>провести прекрасный вечер</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="big_word">Гранат<br/> кафе</div>
+                                <div class="small_desk">
+                                    <p>Отдохнуть, повеселится</p>
+                                    <p>провести отменный вечер</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="big_word">Гранат<br/> это:</div>
+                                <div class="small_desk">
+                                    <p>Вкусная еда и самое </p>
+                                    <p>главное - забота о вас</p>
+                                </div>
+                                <div class="carousel-caption">
+
+                                </div>
+                            </div>
+                        </div>
+                       <!-- <a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>
+                        <a class="right carousel-control" href="#myCarousel" data-slide="next">›</a>-->
+                    </div>
+                </div>
+              </div>
+            </div><!--slider-->
+
+            <div class="row scroll_wrapper"><!--scroll-->
+                <div class="col-md-6 scrollDown">
+                    <div class="scroller">Скроль вниз <img src="images/section/scroll.png" alt="scrollDown"/></div>
+                </div>
+            </div><!--scroll-->
+
+        </div>
+    </div>
+
+
+    <div class="container-fluid"><!-- slider -->
+        <div class="row slider_holder">
+
+            <div id="featured">
+                <img src="images/dummy-images/overflow.jpg" class="slider_item" alt="Overflow: Hidden No More" data-caption="#htmlCaption1"/>
+                <img src="images/dummy-images/banner2.jpg" class="slider_item" alt="HTML Captions" data-caption="#htmlCaption2"/>
+                <img src="images/dummy-images/slide1.jpg" class="slider_item" alt="and more features" data-caption="#htmlCaption3"/>
+            </div>
+
+            <span class="orbit-caption" id="htmlCaption1">
+                <div class="row text-right meal_sm_img">
+                    <img src="images/section/chicken.png" alt=""/>
+                </div>
+                <div class="row text-right meal_name">
+                    <h3>Стрейк-багет</h3>
+                </div>
+                <div class="row text-right meal_desc">
+                    <p>С телятиной грибами и<br/> луком соте</p>
+                </div>
+                <div class="row text-right meal_price">
+                    <h3>58,00 грн</h3>
+                </div>
+                <div class="row text-right menu_btn">
+                    <div class="menu_btn_word">Перейти в меню <img src="images/section/play.png" alt=""/></div>
+                </div>
+
+            </span>
+            <span class="orbit-caption" id="htmlCaption2">
+                <div class="row text-right meal_sm_img">
+                <img src="images/section/chicken.png" alt=""/>
+            </div>
+                <div class="row text-right meal_name">
+                    <h3>Стрейк-багет</h3>
+                </div>
+                <div class="row text-right meal_desc">
+                    <p>С телятиной грибами и<br/> луком соте</p>
+                </div>
+                <div class="row text-right meal_price">
+                    <h3>58,00 грн</h3>
+                </div>
+                <div class="row text-right menu_btn">
+                    <div class="menu_btn_word">Перейти в меню <img src="images/section/play.png" alt=""/></div>
+                </div>
+            </span>
+            <span class="orbit-caption" id="htmlCaption3">
+                <div class="row text-right meal_sm_img">
+                <img src="images/section/chicken.png" alt=""/>
+            </div>
+                <div class="row text-right meal_name">
+                    <h3>Стрейк-багет</h3>
+                </div>
+                <div class="row text-right meal_desc">
+                    <p>С телятиной грибами и<br/> луком соте</p>
+                </div>
+                <div class="row text-right meal_price">
+                    <h3>58,00 грн</h3>
+                </div>
+                <div class="row text-right menu_btn">
+                    <div class="menu_btn_word">Перейти в меню <img src="images/section/play.png" alt=""/></div>
+                </div>
+            </span>
+            <span class="navigation" id="half_black"></span>
+        </div>
+
+    </div>
+
+    <div class="container-fluid all_news"><!--Новости-->
+       <div class="news_wrapper">
+
+        <div class="row">
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="artice_wrapper  block_title">
+                <h3>Новости<br/> кафе</h3>
+                <a href="#">Все новости     <img src="images/section/play.png" alt="all news"/></a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 active_holder active_holder1 ">
+
+                <div class="artice_wrapper">
+
+                    <div class="article_name">
+                        Лучший кофе на улице
+                    </div>
+
+                    <div class="article_date">
+                        28.12.2015
+                    </div>
+
+                    <div class="article_content">
+                        Мы не прекращали поиски, пока не освоили уникальные рецептуру и методику приготовления кофе. Такого вы еще не пробовали!
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 active_holder">
+                <div class="artice_wrapper">
+
+                    <div class="article_name">
+                        Лучший кофе на улице
+                    </div>
+
+                    <div class="article_date">
+                        28.12.2015
+                    </div>
+
+                    <div class="article_content">
+                        Мы не прекращали поиски, пока не освоили уникальные рецептуру и методику приготовления кофе. Такого вы еще не пробовали!
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-12 col-sm-6 active_holder">
+                <div class="artice_wrapper">
+
+                    <div class="article_name">
+                        Лучший кофе на улице
+                    </div>
+
+                    <div class="article_date">
+                        28.12.2015
+                    </div>
+
+                    <div class="article_content">
+                        Мы не прекращали поиски, пока не освоили уникальные рецептуру и методику приготовления кофе. Такого вы еще не пробовали!
+                    </div>
+
+                </div>
+            </div>
+        </div>
+       </div>
+    </div><!--Новости-->
+</section>
+<footer>
+
+    <div class="footer_wrapper">
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-3 col-md-2 col-sm-3 col-xs-5 text-right granat_copyright">
+                <h3>&laquo;Гранат&raquo;.</h3>
+                <p>	&copy; 2016. Все права защищены. </p>
+            </div>
+            <div class="col-lg-3 col-lg-offset-0 col-md-3 col-md-offset-1 hidden-sm hidden-xs">
+                <div class="row menu_footer">
+                    <div class="col-lg-4 col-md-4 col-sm-4 pad_0">
+
+                        <ul class="it_hold">
+                            <li class="active"><a href="#">Главная</a></li>
+                            <li><a href="#">О нас</a></li>
+                            <li><a href="#">Меню</a></li>
+                        </ul>
+
+                    </div>
+                    <div class="col-lg-8 col-md-8 col-sm-4 col-xs-5 pad_0">
+
+                        <ul class="it_hold">
+                            <li><a href="#">Новости</a></li>
+                            <li><a href="#">Контакты</a></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-2 col-sm-3 col-xs-5 footer_icons">
+                <div class="socials_holder">
+                    <a class="socials" href="https://www.facebook.com"><img src="images/footer/vk.png" alt="vk"/></a>
+                    <a class="socials" href="https://www.vk.com"><img src="images/footer/facebook.png" alt="facebook"/></a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-md-offset-0 col-sm-5  col-sm-offset-1 col-xs-12">
+                <div class="row">
+
+                    <div class="col-lg-5 col-md-5 col-sm-5 copyright_beinweb">
+
+                        <h5>Разработка сайта</h5><br />
+                        <a href="https://www.beinweb.biz">&laquo;Beinweb&raquo;</a>
+
+                    </div>
+                    <div class="col-lg-5 col-md-4 col-sm-5 copy_img">
+                        <a href="https://www.beinweb.biz"><img src="images/footer/logo_beinweb.png" alt="beinweb.biz"/></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    </div>
+
+</footer>
+
+
+
+
+
+
+
+
+<script src="js/script.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

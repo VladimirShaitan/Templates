@@ -1,0 +1,329 @@
+@font-face {
+    font-family: Glyphicons;
+    src: url(../fonts/glyphicons-halflings-regular.ttf);
+}
+@font-face {
+    font-family: Toonish;
+    src: url(../fonts/toonish-webfont.ttf);
+}
+/*header style*/
+header{
+    background: #47a9d3;
+    border-bottom: 1px solid white;
+}
+header .logo{float:left}
+header .text_in_header{
+    padding: 19px 0;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+/*header style*/
+
+/*second block style*/
+
+.sec_block_wrapper{
+    height: 100vh;
+    background: #01B3E3 url("../images/bgMain.jpg") no-repeat center -20px;
+    background-size: 54%;
+}
+.sec_block_wrapper .title_img{
+    width: 36%;
+    margin-top: 99px;
+}
+.participation_wrapper {
+    border: 1px solid white;
+    padding: 20px 40px 30px;
+}
+.participation_wrapper1{
+    border: 1px solid white;
+    padding: 20px 40px;
+}
+
+.participation_title {
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Toonish, sans-serif;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #295369;
+    letter-spacing: 2px;
+}
+.participation_text1 {
+    font-size: 13px;
+    font-weight: bolder;
+    color: white;
+    padding: 5px 0;
+}
+.participation_text2 {
+    font-size: 11px;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 15px;
+}
+.btn_worth{
+    padding: 11px 20px;
+    font-family: Toonish, sans-serif;
+    color: white;
+    background: #3bb64a;
+    letter-spacing: 1px;
+    border: 1px solid white;
+    box-shadow: 5px 6px 7px 0 rgba(0,0,0,0.6);
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: .2s;
+}
+.btn_worth:hover{
+    text-decoration: none;
+    color: #295369;
+}
+.eq{
+    text-align: center;
+    line-height: 100px;
+    height: 200px;
+    padding-top: 8%;
+    font-size: 170px;
+    color: white;
+    font-family: Toonish, sans-serif;
+}
+
+.image_block_wrapper {
+    margin-bottom: 39px;
+}
+.sec_bl_bot{
+    position: absolute
+}
+/*second block style*/
+
+/*third block style*/
+.list_quizz_wrapper {margin-top: 60px}
+.third_block_wrapper{
+    height: 100vh;
+    background: #007093 url("../images/bg3QuizzSection.jpg") no-repeat;
+    background-position-y: 50px;
+}
+.third_block_wrapper .arrow{
+    font-size: 100px;
+    margin-top: -29px;
+    color: #01b3e3;
+}
+.third_block_wrapper .title{
+    font-family: Toonish, sans-serif;
+    color: white;
+    font-size: 42px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-top: 45px;
+}
+.third_block_wrapper .description{
+    color: white;
+    margin-top: 15px;
+}
+
+.quizz_one, .quizz_two, .quizz_three {
+    padding: 20px 0;
+    height: 345px;
+    width: 300px;
+    margin: 0 auto;
+}
+.quizz_one{background: rgba(0, 113, 147, 0.76)}
+.quizz_two{background: #ffffff}
+.quizz_three{background: rgba(255, 255, 255, 0.55)}
+
+.quizz_one .title, .quizz_two .title, .quizz_three .title {
+    margin-top: 0;
+}
+
+.quizz_one .title div:first-child, .quizz_two .title div:first-child, .quizz_three .title div:first-child{font-size: 34px}
+.quizz_one .title div:first-child,.quizz_three .title div:first-child {color: #295369}
+.quizz_two .title div:first-child {color: #00b3e3}
+
+.quizz_one .title div:last-child,.quizz_two .title div:last-child, .quizz_three .title div:last-child{margin-top: -30px}
+.quizz_one .title div:last-child span,.quizz_two .title div:last-child span, .quizz_three .title div:last-child span{
+    font-size: 12px;
+    font-family: sans-serif;
+    letter-spacing: 0;
+    padding: 5px 15px
+}
+.quizz_one .title div:last-child span,.quizz_three .title div:last-child span  {background: #295369}
+.quizz_two .title div:last-child span{background: #00b3e3}
+
+.quizz_one .description,.quizz_two .description,.quizz_three .description   {
+    font-size: 26px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Open sans, sans-serif;
+    line-height: 35px;
+    margin-top: 31px
+}
+.quizz_two .description{color: #295369;}
+.quizz_one .btn_quizz{margin: 90px 0 15px}
+.quizz_two .btn_quizz{margin: 98px 0 15px}
+.quizz_three .btn_quizz{margin: 133px 0 15px}
+
+
+.quizz_one .btn_quizz a, .quizz_two .btn_quizz a, .quizz_three .btn_quizz a{
+    color: white;
+    font-family: Toonish, sans-serif;
+    letter-spacing: 1px;
+}
+.quizz_one .btn_quizz a{background: #d4145a; padding: 12px 73px;}
+.quizz_two .btn_quizz a{background: #3bb64a; padding:  12px 47px}
+.quizz_three .btn_quizz a{background: #295369; padding: 12px 73px;}
+
+.arr_down{
+    margin: 10px;
+    font-size: 50px;
+    color: #d4145a;
+}
+.facebook_unlock {
+    width: 300px;
+    margin: 0 auto;
+    border: 1px solid white;
+    padding: 2px 0;
+}
+.face_link {
+    float: left;
+    padding: 0 12px;
+    font-size: 29px;
+    height: 40px;
+    border-right: 1px solid white;
+    transition: .2s;
+    cursor: pointer
+}
+.face_link a {
+    color: white
+}
+.face_link:hover {background: #3B5598}
+.face_link:hover a{text-decoration: none}
+.face_text{
+    color: white;
+    padding-left: 45px;
+}
+/*third block style*/
+
+/*fourth block style*/
+.sec_arrow{
+    color: #007093;
+    font-size: 100px;
+    margin-top: -29px;
+}
+.super_holiday_wrapper{
+    height: 100vh;
+    background: #d4145a;
+}
+.super_holiday_wrapper .title{
+    color: white;
+    font-size: 42px;
+    font-family: Toonish, sans-serif;
+    margin-top: 45px;
+}
+.super_holiday_wrapper .description{
+    color: white;
+    font-family: "Open sans", sans-serif;
+    font-size: 23px;
+}
+.video_description_wrapper, .video_wrapper {margin-top: 80px}
+.video_description_wrapper .title{
+    font-family: "Open sans", sans-serif;
+    text-transform: uppercase;
+    line-height: 42px;
+}
+.date_video{
+    font-size: 12px;
+    font-family: sans-serif;
+    letter-spacing: 0;
+    padding: 5px 8px;
+    background: #295369;
+    display: inline-block;
+    color: white;
+    margin: 10px 0 35px;
+}
+.short_desk, .video_text{
+    font-size: 17px;
+    color: white;
+    margin-bottom: 10px;
+}
+/*fourth block style*/
+
+
+
+/*fifth block style*/
+.th_arrow{
+    color: #d4145a;
+    font-size: 100px;
+    margin-top: -29px;
+}
+.row.lots_wrapper {margin-bottom: 100px}
+.rules_rapper .title{
+    font-family: Toonish, sans-serif;
+    font-size: 42px;
+    color: #333333;
+    margin-top: 45px;
+}
+.rules_rapper .description {
+    font-size: 19px;
+    color: #295369;
+    margin: 20px 0 70px;
+}
+.rules_rapper .description .game{
+    border: 2px solid #295369;
+    padding: 10px 20px;
+}
+.rules_rapper .description a, .rules_rapper .description .game{
+    transition: .2s;
+}
+.rules_rapper .description a:hover{
+    text-decoration: none;
+    color: #d4145a;
+}
+.rules_rapper .description a:hover .game{border-color: #d4145a}
+.art_wrapper {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #00b3e3;
+    margin-bottom: 20px;
+}
+.lot_title{
+    text-transform: uppercase;
+    color: #00b3e3;
+    font-size: 23px;
+}
+.lot_sec_title{
+    color: #295369;
+    font-size: 17px;
+}
+.info_list li{
+    color: black;
+    font-size: 13px;
+}
+.underlined a{
+    text-decoration: underline;
+    font-size: 14px;
+    color: black;
+}
+.list_info_two li{
+    font-style: italic;
+}
+.lots_wrapper p, .lots_wrapper ul li{
+    color: black
+}
+.usual_lot_wrapper {
+    height: 700px;
+    overflow: auto;
+}
+
+
+
+
+
+
+
+
+
+
+.super_lot_wrapper .lot_title{
+    color: #d4145a;
+}
+/*fifth block style*/

@@ -1,0 +1,342 @@
+
+
+/*header*/
+body{background: url("../images/body/translaitor_bg.jpg");overflow: hidden}
+
+.header_content_wrapper .navbar-default{
+    background: url(../images/header/header_bg.jpg) repeat #000;
+    height: 66px;
+    margin: 0;
+    border-radius: 0;
+    width: 100%;
+    z-index: 10;
+    border-bottom: 1px solid #3b3c3f;
+}
+.header_content_wrapper .navbar{
+    border: none;
+}
+.navbar-brand{margin: 5px 30px  0 0}
+.top_menu .active a{
+    color: white!important;
+    background-color: transparent!important;
+}
+.icon_menu{
+    width: 31px;
+    height: 31px;
+}
+.header_search{
+    background: url("../images/sprites/sprite.png") -235px -62px;
+    margin-right: 17px;
+}
+.header_facebook{background: url(../images/sprites/sprite.png) -142px -172px;}
+.header_twitter{background: url(../images/sprites/sprite.png) -235px -93px;}
+.header_in{background: url(../images/sprites/sprite.png) -204px -172px;}
+
+.header_facebook:hover{background-position: -173px -172px;}
+.header_twitter:hover{background-position: -235px -124px;}
+.header_in:hover{background-position: -235px 0;}
+
+.nav_search{
+    border-right: 1px solid #2f3032;
+    margin: 18px 17px;
+}
+.nav_soc{margin-top: 18px; margin-right: 4px;}
+.nav_soc a{transition: .4s}
+.line_under{
+    width: 10px;
+    height: 2px;
+    background: #666;
+    display: block;
+    margin-top: 6px;
+    transition: .4s;
+}
+.top_menu{padding-top: 15px}
+.top_menu li{border-left: 1px solid rgba(214,215,215,.15)}
+.top_menu li a {
+    font-size: 13px;
+    margin: 0 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white!important;
+    font-family: 'PT Sans Narrow', sans-serif;
+    letter-spacing: 1px;
+}
+
+.navbar-nav>li>a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.drop_menu{
+    width: 200px ;
+    padding: 20px;
+    z-index: 8;
+    background: #212121;
+    position: fixed;
+    transition: .3s;
+    right: 0;
+}
+.drop_menu h3{
+    margin-top: 0;
+    font-size: 18px;
+    border-bottom: 1px solid #EDC27B;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    color: white;
+}
+.drop_menu ul{
+    padding: 0;
+}
+
+.drop_menu ul li:first-child{
+    border-top: 0;
+    padding-top: 0;
+    margin-top: 0;
+}
+.fast_translate_field textarea{
+    width: 100%;
+    height: 45px;
+    resize: none;
+    font-size: 16px;
+    border-color: #EDC27B;
+    background: rgba(70, 69, 69, 0.7);
+    color: white;
+}
+.fast_translate_field textarea::-webkit-input-placeholder {
+    font-style: italic;
+}
+#translate{
+    width: 70%;
+    background: transparent;
+    border: 1px solid #e7d598;
+    color: #e7d598;
+    padding: 2px;
+}
+#refresh{
+    width: 24%;
+    background: transparent;
+    border: 1px solid #e7d598;
+    color: #e7d598;
+    padding: 2px;
+    margin-left: 8px;
+    display: inline-block;
+}
+.drop_menu ul li{
+    list-style: none;
+    border-top: 1px solid #2E2E2F;
+    padding-top: 4px;
+    margin-top: 4px;
+    color: #7c7c7d;
+    font-size: 18px;
+}
+.show_top{
+    top: 66px!important;
+}
+.mob_nav{
+    margin: 18px 15px;
+    display: block;
+    float: right;
+    height: 30px;
+    width: 30px;
+    background: url(http://qandhlondon.com/css/img/mobile_nav.svg) no-repeat 5px 6px #363636;
+}
+
+/*section*/
+
+.blocks_ex_wrapper{
+    width: 100%;
+    padding: 50px;
+    text-align: center;
+    height: calc(100vh - 115px);
+}
+
+.blocks_ex_wrapper div .task_wrapper_main{
+    text-align: center;
+    background: rgba(0, 0, 0, 0.70);
+    margin: 10% 50px 0;
+    color: white;
+    cursor: help;
+}
+
+
+.blocks_ex_wrapper div .task_wrapper_main .task_wrapper{
+    padding: 12px 10px 5px;
+}
+
+
+
+
+.btn_try_task_wrapper{padding-top: 5px}
+.btn_try_task_wrapper button{
+    border: none;
+    background: none;
+}
+.btn_try_task_wrapper button i{
+    font-size: 26px;
+}
+.progress_task{
+    height: 3px;
+    background: #e7d598;
+    width: 100%;
+    transition: .6s;
+    cursor: pointer;
+}
+.percentage{
+    width: 0;
+    height: 3px;
+    background: green;
+    transition: .4s;
+}
+
+.percentage_top{
+    margin-top: -20px;
+    height: 20px;
+    visibility: hidden
+}
+
+/*.task_wrapper_main:hover .progress_task{
+    width: 100%;
+}*/
+
+
+
+
+/*Footer*/
+
+
+
+footer{
+    position: absolute;
+    padding: 10px;
+    background: black;
+    width: 100%;
+    transition: .5s;
+}
+footer ul{
+    margin-bottom: 0;
+}
+
+.footer_content_wrapper ul li:last-child{float: right}
+.footer_content_wrapper ul li:last-child a{color: white}
+
+
+
+.footer_content_wrapper ul li a, .footer_account_wrapper ul li a{
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #555555;
+    font-family: 'PT Sans Narrow', sans-serif;
+    letter-spacing: 1px;
+    transition: .2s;
+}
+
+
+
+.footer_account_wrapper {
+
+}
+footer .progress_task_footer{
+    width: 50%;
+    height: 2px;
+    background: #e7d598;
+    transition: .6s;
+    text-align: center;
+    margin: 5px auto 10px;
+}
+.account_full_name{
+    margin-top: 0;
+    color: white;
+}
+.account_full_body{
+    width: 85%;
+    margin: 0 auto;
+}
+.right_acc{
+    width: 10%;
+    float: left;
+}
+.acc_content{
+    width: 80%;
+}
+.right_acc li:first-child {
+    float: none;
+    margin-bottom: 0;
+}
+.right_acc li{
+    width: 100%;
+}
+footer .nav-tabs>li>a {
+    margin-right: 0;
+    line-height: inherit;
+    border: none;
+    border-radius: 0;
+}
+
+.right_acc .active a{
+    background: transparent!important;
+    color: white!important;
+    border: none!important;
+}
+.name_field_acc{
+    color: white;
+    padding-bottom: 5px;
+}
+.acc_settings_1col{
+    width: 50%;
+    float: left;
+}
+.acc_settings_2col{
+    width: 50%;
+    float: right;
+}
+.ch_email{
+    margin-bottom: 20px;
+}
+
+
+
+.inp_acc{
+    background: transparent;
+    border: 1px solid #e7d598;
+    height: 30px;
+    padding: 0 10px;
+    color: white;
+}
+
+@media(max-width: 1065px){
+    .top_menu li a{margin: 0}
+    .navbar-brand{
+        padding-right: 0;
+        margin-right: 10px
+    }
+    .nav_search{
+        border: none;
+        margin-right: 0
+    }
+    .header_search{margin-right: 5px}
+}
+
+
+/*shake page*/
+.page-name{
+    color: #e7d598;
+}
+.shake_container{
+    height: 100px;
+    background: rgba(0, 0, 0, 0.42);
+}
+.shake_inp input{
+    background: rgba(0, 0, 0, 0.42);
+    width: 100%;
+    padding: 5px;
+    border: none;
+    color: white;
+}
+.shake_inp input:last-child{
+    margin-top: 10px;
+}
+.shake_inp{}
+
+
+
+/*shake page*/

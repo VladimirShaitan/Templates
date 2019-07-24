@@ -1,0 +1,2486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<title>stone</title>
+
+	<!-- Bootstrap -->
+	<link rel="stylesheet" type="text/css" href="css/fonts.css">
+	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/swipebox.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">    
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/media.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="js/jquery.swipebox.js"></script>
+</head>
+<body>
+	<header>
+		<div id="header-wrapper">
+			<div class="container">
+				<div class="row">
+					<nav class="navbar navbar-default">
+						<div class="container-fluid">
+							<!--W toggle get grouped for better mobile display -->
+							<div class="navbar-header">
+								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+									<span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+							</div>
+							<!-- Collect the nav links, forms, and other content for toggling -->
+							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+								<ul class="nav navbar-nav main-menu">
+									<li>
+										<a href="index.html">Главная 
+											<!-- <span class="sr-only">(current)</span> -->
+										</a>
+									</li>
+									<li><a href="about.html">О компании</a></li>
+									<li><a href="services.html">Услуги</a></li>
+									<li><a href="catalog.html">Каталог работы</a></li>
+									<li><a href="portfolio.html">Портфолио</a></li>
+									<li class="dropdown">
+										<a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Каталог камня 
+											<span class="caret"></span>
+										</a>
+										<ul class="dropdown-menu">
+											<div class="container">
+												<div class="row">
+													<li class="col-md-3"><a href="catalog-list.html">Мрамор</a></li>
+													<li class="col-md-3"><a href="#catalog-list.html">Гранит</a></li>
+													<li class="col-md-3"><a href="catalog-list.html">Кварц</a></li>
+													<li class="col-md-3"><a href="catalog-list.html">Акрил</a></li>
+												</div>
+											</div>
+										</ul>
+									</li>
+									<li><a href="about.html">Информация</a></li>
+									<li><a href="contacts.html">Контакты</a></li>
+								</ul>
+							</div><!-- /.navbar-collapse -->
+						</div><!-- /.container-fluid -->
+					</nav>
+				</div><!--row end-->
+			</div>
+		</div>
+
+		<div id="postheader">
+			<div>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4 col-sm-4 col-xs-6">
+							<div class="online-calc">
+								<div>
+									<a href="#" class="btn orange-button">Он-лайн калькулятор</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-4 col-xs-12">
+							<div class="logo">
+								<img class="img-responsive" src="images/header-logo.jpg">
+							</div>
+						</div>
+						<div class="col-md-3 col-md-offset-1 col-sm-4 col-xs-6">
+							<div class="header-contacts">
+								<div class="phone">
+									<a href="tel:+74957663817">+7 (495) 766-38-17</a>
+								</div>
+								<div class="schedule">
+									<p>ежедневно без выходных</p>
+								</div>
+								<div class="schedule">
+									<p>
+										с 10.00 до 21.00
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section id="calc-page">
+		<div class="container">
+			<div class="super_wrapper">
+				<div class="">
+					<div class="breadcrumbs text-center">
+						<a href="#">Главная</a> / Калькулятор он-лайн   
+					</div>
+
+					<div class="calc-menu">
+						<div class="text-center">
+							<h1 class="h3"><b>Выбор калькулятора для расчета изделия из натурального камня</b></h1>
+						</div>
+						<div class="sep"></div>
+					</div>
+
+					<div class="choose-calc">
+						<form class="">
+							<div class="row">
+
+								<div class="col-xs-4">
+									<label for="stolesh">
+										<h4 class="text-center h3 ch_calc_name"><b>Калькулятор столешниц</b></h4>
+										<img class="img-responsive" src="images/calc/calc1.jpg" alt="">
+										<div class="text-center">
+											<input id="stolesh" name="choose-calc" type="radio" checked="checked"> 
+										</div>
+									</label>
+								</div>
+								<div class="col-xs-4">
+									<label for="podokon">
+										<h4 class="text-center h3 ch_calc_name"><b>Калькулятор подоконников</b></h4>
+										<img class="img-responsive" src="images/calc/calc2.jpg" alt="">
+										<div class="text-center">
+											<input id="podokon" name="choose-calc" type="radio">
+										</div>
+									</label>
+
+								</div>
+								<div class="col-xs-4">
+									<label for="sters">
+										<h4 class="text-center h3 ch_calc_name"><b>Калькулятор ступеней</b></h4>
+										<img class="img-responsive" src="images/calc/calc3.jpg" alt="">
+										<div class="text-center"><input id="sters" name="choose-calc" type="radio"></div>
+									</label>
+								</div>
+
+							</div>
+							<div class="text-chhose-calc"><p>Полученные в результате расчета на калькуляторе данные, носят исключительно информационный характер и ни при каких условиях не являются<br>публичной офертой</p></div>
+						</form>
+					</div>   
+
+
+
+
+
+
+
+
+					<div class="tabs-calc hidden">
+						<div>
+
+							<!-- Nav tabs -->
+							<ul class="nav nav-tabs" role="tablist">
+								<li role="presentation" class="active">
+									<a href="#home" aria-controls="home" role="tab" data-toggle="tab">
+										<img src="images/calc/logo1_tab.png" alt="">
+									</a>
+								</li>
+								<li role="presentation">
+									<a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">
+										<img src="images/calc/logo2_tab.png" alt="">
+									</a>
+								</li>
+								<li role="presentation">
+									<a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">
+										<img src="images/calc/logo3_tab.png" alt="">
+									</a>
+								</li>
+								<li role="presentation">
+									<a href="#settings1" aria-controls="settings1" role="tab" data-toggle="tab">
+										<img src="images/calc/logo4_tab.png" alt="">
+									</a>
+								</li>
+								<li role="presentation">
+									<a href="#settings2" aria-controls="settings2" role="tab" data-toggle="tab">
+										<img src="images/calc/logo5_tab.png" alt="">        
+									</a>
+								</li>
+								<li role="presentation">
+									<a href="#settings3" aria-controls="settings3" role="tab" data-toggle="tab">
+										<img src="images/calc/logo6_tab.png" alt="">
+									</a>
+								</li>
+							</ul>
+
+							<!-- Tab panes -->
+							<div class="tab-content">
+								<div role="tabpanel" class="tab-pane active" id="home">
+									<ul class="list-inline text-center">
+										<li class="stone-item">
+											<label for="ch">
+												<img src="images/calc/stone/st1.png" alt="">
+												<input  class="hidden" type="checkbox">
+											</label>  
+										</li>
+										<li class="stone-item">
+											<label for="">
+												<img src="images/calc/stone/st2.png" alt="">
+												<input class="hidden" type="radio">
+											</label>  
+										</li>
+										<li class="stone-item">
+											<label for="">
+												<img src="images/calc/stone/st3.png" alt="">
+												<input class="hidden" type="radio">
+											</label>  
+										</li>
+										<li class="stone-item">
+											<label for="">
+												<img src="images/calc/stone/st4.png" alt="">
+												<input class="hidden" type="radio">
+											</label>  
+										</li>
+										<li class="stone-item">
+											<label for="">
+												<img src="images/calc/stone/st5.png" alt="">
+												<input class="hidden" type="radio">
+											</label>  
+										</li>
+										<li class="stone-item">
+											<label for="">
+												<img src="images/calc/stone/st6.png" alt="">
+												<input class="hidden" type="radio">
+											</label>  
+										</li>
+										<li class="stone-item">
+											<label for="">
+												<img src="images/calc/stone/st7.png" alt="">
+												<input class="hidden" type="radio">
+											</label>  
+										</li>
+										<li class="stone-item">
+											<label for="">
+												<img src="images/calc/stone/st8.png" alt="">
+												<input class="hidden" type="radio">
+											</label>  
+										</li>
+										<li class="stone-item">
+											<label for="">
+												<img src="images/calc/stone/st9.png" alt="">
+												<input class="hidden" type="radio">
+											</label>  
+										</li>
+										<li class="stone-item">
+											<label for="">
+												<img src="images/calc/stone/st10.png" alt="">
+												<input class="hidden" type="radio">
+											</label>  
+										</li>
+										<li class="stone-item">
+											<label for="">
+												<img src="images/calc/stone/st11.png" alt="">
+												<input class="hidden" type="radio">
+											</label>  
+										</li>
+										<li class="stone-item">
+											<label for="">
+												<img src="images/calc/stone/st12.png" alt="">
+												<input class="hidden" type="radio">
+											</label>  
+										</li>
+										<li class="stone-item">
+											<label for="">
+												<img src="images/calc/stone/st13.png" alt="">
+												<input class="hidden" type="radio">
+											</label>  
+										</li>
+										<li class="stone-item">
+											<label for="">
+												<img src="images/calc/stone/st14.png" alt="">
+												<input class="hidden" type="radio">
+											</label>  
+										</li>
+
+									</ul>
+
+
+								</div>
+								<div role="tabpanel" class="tab-pane" id="profile">
+									<ul class="list-inline text-center">
+										<li class="stone-item">
+											<label for="ch">
+												<img src="images/calc/stone/st1.png" alt="">
+												<input  class="hidden" type="checkbox">
+											</label>  
+										</li>
+										<li class="stone-item">
+											<label for="">
+												<img src="images/calc/stone/st2.png" alt="">
+												<input class="hidden" type="radio">
+											</label>  
+										</li>
+										<li class="stone-item">
+											<label for="">
+												<img src="images/calc/stone/st3.png" alt="">
+												<input class="hidden" type="radio">
+											</label>  
+										</li>
+										<li class="stone-item">
+											<label for="">
+												<img src="images/calc/stone/st4.png" alt="">
+												<input class="hidden" type="radio">
+											</label>  
+										</li>
+										<li class="stone-item">
+											<label for="">
+												<img src="images/calc/stone/st5.png" alt="">
+												<input class="hidden" type="radio">
+											</label>  
+										</li>
+										<li class="stone-item">
+											<label for="">
+												<img src="images/calc/stone/st6.png" alt="">
+												<input class="hidden" type="radio">
+											</label>  
+										</li>
+										<li class="stone-item">
+											<label for="">
+												<img src="images/calc/stone/st7.png" alt="">
+												<input class="hidden" type="radio">
+											</label>  
+										</li>
+										<li class="stone-item">
+											<label for="">
+												<img src="images/calc/stone/st8.png" alt="">
+												<input class="hidden" type="radio">
+											</label>  
+										</li>
+										<li class="stone-item">
+											<label for="">
+												<img src="images/calc/stone/st9.png" alt="">
+												<input class="hidden" type="radio">
+											</label>  
+										</li>
+										<li class="stone-item">
+											<label for="">
+												<img src="images/calc/stone/st10.png" alt="">
+												<input class="hidden" type="radio">
+											</label>  
+										</li>
+										<li class="stone-item">
+											<label for="">
+												<img src="images/calc/stone/st11.png" alt="">
+												<input class="hidden" type="radio">
+											</label>  
+										</li>
+										<li class="stone-item">
+											<label for="">
+												<img src="images/calc/stone/st12.png" alt="">
+												<input class="hidden" type="radio">
+											</label>  
+										</li>
+										<li class="stone-item">
+											<label for="">
+												<img src="images/calc/stone/st13.png" alt="">
+												<input class="hidden" type="radio">
+											</label>  
+										</li>
+										<li class="stone-item">
+											<label for="">
+												<img src="images/calc/stone/st14.png" alt="">
+												<input class="hidden" type="radio">
+											</label>  
+										</li>
+
+									</ul>  
+								</div>
+								<div role="tabpanel" class="tab-pane" id="messages">
+									<ul class="list-inline text-center">
+										<li class="stone-item">
+											<label for="ch">
+												<img src="images/calc/stone/st1.png" alt="">
+												<input  class="hidden" type="checkbox">
+											</label>  
+										</li>
+										<li class="stone-item">
+											<label for="">
+												<img src="images/calc/stone/st2.png" alt="">
+												<input class="hidden" type="radio">
+											</label>  
+										</li>
+										<li class="stone-item">
+											<label for="">
+												<img src="images/calc/stone/st3.png" alt="">
+												<input class="hidden" type="radio">
+											</label>  
+										</li>
+										<li class="stone-item">
+											<label for="">
+												<img src="images/calc/stone/st4.png" alt="">
+												<input class="hidden" type="radio">
+											</label>  
+										</li>
+										<li class="stone-item">
+											<label for="">
+												<img src="images/calc/stone/st5.png" alt="">
+												<input class="hidden" type="radio">
+											</label>  
+										</li>
+										<li class="stone-item">
+											<label for="">
+												<img src="images/calc/stone/st6.png" alt="">
+												<input class="hidden" type="radio">
+											</label>  
+										</li>
+										<li class="stone-item">
+											<label for="">
+												<img src="images/calc/stone/st7.png" alt="">
+												<input class="hidden" type="radio">
+											</label>  
+										</li>
+										<li class="stone-item">
+											<label for="">
+												<img src="images/calc/stone/st8.png" alt="">
+												<input class="hidden" type="radio">
+											</label>  
+										</li>
+										<li class="stone-item">
+											<label for="">
+												<img src="images/calc/stone/st9.png" alt="">
+												<input class="hidden" type="radio">
+											</label>  
+										</li>
+										<li class="stone-item">
+											<label for="">
+												<img src="images/calc/stone/st10.png" alt="">
+												<input class="hidden" type="radio">
+											</label>  
+										</li>
+										<li class="stone-item">
+											<label for="">
+												<img src="images/calc/stone/st11.png" alt="">
+												<input class="hidden" type="radio">
+											</label>  
+										</li>
+										<li class="stone-item">
+											<label for="">
+												<img src="images/calc/stone/st12.png" alt="">
+												<input class="hidden" type="radio">
+											</label>  
+										</li>
+										<li class="stone-item">
+											<label for="">
+												<img src="images/calc/stone/st13.png" alt="">
+												<input class="hidden" type="radio">
+											</label>  
+										</li>
+										<li class="stone-item">
+											<label for="">
+												<img src="images/calc/stone/st14.png" alt="">
+												<input class="hidden" type="radio">
+											</label>  
+										</li>
+
+									</ul>  
+								</div>
+								<div role="tabpanel" class="tab-pane" id="settings1">
+									<ul class="list-inline text-center">
+										<li class="stone-item">
+											<label for="ch">
+												<img src="images/calc/stone/st1.png" alt="">
+												<input  class="hidden" type="checkbox">
+											</label>  
+										</li>
+										<li class="stone-item">
+											<label for="">
+												<img src="images/calc/stone/st2.png" alt="">
+												<input class="hidden" type="radio">
+											</label>  
+										</li>
+										<li class="stone-item">
+											<label for="">
+												<img src="images/calc/stone/st3.png" alt="">
+												<input class="hidden" type="radio">
+											</label>  
+										</li>
+										<li class="stone-item">
+											<label for="">
+												<img src="images/calc/stone/st4.png" alt="">
+												<input class="hidden" type="radio">
+											</label>  
+										</li>
+										<li class="stone-item">
+											<label for="">
+												<img src="images/calc/stone/st5.png" alt="">
+												<input class="hidden" type="radio">
+											</label>  
+										</li>
+										<li class="stone-item">
+											<label for="">
+												<img src="images/calc/stone/st6.png" alt="">
+												<input class="hidden" type="radio">
+											</label>  
+										</li>
+										<li class="stone-item">
+											<label for="">
+												<img src="images/calc/stone/st7.png" alt="">
+												<input class="hidden" type="radio">
+											</label>  
+										</li>
+										<li class="stone-item">
+											<label for="">
+												<img src="images/calc/stone/st8.png" alt="">
+												<input class="hidden" type="radio">
+											</label>  
+										</li>
+										<li class="stone-item">
+											<label for="">
+												<img src="images/calc/stone/st9.png" alt="">
+												<input class="hidden" type="radio">
+											</label>  
+										</li>
+										<li class="stone-item">
+											<label for="">
+												<img src="images/calc/stone/st10.png" alt="">
+												<input class="hidden" type="radio">
+											</label>  
+										</li>
+										<li class="stone-item">
+											<label for="">
+												<img src="images/calc/stone/st11.png" alt="">
+												<input class="hidden" type="radio">
+											</label>  
+										</li>
+										<li class="stone-item">
+											<label for="">
+												<img src="images/calc/stone/st12.png" alt="">
+												<input class="hidden" type="radio">
+											</label>  
+										</li>
+										<li class="stone-item">
+											<label for="">
+												<img src="images/calc/stone/st13.png" alt="">
+												<input class="hidden" type="radio">
+											</label>  
+										</li>
+										<li class="stone-item">
+											<label for="">
+												<img src="images/calc/stone/st14.png" alt="">
+												<input class="hidden" type="radio">
+											</label>  
+										</li>
+
+									</ul>  
+								</div>
+								<div role="tabpanel" class="tab-pane" id="settings2">
+									<ul class="list-inline text-center">
+										<li class="stone-item">
+											<label for="ch">
+												<img src="images/calc/stone/st1.png" alt="">
+												<input  class="hidden" type="checkbox">
+											</label>  
+										</li>
+										<li class="stone-item">
+											<label for="">
+												<img src="images/calc/stone/st2.png" alt="">
+												<input class="hidden" type="radio">
+											</label>  
+										</li>
+										<li class="stone-item">
+											<label for="">
+												<img src="images/calc/stone/st3.png" alt="">
+												<input class="hidden" type="radio">
+											</label>  
+										</li>
+										<li class="stone-item">
+											<label for="">
+												<img src="images/calc/stone/st4.png" alt="">
+												<input class="hidden" type="radio">
+											</label>  
+										</li>
+										<li class="stone-item">
+											<label for="">
+												<img src="images/calc/stone/st5.png" alt="">
+												<input class="hidden" type="radio">
+											</label>  
+										</li>
+										<li class="stone-item">
+											<label for="">
+												<img src="images/calc/stone/st6.png" alt="">
+												<input class="hidden" type="radio">
+											</label>  
+										</li>
+										<li class="stone-item">
+											<label for="">
+												<img src="images/calc/stone/st7.png" alt="">
+												<input class="hidden" type="radio">
+											</label>  
+										</li>
+										<li class="stone-item">
+											<label for="">
+												<img src="images/calc/stone/st8.png" alt="">
+												<input class="hidden" type="radio">
+											</label>  
+										</li>
+										<li class="stone-item">
+											<label for="">
+												<img src="images/calc/stone/st9.png" alt="">
+												<input class="hidden" type="radio">
+											</label>  
+										</li>
+										<li class="stone-item">
+											<label for="">
+												<img src="images/calc/stone/st10.png" alt="">
+												<input class="hidden" type="radio">
+											</label>  
+										</li>
+										<li class="stone-item">
+											<label for="">
+												<img src="images/calc/stone/st11.png" alt="">
+												<input class="hidden" type="radio">
+											</label>  
+										</li>
+										<li class="stone-item">
+											<label for="">
+												<img src="images/calc/stone/st12.png" alt="">
+												<input class="hidden" type="radio">
+											</label>  
+										</li>
+										<li class="stone-item">
+											<label for="">
+												<img src="images/calc/stone/st13.png" alt="">
+												<input class="hidden" type="radio">
+											</label>  
+										</li>
+										<li class="stone-item">
+											<label for="">
+												<img src="images/calc/stone/st14.png" alt="">
+												<input class="hidden" type="radio">
+											</label>  
+										</li>
+
+									</ul>  
+								</div>
+								<div role="tabpanel" class="tab-pane" id="settings3">
+									<ul class="list-inline text-center">
+										<li class="stone-item">
+											<label for="ch">
+												<img src="images/calc/stone/st1.png" alt="">
+												<input  class="hidden" type="checkbox">
+											</label>  
+										</li>
+										<li class="stone-item">
+											<label for="">
+												<img src="images/calc/stone/st2.png" alt="">
+												<input class="hidden" type="radio">
+											</label>  
+										</li>
+										<li class="stone-item">
+											<label for="">
+												<img src="images/calc/stone/st3.png" alt="">
+												<input class="hidden" type="radio">
+											</label>  
+										</li>
+										<li class="stone-item">
+											<label for="">
+												<img src="images/calc/stone/st4.png" alt="">
+												<input class="hidden" type="radio">
+											</label>  
+										</li>
+										<li class="stone-item">
+											<label for="">
+												<img src="images/calc/stone/st5.png" alt="">
+												<input class="hidden" type="radio">
+											</label>  
+										</li>
+										<li class="stone-item">
+											<label for="">
+												<img src="images/calc/stone/st6.png" alt="">
+												<input class="hidden" type="radio">
+											</label>  
+										</li>
+										<li class="stone-item">
+											<label for="">
+												<img src="images/calc/stone/st7.png" alt="">
+												<input class="hidden" type="radio">
+											</label>  
+										</li>
+										<li class="stone-item">
+											<label for="">
+												<img src="images/calc/stone/st8.png" alt="">
+												<input class="hidden" type="radio">
+											</label>  
+										</li>
+										<li class="stone-item">
+											<label for="">
+												<img src="images/calc/stone/st9.png" alt="">
+												<input class="hidden" type="radio">
+											</label>  
+										</li>
+										<li class="stone-item">
+											<label for="">
+												<img src="images/calc/stone/st10.png" alt="">
+												<input class="hidden" type="radio">
+											</label>  
+										</li>
+										<li class="stone-item">
+											<label for="">
+												<img src="images/calc/stone/st11.png" alt="">
+												<input class="hidden" type="radio">
+											</label>  
+										</li>
+										<li class="stone-item">
+											<label for="">
+												<img src="images/calc/stone/st12.png" alt="">
+												<input class="hidden" type="radio">
+											</label>  
+										</li>
+										<li class="stone-item">
+											<label for="">
+												<img src="images/calc/stone/st13.png" alt="">
+												<input class="hidden" type="radio">
+											</label>  
+										</li>
+										<li class="stone-item">
+											<label for="">
+												<img src="images/calc/stone/st14.png" alt="">
+												<input class="hidden" type="radio">
+											</label>  
+										</li>
+
+									</ul>
+								</div>
+							</div>
+
+						</div>
+						<div class="sep"></div>
+					</div>
+
+
+<div class="calc-menu" style="margin-top: 30px">
+	<div class="text-center">
+		<h3 class="h3"><b>Выберите цвет и толщину камня</b></h3>
+	</div>
+	<div class="sep"></div>
+	<div class="stoneAttrs text-center">
+		<p>
+			Онлайн калькулятор столешниц поможет вам рассчитать стоимость работ и материала при изготовлении нужной вам столешницы из натурального камня. Ниже вы можете выбрать форму столешницы, указать размеры, другие параметры и получить результат, который вы можете переслать для уточнения нашим инженерам. Старайтесь вводить правильные данные, от этого зависит точность расчетов.
+		</p>
+	</div>
+</div>
+
+<div class="stoneAttrs-wrapper">
+	<div class="row">
+		<div class="stoneAttrs">
+			<div class="col-sm-4">
+				<div class="left-col-attr clearfix">
+					<h4 class="h3 text-center">Порода камня</h4>
+					<div class="col-md-6">
+						<div class="left-col-attr-item"><input type="checkbox"> Агломерат<span class="quantity-left-col-attr">(3)</span></div>
+						<div class="left-col-attr-item"><input type="checkbox"> Кварц<span class="quantity-left-col-attr">(15)</span></div>
+					</div>
+					<div class="col-md-6">
+						<div class="left-col-attr-item"><input type="checkbox"> Гранит<span class="quantity-left-col-attr">(15)</span></div>
+					</div>
+				</div>
+				<div class="left-col-attr clearfix">
+					<h4 class="h3 text-center">Толщина слеба в ММ</h4>
+					<div class="col-md-4">
+						<div class="left-col-attr-item"><input type="checkbox"> 18<span class="quantity-left-col-attr">(15)</span></div>
+						<div class="left-col-attr-item"><input type="checkbox"> 40<span class="quantity-left-col-attr">(3)</span></div>
+					</div>
+					<div class="col-md-4">
+						<div class="left-col-attr-item"><input type="checkbox"> 20<span class="quantity-left-col-attr">(1)</span></div>
+						<div class="left-col-attr-item"><input type="checkbox"> 60<span class="quantity-left-col-attr">(1)</span></div>
+					</div>
+					<div class="col-md-4">
+						<div class="left-col-attr-item"><input type="checkbox"> 23<span class="quantity-left-col-attr">(5)</span></div>
+						<div class="left-col-attr-item"><input type="checkbox"> 70<span class="quantity-left-col-attr">(5)</span></div>
+					</div>
+				</div>
+				<div class="left-col-attr clearfix">
+					<h4 class="h3 text-center">Цвет камня</h4>
+					<div class="col-md-6">
+						<div class="left-col-attr-item"><input type="checkbox"> бежевый<span class="quantity-left-col-attr">(3)</span></div>
+						<div class="left-col-attr-item"><input type="checkbox"> розовый<span class="quantity-left-col-attr">(3)</span></div>
+					</div>
+					<div class="col-md-6">
+						<div class="left-col-attr-item"><input type="checkbox"> голубой<span class="quantity-left-col-attr">(3)</span></div>
+						<div class="left-col-attr-item"><input type="checkbox"> красный<span class="quantity-left-col-attr">(3)</span></div>
+					</div>
+				</div>
+				<div class="left-col-attr clearfix">
+					<h4 class="h3 text-center">Месторождение страна</h4>
+					<div class="col-md-6">
+						<div class="left-col-attr-item"><input type="checkbox"> Бразилия</div>
+						<div class="left-col-attr-item"><input type="checkbox"> Китай</div>
+					</div>
+					<div class="col-md-6">
+						<div class="left-col-attr-item"><input type="checkbox"> Испания</div>
+						<div class="left-col-attr-item"><input type="checkbox"> Египет</div>
+					</div>
+				</div>
+
+			</div>
+			<div class="col-sm-8 col-right-stone-color">
+
+				<div class="col-md-4 col-xs-6">
+					<img src="images/calc/stone/st1.png" class="img-responsive" alt="">
+					<div class="stoneColorAttrs text-center">
+						<p>
+							Абсолют Блэк 20 мм Гранит <br>
+							<b>Цена: 130 у.е. за м/кв</b> <br>
+							Остаток: 678.08 м<sup>2</sup>
+						</p>
+					</div>
+				</div>
+				<div class="col-md-4 col-xs-6">
+					<img src="images/calc/stone/st2.png" class="img-responsive" alt="">
+					<div class="stoneColorAttrs text-center">
+						<p>
+							Абсолют Блэк 20 мм Гранит <br>
+							<b>Цена: 130 у.е. за м/кв</b> <br>
+							Остаток: 678.08 м<sup>2</sup>
+						</p>
+					</div>
+				</div>
+				<div class="col-md-4 col-xs-6">
+					<img src="images/calc/stone/st3.png" class="img-responsive" alt="">
+					<div class="stoneColorAttrs text-center">
+						<p>
+							Абсолют Блэк 20 мм Гранит <br>
+							<b>Цена: 130 у.е. за м/кв</b> <br>
+							Остаток: 678.08 м<sup>2</sup>
+						</p>
+					</div>
+				</div>
+				<div class="col-md-4 col-xs-6">
+					<img src="images/calc/stone/st4.png" class="img-responsive" alt="">
+					<div class="stoneColorAttrs text-center">
+						<p>
+							Абсолют Блэк 20 мм Гранит <br>
+							<b>Цена: 130 у.е. за м/кв</b> <br>
+							Остаток: 678.08 м<sup>2</sup>
+						</p>
+					</div>
+				</div>
+				<div class="col-md-4 col-xs-6">
+					<img src="images/calc/stone/st5.png" class="img-responsive" alt="">
+					<div class="stoneColorAttrs text-center">
+						<p>
+							Абсолют Блэк 20 мм Гранит <br>
+							<b>Цена: 130 у.е. за м/кв</b> <br>
+							Остаток: 678.08 м<sup>2</sup>
+						</p>
+					</div>
+				</div>
+				<div class="col-md-4 col-xs-6">
+					<img src="images/calc/stone/st6.png" class="img-responsive" alt="">
+					<div class="stoneColorAttrs text-center">
+						<p>
+							Абсолют Блэк 20 мм Гранит <br>
+							<b>Цена: 130 у.е. за м/кв</b> <br>
+							Остаток: 678.08 м<sup>2</sup>
+						</p>
+					</div>
+				</div>
+				<div class="col-md-4 col-xs-6">
+					<img src="images/calc/stone/st7.png" class="img-responsive" alt="">
+					<div class="stoneColorAttrs text-center">
+						<p>
+							Абсолют Блэк 20 мм Гранит <br>
+							<b>Цена: 130 у.е. за м/кв</b> <br>
+							Остаток: 678.08 м<sup>2</sup>
+						</p>
+					</div>
+				</div>
+				<div class="col-md-4 col-xs-6">
+					<img src="images/calc/stone/st8.png" class="img-responsive" alt="">
+					<div class="stoneColorAttrs text-center">
+						<p>
+							Абсолют Блэк 20 мм Гранит <br>
+							<b>Цена: 130 у.е. за м/кв</b> <br>
+							Остаток: 678.08 м<sup>2</sup>
+						</p>
+					</div>
+				</div>
+				<div class="col-md-4 col-xs-6">
+					<img src="images/calc/stone/st9.png" class="img-responsive" alt="">
+					<div class="stoneColorAttrs text-center">
+						<p>
+							Абсолют Блэк 20 мм Гранит <br>
+							<b>Цена: 130 у.е. за м/кв</b> <br>
+							Остаток: 678.08 м<sup>2</sup>
+						</p>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</div>
+
+
+		<!-- Калькулятор столешниц -->					
+				<div id="stoleshnica"> 
+					<div class="choose-stolesh-wrapper">
+						<div class="calc-menu">
+							<div class="text-center">
+								<h3 class="h3"><b>Выбор формы столешницы</b></h3>
+							</div>
+							<div class="sep"></div>
+						</div>
+						<div class="row">
+							<div class="col-sm-1-5 col-xs-6 shapes-item">
+								<label for="stolesh1">
+									<div class="choose-stolesh-img"><img src="images/calc/shape1.jpg" alt="" class="img-responsive"></div>
+									<div class="choose-stolesh-inp text-center">
+										<input name="stolesh1" id="stolesh1" type="radio" checked="checked"><br>
+										<h4 class="h3">Прямая</h4>
+									</div>
+								</label>
+							</div>
+							<div class="col-sm-1-5 col-xs-6 shapes-item">
+								<label for="stolesh2">
+									<div class="choose-stolesh-img"><img src="images/calc/shape2.png" alt="" class="img-responsive"></div>
+									<div class="choose-stolesh-inp text-center">
+										<input name="stolesh1" id="stolesh2" type="radio"><br>
+										<h4 class="h3">Г-образная</h4>
+									</div>
+								</label>      
+							</div>
+							<div class="col-sm-1-5 col-xs-6 shapes-item">
+								<label for="stolesh3">
+									<div class="choose-stolesh-img"><img src="images/calc/shape3.png" alt="" class="img-responsive"></div>
+									<div class="choose-stolesh-inp text-center">
+										<input name="stolesh1" id="stolesh3" type="radio"><br>
+										<h4 class="h3">П-образная</h4>
+									</div>
+								</label>
+							</div>
+							<div class="col-sm-1-5 col-xs-6 shapes-item">
+								<label for="stolesh4">
+									<div class="choose-stolesh-img"><img src="images/calc/shape4.png" alt="" class="img-responsive"></div>
+									<div class="choose-stolesh-inp text-center">
+										<input name="stolesh1" id="stolesh4" type="radio"><br>
+										<h4 class="h3">Круглая</h4>
+									</div>
+								</label>      
+							</div>
+							<div class="col-sm-1-5 col-xs-6 shapes-item">
+								<label for="stolesh5">
+									<div class="choose-stolesh-img"><img src="images/calc/shape5.png" alt="" class="img-responsive"></div>
+									<div class="choose-stolesh-inp text-center">
+										<input name="stolesh1" id="stolesh5" type="radio"><br>
+										<h4 class="h3">Стол</h4>
+									</div>
+								</label>
+							</div>
+						</div>
+					</div>
+
+					<div class="all size-calc">
+						<div class="text-center">
+							<h3 class="h3 text-center"><b>Укажите размеры будущего изделия и стороны обработки кромки!</b></h3>
+						</div>
+						<!--Прямая-->
+						<div id="line-obraz" class="row fir-wrap">
+							<div class="col-sm-6 first">
+								<div class="col-md-6 col-md-offset-3">
+									<div class="choose-size">
+										<div class="text-center list-unstyled">
+											<div class="head-size">Толщина столешницы</div>
+
+											<label class="line-thickness" for="thickness-line1">
+												20мм
+												<input class="hidden" id="thickness-line1" type="radio" name="thickness-line">
+											</label>
+
+											<label class="line-thickness" for="thickness-line2">
+												30мм
+												<input class="hidden" id="thickness-line2" type="radio" name="thickness-line">
+											</label>    
+
+											<label class="line-thickness" for="thickness-line3">
+												40мм
+												<input class="hidden" id="thickness-line3" type="radio" name="thickness-line">
+											</label>
+											
+											<label class="line-thickness" for="thickness-line4">
+												60мм
+												<input class="hidden" id="thickness-line4" type="radio" name="thickness-line">
+											</label>
+
+										</div>
+									</div>
+								</div>
+
+							</div>
+							<div class="col-sm-6">
+								<div class="image-stolesh-calc-wrapper">
+									<img src="images/calc/stouns-size/sz1.png" class="img-responsive img-sz-1" alt="">
+									<input type="text" name="stolesh-line-horizontal-size" id="stolesh-line-horizontal-size">
+									<input type="text" name="stolesh-line-vertical-size" id="stolesh-line-vertical-size">
+									<input type="checkbox" id="stolesh-line-edge-1" name="stolesh-line-edge-1">
+									<input type="checkbox" id="stolesh-line-edge-2" name="stolesh-line-edge-2">
+									<input type="checkbox" id="stolesh-line-edge-3" name="stolesh-line-edge-3">
+									<input type="checkbox" id="stolesh-line-edge-4" name="stolesh-line-edge-4">
+								</div>
+							</div>
+						</div>
+
+						<!--Г-образная-->
+						<div id="G-obraz" class="row fir-wrap">
+							<div class="col-sm-6 first">
+								<div class="col-md-6 col-md-offset-3">
+									<div class="choose-size">
+										<div class="text-center list-unstyled">
+											<div class="head-size">Толщина столешницы</div>
+
+											<label class="G-thickness" for="thickness-G1">
+												20мм
+												<input class="hidden" id="thickness-G1" type="radio" name="thickness-G">
+											</label>
+
+											<label class="G-thickness" for="thickness-G2">
+												30мм
+												<input class="hidden" id="thickness-G2" type="radio" name="thickness-G">
+											</label>    
+
+											<label class="G-thickness" for="thickness-G3">
+												40мм
+												<input class="hidden" id="thickness-G3" type="radio" name="thickness-G">
+											</label>
+											
+											<label class="G-thickness" for="thickness-G4">
+												60мм
+												<input class="hidden" id="thickness-G4" type="radio" name="thickness-G">
+											</label>
+
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-6">
+								<div class="image-stolesh-calc-wrapper">
+									<img src="images/calc/stouns-size/sz2.png" class="img-responsive img-sz-2" alt="">
+									<div class="add-line add-line-hor to-G"></div>
+									<div class="add-line add-line-vert to-G"></div>
+									<input type="text" name="stolesh-G-horizontal-size" id="stolesh-G-horizontal-size">
+									<input type="text" name="stolesh-G-vertical-size" id="stolesh-G-vertical-size">
+									<input type="text" name="stolesh-G-horizontal-size2" id="stolesh-G-horizontal-size2">
+									<input type="text" name="stolesh-G-vertical-size2" id="stolesh-G-vertical-size2">
+									<input type="checkbox" id="stolesh-G-edge-1" name="stolesh-G-edge-1">
+									<input type="checkbox" id="stolesh-G-edge-2" name="stolesh-G-edge-2">
+									<input type="checkbox" id="stolesh-G-edge-3" name="stolesh-G-edge-3">
+									<input type="checkbox" id="stolesh-G-edge-4" name="stolesh-G-edge-4">
+									<input type="checkbox" id="stolesh-G-edge-5" name="stolesh-G-edge-5">
+									<input type="checkbox" id="stolesh-G-edge-6" name="stolesh-G-edge-6">
+								</div>
+							</div>
+						</div>
+
+						<!--п-образная-->
+						<div id="P-obraz" class="row fir-wrap">
+							<div class="col-sm-6 first">
+								<div class="col-md-6 col-md-offset-3">
+									<div class="choose-size">
+										<div class="text-center list-unstyled">
+											<div class="head-size">Толщина столешницы</div>
+
+											<label class="P-thickness" for="thickness-P1">
+												20мм
+												<input class="hidden" id="thickness-P1" type="radio" name="thickness-P">
+											</label>
+
+											<label class="P-thickness" for="thickness-P2">
+												30мм
+												<input class="hidden" id="thickness-P2" type="radio" name="thickness-P">
+											</label>    
+
+											<label class="P-thickness" for="thickness-P3">
+												40мм
+												<input class="hidden" id="thickness-P3" type="radio" name="thickness-P">
+											</label>
+											
+											<label class="P-thickness" for="thickness-P4">
+												60мм
+												<input class="hidden" id="thickness-P4" type="radio" name="thickness-P">
+											</label>
+
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-6">
+								<div class="image-stolesh-calc-wrapper">
+									<img src="images/calc/stouns-size/sz3.png" class="img-responsive img-sz-3" alt="">
+									<div class="add-line add-line-hor to-P"></div>
+									<div class="add-line add-line-hor to-P2"></div>
+									<div class="add-line add-line-vert to-P"></div>
+									<input type="text" name="stolesh-P-horizontal-size" id="stolesh-P-horizontal-size">
+									<input type="text" name="stolesh-P-vertical-size" id="stolesh-P-vertical-size">
+									<input type="text" name="stolesh-P-horizontal-size2" id="stolesh-P-horizontal-size2">
+									<input type="text" name="stolesh-P-horizontal-size3" id="stolesh-P-horizontal-size3">
+									<input type="text" name="stolesh-P-vertical-size2" id="stolesh-P-vertical-size2">
+									<input type="checkbox" id="stolesh-P-edge-1" name="stolesh-P-edge-1">
+									<input type="checkbox" id="stolesh-P-edge-2" name="stolesh-P-edge-2">
+									<input type="checkbox" id="stolesh-P-edge-3" name="stolesh-P-edge-3">
+									<input type="checkbox" id="stolesh-P-edge-4" name="stolesh-P-edge-4">
+									<input type="checkbox" id="stolesh-P-edge-5" name="stolesh-P-edge-5">
+									<input type="checkbox" id="stolesh-P-edge-6" name="stolesh-P-edge-6">
+									<input type="checkbox" id="stolesh-P-edge-7" name="stolesh-P-edge-7">
+									<input type="checkbox" id="stolesh-P-edge-8" name="stolesh-P-edge-8">
+								</div>
+							</div>
+						</div>
+
+
+
+						<!--круглая-->
+						<div id="circle-obraz" class="row fir-wrap circle">
+							<div class="col-sm-6 first">
+								<div class="col-md-6 col-md-offset-3">
+									<div class="choose-size">
+										<div class="text-center list-unstyled">
+											<div class="head-size">Толщина столешницы</div>
+
+											<label class="C-thickness" for="thickness-C1">
+												20мм
+												<input class="hidden" id="thickness-C1" type="radio" name="thickness-C">
+											</label>
+
+											<label class="C-thickness" for="thickness-C2">
+												30мм
+												<input class="hidden" id="thickness-C2" type="radio" name="thickness-C">
+											</label>    
+
+											<label class="C-thickness" for="thickness-C3">
+												40мм
+												<input class="hidden" id="thickness-C3" type="radio" name="thickness-C">
+											</label>
+											
+											<label class="C-thickness" for="thickness-C4">
+												60мм
+												<input class="hidden" id="thickness-C4" type="radio" name="thickness-C">
+											</label>
+
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-6 text-center">
+								<div class="image-stolesh-calc-wrapper">
+									<img src="images/calc/stouns-size/sz4.png" class="img-responsive img-sz-3" alt="">
+
+
+									<input type="text" name="stolesh-C-vertical-size" id="stolesh-C-vertical-size">
+
+									<input type="checkbox" id="stolesh-C-edge-1" name="stolesh-C-edge-1">
+
+								</div>
+							</div>
+						</div>
+
+
+
+						<!--Стол-->
+						<div id="table-obraz" class="row fir-wrap">
+							<div class="col-sm-6 first">
+								<div class="col-md-6 col-md-offset-3">
+									<div class="choose-size">
+										<div class="text-center list-unstyled">
+											<div class="head-size">Толщина столешницы</div>
+
+											<label class="T-thickness" for="thickness-T1">
+												20мм
+												<input class="hidden" id="thickness-T1" type="radio" name="thickness-T">
+											</label>
+
+											<label class="T-thickness" for="thickness-T2">
+												30мм
+												<input class="hidden" id="thickness-T2" type="radio" name="thickness-T">
+											</label>    
+
+											<label class="T-thickness" for="thickness-T3">
+												40мм
+												<input class="hidden" id="thickness-T3" type="radio" name="thickness-T">
+											</label>
+											
+											<label class="T-thickness" for="thickness-T4">
+												60мм
+												<input class="hidden" id="thickness-T4" type="radio" name="thickness-T">
+											</label>
+
+										</div>
+									</div>
+								</div>
+
+							</div>
+							<div class="col-sm-6">
+								<div class="image-stolesh-calc-wrapper">
+									<img src="images/calc/stouns-size/sz1.png" class="img-responsive img-sz-1" alt="">
+									<input type="text" name="stolesh-line1-horizontal-size" id="stolesh-line1-horizontal-size">
+									<input type="text" name="stolesh-line1-vertical-size" id="stolesh-line1-vertical-size">
+									<input type="checkbox" id="stolesh-line1-edge-1" name="stolesh-line1-edge-1">
+									<input type="checkbox" id="stolesh-line1-edge-2" name="stolesh-line1-edge-2">
+									<input type="checkbox" id="stolesh-line1-edge-3" name="stolesh-line1-edge-3">
+									<input type="checkbox" id="stolesh-line1-edge-4" name="stolesh-line1-edge-4">
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+
+
+
+					<!--добавить барную стойку-->
+					<div class="row fir-wrap" style="margin-top: 30px">
+						<h3  class="h3 text-center" style="margin-bottom: 80px;"><b>Выберите дополнительные изделия, укажите размеры и стороны обработки кромки!</b></h3>
+						<div class="col-sm-6  new-shape_wrapper first">
+							<div class="add_check_newshape">
+								<label for="stojka">
+									<input id="stojka" type="checkbox"> <h4>Добавить барную стойку</h4>
+								</label>
+							</div>
+							<div id="add-bar" class="text-center">
+								<input type="text" class="vert_s" placeholder="Ширина">
+								<input type="text" class="horix_s" placeholder="Высота">
+
+
+								<div class="add-element-img-wrapper bar">
+									<img src="images/calc/new_shape1.jpg" class="img-responsive" alt="">
+									<input type="checkbox" id="bar-top-edge" name="bar-top-edge">
+									<input type="checkbox" id="bar-right-edge" name="bar-right-edge">
+									<input type="checkbox" id="bar-bottom-edge" name="bar-bottom-edge">
+									<input type="checkbox" id="bar-left-edge" name="bar-left-edge">
+								</div>
+							</div>
+						</div>
+
+						<div class="col-sm-6  new-shape_wrapper first">
+							<div class="add_check_newshape">
+								<label for="addIsland">
+									<input id="addIsland" type="checkbox">
+									<h4>Добавить остров</h4>
+								</label>
+							</div>
+							<div id="add-island" class="text-center">
+								<input type="text" class="vert_s" placeholder="Ширина">
+								<input type="text" class="horix2_s" placeholder="Высота">
+								<div class="add-element-img-wrapper">
+									<img src="images/calc/new_shape2.jpg" class="img-responsive" alt="">
+									<input type="checkbox" id="island-top-edge" name="island-top-edge">
+									<input type="checkbox" id="island-right-edge" name="island-right-edge">
+									<input type="checkbox" id="island-bottom-edge" name="island-bottom-edge">
+									<input type="checkbox" id="island-left-edge" name="island-left-edge">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="criv_uch_wrapper">
+					<div class="calc-menu">
+						<div class="text-center">
+							<h3 class="h3"><b>Выбор наличия и протяженности криволинейных участков</b></h3>
+						</div>
+						<div class="sep"></div>
+					</div>
+					<div class="row criv_uch_wrapper_item">
+						<div class="col-sm-6">
+							<label class="criv_uch_inp" for="no_crv_uch">
+								<input name="have_crv_uch" id="no_crv_uch" checked type="radio">
+								<h4>Нет криволинейных участков</h4>
+							</label>
+							<br>
+							<label  class="criv_uch_inp"  for="have_crv_uch">
+								<input name="have_crv_uch" id="have_crv_uch"  type="radio">
+								<h4>Есть криволинейные участки</h4>
+							</label>
+							<label  class="criv_uch_inp"  for="text_crv_uch">
+
+								<div id="curvilinear">
+									<div>Укажите суммарную протяженность криволинейных участков, мм</div>
+									<input name="text_crv_uch" id="text_crv_uch" type="text">
+								</div>
+							</label>
+
+						</div>
+						<div class="col-sm-6 unstand-shape-img">
+							<img src="images/calc/shape_unstand.png" class="img-responsive" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="form-make sec_calc clearfix">
+					<div class="text-center">
+						<h3 class="h3" style="margin-top: 0"><b>Выберите форму обработки кромки!</b></h3>
+					</div>
+					<div class="col-md-2 col-sm-3 col-xs-4 form-content-wrapper">
+						<label for="obr_a_inp">
+							<img src="images/sec-calc/sk1.png"  class="img-responsive" alt="">
+							<div>
+								<input name="obr_inp"  id="obr_a_inp" type="radio">
+								<span class="short-desk">A</span>
+							</div>
+						</label>
+					</div>
+					<div class="col-md-2 col-sm-3 col-xs-4 form-content-wrapper">
+						<label for="obr_a_01_inp">
+							<img src="images/sec-calc/sk2.png" alt="">
+							<div>
+								<input name="obr_inp"  id="obr_a_01_inp" type="radio">
+								<span class="short-desk">A-01</span>
+							</div>
+						</label>
+					</div>
+					<div class="col-md-2 col-sm-3 col-xs-4 form-content-wrapper">
+						<label for="obr_h_inp">
+							<img src="images/sec-calc/sk3.png" alt="">
+							<div>
+								<input name="obr_inp"  id="obr_h_inp" type="radio">
+								<span class="short-desk">H</span>
+							</div>
+						</label>
+					</div>
+					<div class="col-md-2 col-sm-3 col-xs-4 form-content-wrapper">
+						<label for="obr_t_inp">
+							<img src="images/sec-calc/sk4.png" alt="">
+							<div>
+								<input name="obr_inp"  id="obr_t_inp" type="radio">
+								<span class="short-desk">T</span>
+							</div>
+						</label>
+					</div>
+					<div class="col-md-2 col-sm-3 col-xs-4 form-content-wrapper">
+						<label for="obr_v_inp">
+							<img src="images/sec-calc/sk5.png" alt="">
+							<div>
+								<input name="obr_inp"  id="obr_v_inp" type="radio">
+								<span class="short-desk">V</span>
+							</div>
+						</label>
+					</div>
+					<div class="col-md-2 col-sm-3 col-xs-4 form-content-wrapper">
+						<label for="obr_z_inp">
+							<img src="images/sec-calc/sk6.png" alt="">
+							<div>
+								<input name="obr_inp"  id="obr_z_inp" type="radio">
+								<span class="short-desk">Z</span>
+							</div>
+						</label>
+					</div>
+					<div class="col-md-2 col-sm-3 col-xs-4 form-content-wrapper">
+						<label for="obr_z_01_inp">
+							<img src="images/sec-calc/sk7.png" alt="">
+							<div>
+								<input name="obr_inp"  type="radio" id="obr_z_01_inp">
+								<span class="short-desk">Z-01</span>
+							</div>
+						</label>
+					</div>
+					<div class="col-md-2 col-sm-3 col-xs-4 form-content-wrapper">
+						<label for="obr_z_03_inp">
+							<img src="images/sec-calc/sk8.png" alt="">
+							<div>
+								<input name="obr_inp" type="radio" id="obr_z_03_inp">
+								<span class="short-desk">Z-03</span>
+							</div>
+						</label>
+					</div>
+				</div>
+
+
+				<div class="decor_prist">    
+					<div class="calc-menu">
+						<div class="text-center">
+							<h3 class="h3"><b>Оформление пристеночного пространства</b></h3>
+						</div>
+						<div class="sep"></div>
+						<div class="stoneAttrs text-center">
+							<p>
+								Выберите стороны столешницы, на которых требуется сделать бортик или стеновую панель:
+							</p>
+						</div>
+					</div>
+
+					<div class="row decor_prist_items_wrapper">
+						<div id="border-line">
+							<div class="col-sm-4">
+								<img src="images/calc/abcshape.png" class="img-responsive" alt="">
+							</div>
+							<div class="col-sm-4 text-center">
+								<h4 class="h3">Бортик</h4>
+								<div class=""><input type="checkbox"><span class="h3"> A</span></div>
+								<div class=""><input type="checkbox"><span class="h3"> B</span></div>
+								<div class=""><input type="checkbox"><span class="h3"> C</span></div>
+							</div>
+							<div class="col-sm-4 text-center">
+								<h4 class="h3">Стеновая панель</h4>
+								<div class=""><input type="checkbox"><span class="h3"> A</span></div>
+								<div class=""><input type="checkbox"><span class="h3"> B</span></div>
+								<div class=""><input type="checkbox"><span class="h3"> C</span></div>
+							</div>
+						</div>
+
+						<div id="border-G">
+							<div class="col-sm-4">
+								<img src="images/calc/shape2.png" class="img-responsive" alt="">
+							</div>
+							<div class="col-sm-4 text-center">
+								<h4 class="h3">Бортик</h4>
+								<div class=""><input type="checkbox"><span class="h3"> A</span></div>
+								<div class=""><input type="checkbox"><span class="h3"> B</span></div>
+								<div class=""><input type="checkbox"><span class="h3"> C</span></div>
+								<div class=""><input type="checkbox"><span class="h3"> D</span></div>
+							</div>
+							<div class="col-sm-4 text-center">
+								<h4 class="h3">Стеновая панель</h4>
+								<div class=""><input type="checkbox"><span class="h3"> A</span></div>
+								<div class=""><input type="checkbox"><span class="h3"> B</span></div>
+								<div class=""><input type="checkbox"><span class="h3"> C</span></div>
+								<div class=""><input type="checkbox"><span class="h3"> D</span></div>
+							</div>
+						</div>
+
+						<div id="border-P">
+							<div class="col-sm-4">
+								<img src="images/calc/shape3.png" class="img-responsive" alt="">
+							</div>
+							<div class="col-sm-4 text-center">
+								<h4 class="h3">Бортик</h4>
+								<div class=""><input type="checkbox"><span class="h3"> A</span></div>
+								<div class=""><input type="checkbox"><span class="h3"> B</span></div>
+								<div class=""><input type="checkbox"><span class="h3"> C</span></div>
+								<div class=""><input type="checkbox"><span class="h3"> D</span></div>
+								<div class=""><input type="checkbox"><span class="h3"> E</span></div>
+
+							</div>
+							<div class="col-sm-4 text-center">
+								<h4 class="h3">Стеновая панель</h4>
+								<div class=""><input type="checkbox"><span class="h3"> A</span></div>
+								<div class=""><input type="checkbox"><span class="h3"> B</span></div>
+								<div class=""><input type="checkbox"><span class="h3"> C</span></div>
+								<div class=""><input type="checkbox"><span class="h3"> D</span></div>
+								<div class=""><input type="checkbox"><span class="h3"> E</span></div>
+							</div>
+						</div>
+
+
+						<div id="border-circle">
+							<div class="col-sm-4">
+								<img src="images/calc/shape4.png" class="img-responsive" alt="">
+							</div>
+							<div class="col-sm-4 text-center">
+								<h4 class="h3">Бортик</h4>
+								<div class=""><input type="checkbox"><span class="h3"> A</span></div>
+								<div class=""><input type="checkbox"><span class="h3"> B</span></div>
+								<div class=""><input type="checkbox"><span class="h3"> C</span></div>
+							</div>
+							<div class="col-sm-4 text-center">
+								<h4 class="h3">Стеновая панель</h4>
+								<div class=""><input type="checkbox"><span class="h3"> A</span></div>
+								<div class=""><input type="checkbox"><span class="h3"> B</span></div>
+								<div class=""><input type="checkbox"><span class="h3"> C</span></div>
+							</div>
+						</div>
+
+
+						<div id="border-table">
+							<div class="col-sm-4">
+								<img src="images/calc/abcshape.png" class="img-responsive" alt="">
+							</div>
+							<div class="col-sm-4 text-center">
+								<h4 class="h3">Бортик</h4>
+								<div class=""><input type="checkbox"><span class="h3"> A</span></div>
+								<div class=""><input type="checkbox"><span class="h3"> B</span></div>
+								<div class=""><input type="checkbox"><span class="h3"> C</span></div>
+							</div>
+							<div class="col-sm-4 text-center">
+								<h4 class="h3">Стеновая панель</h4>
+								<div class=""><input type="checkbox"><span class="h3"> A</span></div>
+								<div class=""><input type="checkbox"><span class="h3"> B</span></div>
+								<div class=""><input type="checkbox"><span class="h3"> C</span></div>
+							</div>
+						</div>
+
+
+
+					</div>
+
+					<div class="row decor_prist_he">
+						<div class="col-sm-6 text-center decor_prist_he_item"><span class="h4 gray">Высота бортика:</span> <input class="bort_height" placeholder="0" type="number"> <span class="h4 gray">мм.</span></div>
+						<div class="col-sm-6 text-center decor_prist_he_item"><span class="h4 gray">Высота стеновой панели:</span> <input class="bort_height" placeholder="0" type="number"> <span class="h4 gray">мм.</span></div>
+					</div>  
+				</div>
+
+
+
+
+
+
+
+				<div class="form_bort">
+					<h3 class="text-center">Выберите форму бортика:</h3>
+					<div class="row">
+						<div class="col-sm-1-5 col-xs-4 text-center">
+							<label for="form_prof_a">
+								<img src="images/calc/form/form1.png" alt="">
+								<div>
+									<h4><input id="form_prof_a" name="form_prof" type="radio"> Профиль "A"</h4>
+								</div>
+							</label>
+						</div>
+						<div class="col-sm-1-5 col-xs-4 text-center">
+							<label for="form_prof_b">
+								<img src="images/calc/form/form2.png" alt="">
+								<div>
+									<h4><input id="form_prof_b" name="form_prof" type="radio"> Профиль "B"</h4>
+								</div>
+							</label>
+						</div>
+						<div class="col-sm-1-5 col-xs-4 text-center">
+							<label for="form_prof_e">   
+								<img src="images/calc/form/form3.png" alt="">
+								<div>
+									<h4><input id="form_prof_e" name="form_prof" type="radio"> Профиль "E"</h4>
+								</div>
+							</label>  
+						</div>
+						<div class="col-sm-1-5 col-xs-4 text-center">
+							<label for="form_prof_h">
+								<img src="images/calc/form/form4.png" alt="">
+								<div>
+									<h4><input id="form_prof_h" name="form_prof" type="radio"> Профиль "H"</h4>
+								</div>
+							</label>    
+						</div>
+						<div class="col-sm-1-5 col-xs-4 text-center">
+							<label for="form_prof_l">
+								<img src="images/calc/form/form5.png" alt="">
+								<div>
+									<h4><input id="form_prof_l" name="form_prof" type="radio"> Профиль "L"</h4>
+								</div>
+							</label>
+						</div>
+					</div>
+				</div>   
+
+				<div class="bot_checks">
+					<div class="calc-menu">
+						<div class="text-center">
+							<h3 class="h3"><b>Выбор наличия вырезов под технику</b></h3>
+						</div>
+						<div class="sep"></div>
+						<div class="stoneAttrs">
+							<h4>
+								<label for="virez">
+									<input id="virez" type="checkbox"> Вырезы под технику
+								</label>
+							</h4>
+							<div id="holes-for-technics">
+								<div class="hole-for-tech-wrapper">
+									<div class="row">
+									<label class="col-sm-5 col-xs-12 text-center" for="hole-for-washbasin-no-adaptation">
+										Вырез под мойку прямой (без обработки):
+									</label>
+									<div class="col-sm-7 col-xs-12 text-center">
+									<input type="number" name="hole-for-washbasin-no-adaptation" id="hole-for-washbasin-no-adaptation">
+									<span>м.п.</span>
+									</div>
+									</div>
+								</div>
+								<div class="hole-for-tech-wrapper">
+								<div class="row">
+									<label class="col-sm-5 col-xs-12 text-center" for="hole-for-washbasin-with-adaptation">
+										Вырез под мойку прямой (с обработкой):
+									</label>
+									<div class="col-sm-7 col-xs-12 text-center">
+									<input type="number" name="hole-for-washbasin-with-adaptation" id="hole-for-washbasin-with-adaptation">
+									<span>м.п.</span>
+									</div>
+									</div>
+								</div>
+
+								<div class="hole-for-tech-wrapper">
+								<div class="row">
+									<label class="col-sm-5 col-xs-12 text-center" for="hole-for-washbasin-no-adaptation-circle">
+										Вырез под мойку круглый (без обработки):
+									</label>
+									<div class="col-sm-7 col-xs-12 text-center">
+									<input type="number" name="hole-for-washbasin-no-adaptation-circle" id="hole-for-washbasin-no-adaptation-circle">
+									<span>м.п.</span>
+									</div>
+									</div>
+								</div>
+								<div class="hole-for-tech-wrapper">
+								<div class="row">
+									<label class="col-sm-5 col-xs-12 text-center" for="hole-for-washbasin-with-adaptation-circle">
+										Вырез под мойку круглый (с обработкой):
+									</label>
+									<div class="col-sm-7 col-xs-12 text-center">
+									<input type="number" name="hole-for-washbasin-with-adaptation-circle" id="hole-for-washbasin-with-adaptation-circle">
+									<span>м.п.</span>
+									</div>
+								</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>  
+				<div class="bot_checks">
+					<div class="calc-menu">
+						<div class="text-center">
+							<h3 class="h3"><b>Выбор формы и размеров технологических вырезов и отверстий</b></h3>
+						</div>
+						<div class="sep"></div>
+						<div class="stoneAttrs">
+							<h4>
+								<label class="col-sm-4" for="techvir">
+									<input id="techvir" type="checkbox"> Технологические вырезы и отверстия
+								</label>
+								<div class="clearfix"></div>
+							</h4>
+							<div id="perforation">
+								<div class="perforation-wrapper">
+								<div class="row">
+									<label class="col-sm-4 col-xs-12 text-center" for="perforation-6-14">
+										Отверстие 6 - 14мм (сквозное).
+									</label>
+									<div class="col-sm-8 col-xs-12 text-center">
+									<span>Количество:</span>
+									<input type="number" name="perforation-6-14" id="perforation-6-14">
+									<span>м.п.</span>
+									</div>
+									</div>
+								</div>
+								<div class="perforation-wrapper">
+								<div class="row">
+									<label class="col-sm-4 col-xs-12 text-center" for="perforation-20-25">
+										Отверстие 20 - 25мм (сквозное).
+									</label>
+									<div class="col-sm-8 col-xs-12 text-center">
+									<span>Количество:</span>
+									<input type="number" name="perforation-20-25" id="perforation-20-25">
+									<span>м.п.</span>
+									</div>
+									</div>
+								</div>
+
+								<div class="perforation-wrapper">
+								<div class="row">
+									<label class="col-sm-4 col-xs-12 text-center" for="perforation-32-36">
+										Отверстие 32 - 36мм (сквозное).
+									</label>
+									<div class="col-sm-8 col-xs-12 text-center">
+									<span>Количество:</span>
+									<input type="number" name="perforation-32-36" id="perforation-32-36">
+									<span>м.п.</span>
+									</div>
+									</div>
+								</div>
+								<div class="perforation-wrapper">
+								<div class="row">
+									<label class="col-sm-4 col-xs-12 text-center" for="perforation-36-50">
+										Отверстие 36 - 50мм (сквозное).
+									</label>
+									<div class="col-sm-8 col-xs-12 text-center">
+									<span>Количество:</span>
+									<input type="number" name="perforation-36-50" id="perforation-36-50">
+									<span>м.п.</span>
+									</div>
+									</div>
+								</div>
+
+								<div class="perforation-wrapper">
+								<div class="row">
+									<label class="col-sm-4 col-xs-12 text-center" for="perforation-60-72">
+										Отверстие 60 - 72мм (сквозное).
+									</label>
+									<div class="col-sm-8 col-xs-12 text-center">
+									<span>Количество:</span>
+									<input type="number" name="perforation-60-72" id="perforation-60-72">
+									<span>м.п.</span>
+									</div>
+									</div>
+								</div>
+
+								<div class="perforation-wrapper">
+								<div class="row">
+									<label class="col-sm-4 col-xs-12 text-center" for="perforation-100">
+										Отверстие 100мм (сквозное).
+									</label>
+									<div class="col-sm-8 col-xs-12 text-center">
+									<span>Количество:</span>
+									<input type="number" name="perforation-100" id="perforation-100">
+									<span>м.п.</span>
+									</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>  
+				<div class="bot_checks">
+					<div class="calc-menu">
+						<div class="text-center">
+							<h3 class="h3"><b>Дополнительные опции</b></h3>
+						</div>
+						<div class="sep"></div>
+						<div class="stoneAttrs">
+							<h4><label for="zamer"><input id="zamer" type="checkbox"> Замер</label></h4>
+							<h4><label for="deliv"><input id="deliv" type="checkbox"> Доставка</label></h4>
+							<h4><label for="montaj"><input id="montaj" type="checkbox"> Монтаж</label></h4>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--конец калькулятор столешниц -->
+
+			<!-- Калькулятор подоконников -->   
+			<div id="podokonniki"> 
+				<div class="choose-stolesh-wrapper">
+					<div class="calc-menu">
+						<div class="text-center">
+							<h3 class="h3"><b>Выбор формы подоконника</b></h3>
+						</div>
+						<div class="sep"></div>
+					</div>
+					<div class="row">
+						<div class="col-sm-3 col-xs-6 shapes-item">
+							<label for="podokonnik1">
+								<div class="choose-stolesh-img"><img src="images/calc/shape1.jpg" alt="" class="img-responsive"></div>
+								<div class="choose-stolesh-inp text-center">
+									<input name="podokonnik1" id="podokonnik1" type="checkbox"><br>
+									<h4 class="h3">Прямая</h4>
+								</div>
+							</label>
+						</div>
+						<div class="col-sm-3 col-xs-6 shapes-item">
+							<label for="podokonnik2">
+								<div class="choose-stolesh-img"><img src="images/calc/shape2.png" alt="" class="img-responsive"></div>
+								<div class="choose-stolesh-inp text-center">
+									<input name="podokonnik2" id="podokonnik2" type="checkbox"><br>
+									<h4 class="h3">Г-образная</h4>
+								</div>
+							</label>      
+						</div>
+						<div class="col-sm-3 col-xs-6 shapes-item">
+							<label for="podokonnik3">
+								<div class="choose-stolesh-img"><img src="images/calc/shape1.jpg" alt="" class="img-responsive"></div>
+								<div class="choose-stolesh-inp text-center">
+									<input name="podokonnik3" id="podokonnik3" type="checkbox"><br>
+									<h4 class="h3">У балкона</h4>
+								</div>
+							</label>
+						</div>
+						<div class="col-sm-3 col-xs-6 shapes-item">
+							<label for="podokonnik4">
+								<div class="choose-stolesh-img"><img src="images/calc/shape8.png" alt="" class="img-responsive"></div>
+								<div class="choose-stolesh-inp text-center">
+									<input name="podokonnik4" id="podokonnik4" type="checkbox"><br>
+									<h4 class="h3">Эркерный</h4>
+								</div>
+							</label>      
+						</div>
+					</div>
+				</div>
+				<div class="choose-podokonnik-main-options-wrapper">
+					<div class="text-center calc-it">
+						<button id="add-to-calculation" href="#">Добавить к расчету</button>
+					</div>
+
+					<div class="row">
+
+						Прямой подоконник
+						<div id="podokonnik-line">
+							<button id="cross-line" class="cross"><i class="fa fa-window-close" aria-hidden="true"></i></button>
+							<p class="text-left">Подоконник прямой</p>
+							<div class="col-md-6 col-sm-6 col-xs-6">
+								<div>
+									<img src="images/calc/podokonnik-rovniy.png" alt="" class="img-responsive">
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-3 col-xs-3">
+								<div class="podokonnik-sizes">
+									<h4 class="h3">Размеры:</h4>
+									<div class="inputs-wrapper">
+										<span class="bold-600">А = </span> 
+										<input style="" type="text" name="" class="horix_s" value="0">
+										<span>мм</span>
+									</div>
+									<div>
+										<span class="bold-600">B =</span> 
+										<input type="text" name="" class="horix_s" value="0">
+										<span>мм</span>
+									</div>
+									<div class="left-col-attr-item">
+										<input id="kapelnik" type="checkbox" name="" >
+										<label for="kapelnik">Капельник</label>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-3 col-xs-3">
+								<div class="podokonnik-quantity">
+									<h4 class="h3">Количество:</h4>
+									<div class="inputs-wrapper">
+										<input type="number" name="" class="horix_s" placeholder="0">
+									</div>
+									<div class="left-col-attr-item">
+										<input id="rounding" type="checkbox" name="" value="0" >
+										<label for="rounding">Скругление внешних углов</label>
+									</div>
+								</div>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+						Г-образный подоконник
+
+						<div id="podokonnik-g">
+							<button id="cross-g" class="cross"><i class="fa fa-window-close" aria-hidden="true"></i></button>
+							<p class="text-left">Подоконник г-образный</p>
+							<div class="col-md-6 col-sm-6 col-xs-6">
+								<div>
+									<img src="images/calc/shape2.png" alt="" class="img-responsive">
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-3 col-xs-3">
+								<div class="podokonnik-sizes">
+									<h4 class="h3">Размеры:</h4>
+									<div class="inputs-wrapper">
+										<span class="bold-600">А = </span> 
+										<input style="" type="text" name="" class="horix_s" value="0">
+										<span>мм</span>
+									</div>
+									<div>
+										<span class="bold-600">B =</span> 
+										<input type="text" name="" class="horix_s" value="0">
+										<span>мм</span>
+									</div>
+									<div class="left-col-attr-item">
+										<input id="kapelnik" type="checkbox" name="" >
+										<label for="kapelnik">Капельник</label>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-3 col-xs-3">
+								<div class="podokonnik-quantity">
+									<h4 class="h3">Количество:</h4>
+									<div class="inputs-wrapper">
+										<input type="number" name="" class="horix_s" placeholder="0">
+									</div>
+									<div class="left-col-attr-item">
+										<input id="rounding" type="checkbox" name="" value="0" >
+										<label for="rounding">Скругление внешних углов</label>
+									</div>
+								</div>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+
+						У балкона
+						<div id="podokonnik-balcony">
+							<button id="cross-balcony" class="cross"><i class="fa fa-window-close" aria-hidden="true"></i></button>
+							<p class="text-left">Подоконник у балкона</p>
+							<div class="col-md-6 col-sm-6 col-xs-6">
+								<div>
+									<img src="images/calc/podokonnik-rovniy.png" alt="" class="img-responsive">
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-3 col-xs-3">
+								<div class="podokonnik-sizes">
+									<h4 class="h3">Размеры:</h4>
+									<div class="inputs-wrapper">
+										<span class="bold-600">А = </span> 
+										<input style="" type="text" name="" class="horix_s" value="0">
+										<span>мм</span>
+									</div>
+									<div>
+										<span class="bold-600">B =</span> 
+										<input type="text" name="" class="horix_s" value="0">
+										<span>мм</span>
+									</div>
+									<div class="left-col-attr-item">
+										<input id="kapelnik" type="checkbox" name="" >
+										<label for="kapelnik">Капельник</label>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-3 col-xs-3">
+								<div class="podokonnik-quantity">
+									<h4 class="h3">Количество:</h4>
+									<div class="inputs-wrapper">
+										<input type="number" name="" class="horix_s" placeholder="0">
+									</div>
+									<div class="left-col-attr-item">
+										<input id="rounding" type="checkbox" name="" value="0" >
+										<label for="rounding">Скругление внешних углов</label>
+									</div>
+								</div>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+
+						Эркер
+						<div id="podokonnik-erker">
+							<button id="cross-erker" class="cross"><i class="fa fa-window-close" aria-hidden="true"></i></button>
+							<p class="text-left">Эркерный</p>
+							<div class="col-md-6 col-sm-6 col-xs-6">
+								<div>
+									<img src="images/calc/shape8.png" alt="" class="img-responsive">
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-3 col-xs-3">
+								<div class="podokonnik-sizes">
+									<h4 class="h3">Размеры:</h4>
+									<div class="inputs-wrapper">
+										<span class="bold-600">А = </span> 
+										<input style="" type="text" name="" class="horix_s" value="0">
+										<span>мм</span>
+									</div>
+									<div>
+										<span class="bold-600">B =</span> 
+										<input type="text" name="" class="horix_s" value="0">
+										<span>мм</span>
+									</div>
+									<div class="left-col-attr-item">
+										<input id="kapelnik" type="checkbox" name="" >
+										<label for="kapelnik">Капельник</label>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-3 col-xs-3">
+								<div class="podokonnik-quantity">
+									<h4 class="h3">Количество:</h4>
+									<div class="inputs-wrapper">
+										<input type="number" name="" class="horix_s" placeholder="0">
+									</div>
+									<div class="left-col-attr-item">
+										<input id="rounding" type="checkbox" name="" value="0" >
+										<label for="rounding">Скругление внешних углов</label>
+									</div>
+								</div>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+					</div>endrow
+				</div>
+				<div class="criv_uch_wrapper choose-podokonnik-form">
+					<div class="calc-menu">
+						<div class="text-center">
+							<h3 class="h3"><b>Выбор формы кромки подоконника</b></h3>
+						</div>
+						<div class="sep"></div>
+					</div>
+					<div class="form_bort">
+						<h3 class="text-center">Выберите форму бортика:</h3>
+						<div class="row">
+							<div class="col-sm-1-5 col-xs-4 text-center">
+								<label for="form_prof_a">
+									<img src="images/calc/form/podokonnik-porfile-a.png" alt="">
+									<div>
+										<h4><input id="form_prof_a" name="form_prof" type="radio"> Профиль "A"</h4>
+									</div>
+								</label>
+							</div>
+							<div class="col-sm-1-5 col-xs-4 text-center">
+								<label for="form_prof_b">
+									<img src="images/calc/form/podokonnik-porfile-b.png" alt="">
+									<div>
+										<h4><input id="form_prof_b" name="form_prof" type="radio"> Профиль "B"</h4>
+									</div>
+								</label>
+							</div>
+							<div class="col-sm-1-5 col-xs-4 text-center">
+								<label for="form_prof_e">   
+									<img src="images/calc/form/podokonnik-porfile-e.png" alt="">
+									<div>
+										<h4><input id="form_prof_e" name="form_prof" type="radio"> Профиль "E"</h4>
+									</div>
+								</label>  
+							</div>
+							<div class="col-sm-1-5 col-xs-6 text-center">
+								<label for="form_prof_h">
+									<img src="images/calc/form/podokonnik-porfile-h.png" alt="">
+									<div>
+										<h4><input id="form_prof_h" name="form_prof" type="radio"> Профиль "H"</h4>
+									</div>
+								</label>    
+							</div>
+							<div class="col-sm-1-5 col-xs-6 text-center">
+								<label for="form_prof_l">
+									<img src="images/calc/form/podokonnik-porfile-l.png" alt="">
+									<div>
+										<h4><input id="form_prof_l" name="form_prof" type="radio"> Профиль "L"</h4>
+									</div>
+								</label>
+							</div>
+						</div>endrow
+						<div class="row">
+							<div class="col-sm-1-5 col-xs-4 text-center">
+								<label for="form_prof_v">   
+									<img src="images/calc/form/podokonnik-porfile-v.png" alt="">
+									<div>
+										<h4><input id="form_prof_v" name="form_prof" type="radio"> Профиль "V"</h4>
+									</div>
+								</label>  
+							</div>
+							<div class="col-sm-1-5 col-xs-4 text-center">
+								<label for="form_prof_t">
+									<img src="images/calc/form/podokonnik-porfile-t.png" alt="">
+									<div>
+										<h4><input id="form_prof_t" name="form_prof" type="radio"> Профиль "T"</h4>
+									</div>
+								</label>    
+							</div>
+							<div class="col-sm-1-5 col-xs-4 text-center">
+								<label for="form_prof_z">
+									<img src="images/calc/form/podokonnik-porfile-z.png" alt="">
+									<div>
+										<h4><input id="form_prof_z" name="form_prof" type="radio"> Профиль "Z"</h4>
+									</div>
+								</label>
+							</div>
+						</div>endrow
+					</div>
+				</div>
+				<div class="bot_checks">
+					<div class="calc-menu">
+						<div class="text-center">
+							<h3 class="h3"><b>Дополнительные опции</b></h3>
+						</div>
+						<div class="sep"></div>
+						<div class="stoneAttrs">
+							<h4><label for="zamer"><input id="zamer" type="checkbox"> Замер</label></h4>
+							<h4><label for="deliv"><input id="deliv" type="checkbox"> Доставка</label></h4>
+							<h4><label for="montaj"><input id="montaj" type="checkbox"> Монтаж</label></h4>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--конец калькулятор подоконников -->
+
+			<!--калькулятор ступеней -->
+
+			<div role="tabpanel" class="tab-pane" id="stupenki">
+				<div class="choose-stolesh-wrapper">
+					<div class="calc-menu">
+						<div class="text-center">
+							<h3 class="h3"><b>Выбор количества и размеров ступеней лестницы</b></h3>
+						</div>
+						<div class="sep"></div>
+					</div>
+					<div class="row"`>
+						<div class="col-sm-6 col-xs-8 col-sm-offset-0 col-xs-offset-2" style="margin-right: 60px;">
+							<div class="image-stupeni-calc-wrapper">
+								<img src="images/calc/calcul_stupenka.png" alt="" class="img-responsive">
+
+								<input type="text" class="horix_s" name="hor-length" placeholder=" мм">
+								<input type="text" class="horix_s" name="vert-length-1" placeholder=" мм">
+							</div>
+
+							<div class="image-stupeni-calc-wrapper">
+								<img src="images/calc/calcul_podstupenka.png" alt="" class="img-responsive">
+								<input type="text" class="horix_s" placeholder=" мм" name="vert-length-2">
+							</div>
+						</div>
+
+						<div class="col-md-3 col-sm-4 col-xs-12">
+							<div class="podokonnik-quantity stairs-quantity">
+								<h4 class="h3 bold-600">Количество ступеней:</h4>
+								<div class="inputs-wrapper">
+									<input type="number" name="" class="horix_s" value="1">
+									<span>шт.</span>
+								</div>
+								<div class="left-col-attr-item">
+									<input id="kapelnik1" type="checkbox" name="" >
+									<label for="kapelnik1">Капельник</label>
+								</div>
+								<div class="left-col-attr-item">
+									<input id="rounding1" type="checkbox" name="" value="0" >
+									<label for="rounding1">Скругление внешних углов</label>
+								</div>
+							</div>
+						</div>
+					</div>endrow
+				</div>
+
+				<div class="criv_uch_wrapper choose-podokonnik-form">
+					<div class="calc-menu">
+						<div class="text-center">
+							<h3 class="h3"><b>Выбор формы кромки ступеней</b></h3>
+						</div>
+						<div class="sep"></div>
+					</div>
+					<div class="form_bort">
+						<div class="row">
+							<div class="col-sm-1-5 col-xs-4 text-center">
+								<label for="form_prof_a">
+									<img src="images/calc/form/podokonnik-porfile-a.png" alt="">
+									<div>
+										<h4><input id="form_prof_a" name="form_prof" type="radio"> Профиль "A"</h4>
+									</div>
+								</label>
+							</div>
+							<div class="col-sm-1-5 col-xs-4 text-center">
+								<label for="form_prof_b">
+									<img src="images/calc/form/podokonnik-porfile-b.png" alt="">
+									<div>
+										<h4><input id="form_prof_b" name="form_prof" type="radio"> Профиль "B"</h4>
+									</div>
+								</label>
+							</div>
+							<div class="col-sm-1-5 col-xs-4 text-center">
+								<label for="form_prof_e">   
+									<img src="images/calc/form/podokonnik-porfile-e.png" alt="">
+									<div>
+										<h4><input id="form_prof_e" name="form_prof" type="radio"> Профиль "E"</h4>
+									</div>
+								</label>  
+							</div>
+							<div class="col-sm-1-5 col-xs-6 text-center">
+								<label for="form_prof_h">
+									<img src="images/calc/form/podokonnik-porfile-h.png" alt="">
+									<div>
+										<h4><input id="form_prof_h" name="form_prof" type="radio"> Профиль "H"</h4>
+									</div>
+								</label>    
+							</div>
+							<div class="col-sm-1-5 col-xs-6 text-center">
+								<label for="form_prof_l">
+									<img src="images/calc/form/podokonnik-porfile-l.png" alt="">
+									<div>
+										<h4><input id="form_prof_l" name="form_prof" type="radio"> Профиль "L"</h4>
+									</div>
+								</label>
+							</div>
+						</div>endrow
+						<div class="row">
+							<div class="col-sm-1-5 col-xs-4 text-center">
+								<label for="form_prof_v">   
+									<img src="images/calc/form/podokonnik-porfile-v.png" alt="">
+									<div>
+										<h4><input id="form_prof_v" name="form_prof" type="radio"> Профиль "V"</h4>
+									</div>
+								</label>  
+							</div>
+							<div class="col-sm-1-5 col-xs-4 text-center">
+								<label for="form_prof_t">
+									<img src="images/calc/form/podokonnik-porfile-t.png" alt="">
+									<div>
+										<h4><input id="form_prof_t" name="form_prof" type="radio"> Профиль "T"</h4>
+									</div>
+								</label>    
+							</div>
+							<div class="col-sm-1-5 col-xs-4 text-center">
+								<label for="form_prof_z">
+									<img src="images/calc/form/podokonnik-porfile-z.png" alt="">
+									<div>
+										<h4><input id="form_prof_z" name="form_prof" type="radio"> Профиль "Z"</h4>
+									</div>
+								</label>
+							</div>
+						</div>endrow
+					</div>
+				</div>
+
+				<div class="bot_checks">
+					<div class="calc-menu">
+						<div class="text-center">
+							<h3 class="h3"><b>Дополнительные опции</b></h3>
+						</div>
+						<div class="sep"></div>
+						<div class="stoneAttrs">
+							<h4><label for="zamer-stupeney"><input id="zamer-stupeney" type="checkbox"> Замер</label></h4>
+							<h4><label for="deliv-stupeney"><input id="deliv-stupeney" type="checkbox"> Доставка</label></h4>
+							<h4><label for="montaj-stupeney"><input id="montaj-stupeney" type="checkbox"> Монтаж</label></h4>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--конец калькулятор ступеней -->
+			<div class="text-center calc-it">
+				<a href="#">РАССЧИТАТЬ</a>
+			</div>
+			<br>  
+		</div>
+	</div>
+</div>
+</section>
+
+<section id="contacts">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 col-md-offset-3">
+				<div class="contacts text-center  ">
+					<h2>Ждем вас</h2>
+					<div class="address">
+						<p>МО, Красногорский район, д. Путилково, стр.16</p>
+						<p>ТЦ "КУХНИПАРК"</p>
+						<p>ПН-ВС 10-21</p>
+						<a href="tel:+74957663817" class="tel">+7(495) 766-38-17</a>
+						<a href="mailto:sherlstone@yandex.ru" class="mail">sherlstone@yandex.ru</a>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<footer>
+	<p class="text-center">Copyright by sherlstone. All rights reserved.</p>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+
+<!--выбор между столешницами, ступеньками и подоконниками-->
+<script type="text/javascript">
+	$(document).ready(function() {
+		$("#podokonniki").hide();
+		$("#stupenki").hide();
+
+		$("#stolesh").click(function(){
+			$("#stoleshnica").show();
+			$("#podokonniki").hide();
+			$("#stupenki").hide();
+			$("#stoleshnica").fadeIn(1500);
+		});
+
+		$("#podokon").click(function(){
+			$("#podokonniki").show();
+			$("#stoleshnica").hide();
+			$("#stupenki").hide();
+			$("#podokonniki").fadeIn(1500);
+		});
+
+		$("#sters").click(function(){
+			$("#stupenki").show();
+			$("#podokonniki").hide();
+			$("#stoleshnica").hide();
+			$("#stupenki").fadeIn(1500);
+		});
+	});
+</script>
+
+<script>
+	/*Выбор основной формы столешницы + к этому Оформление пристеночного пространства*/
+	$(document).ready(function(){
+		$('#G-obraz').hide();
+		$('#P-obraz').hide();
+		$('#circle-obraz').hide();
+		$('#table-obraz').hide();
+		
+		$('#border-G').hide();
+		$('#border-P').hide();
+		$('#border-circle').hide();
+		$('#border-table').hide();
+
+		$("#stolesh1").click(function(){
+			$("#G-obraz").hide();
+			$("#P-obraz").hide();
+			$("#circle-obraz").hide();
+			$("#table-obraz").hide();
+			$("#line-obraz").fadeIn(1000);
+/*Оформление пристеночного пространства*/
+			$(".decor_prist").show();
+			$("#border-G").hide();
+			$("#border-P").hide();
+			$("#border-circle").hide();
+			$("#border-table").hide();
+			$("#border-line").fadeIn(1000);
+		});
+
+		$("#stolesh2").click(function(){
+			$("#G-obraz").fadeIn(1000);
+			$("#P-obraz").hide();
+			$("#circle-obraz").hide();
+			$("#table-obraz").hide();
+			$("#line-obraz").hide();
+			/*Оформление пристеночного пространства*/
+			$(".decor_prist").show();
+			$("#border-line").hide();
+			$("#border-P").hide();
+			$("#border-circle").hide();
+			$("#border-table").hide();
+			$("#border-G").fadeIn(1000);
+		});
+
+		$("#stolesh3").click(function(){
+			$("#G-obraz").hide();
+			$("#P-obraz").fadeIn(1000);
+			$("#circle-obraz").hide();
+			$("#table-obraz").hide();
+			$("#line-obraz").hide();
+			/*Оформление пристеночного пространства*/
+			$(".decor_prist").show();
+			$("#border-line").hide();
+			$("#border-G").hide();
+			$("#border-circle").hide();
+			$("#border-table").hide();
+			$("#border-P").fadeIn(1000);
+		});
+
+		$("#stolesh4").click(function(){
+			$("#G-obraz").hide();
+			$("#P-obraz").hide();
+			$("#circle-obraz").fadeIn(1000);
+			$("#table-obraz").hide();
+			$("#line-obraz").hide();
+			/*Оформление пристеночного пространства*/
+			$(".decor_prist").hide();
+
+		});
+
+		$("#stolesh5").click(function(){
+			$("#G-obraz").hide();
+			$("#P-obraz").hide();
+			$("#circle-obraz").hide();
+			$("#table-obraz").fadeIn(1000);
+			$("#line-obraz").hide();
+
+			/*Оформление пристеночного пространства*/
+			$(".decor_prist").show();
+			$("#border-line").hide();
+			$("#border-G").hide();
+			$("#border-P").hide();
+			$("#border-circle").hide();
+			$("#border-table").fadeIn(1000);
+		});
+
+		/*выбор толщины столешн*/
+		$('#calc-page .choose-size div label.line-thickness').click(function(){
+			$('#calc-page .choose-size div label.line-thickness').removeClass('active');
+			$(this).addClass("active");
+		});
+
+		$('#calc-page .choose-size div label.G-thickness').click(function(){
+			$('#calc-page .choose-size div label.G-thickness').removeClass('active');
+			$(this).addClass("active");
+		});
+
+		$('#calc-page .choose-size div label.P-thickness').click(function(){
+			$('#calc-page .choose-size div label.P-thickness').removeClass('active');
+			$(this).addClass("active");
+		});
+
+		$('#calc-page .choose-size div label.C-thickness').click(function(){
+			$('#calc-page .choose-size div label.C-thickness').removeClass('active');
+			$(this).addClass("active");
+		});
+
+		$('#calc-page .choose-size div label.T-thickness').click(function(){
+			$('#calc-page .choose-size div label.T-thickness').removeClass('active');
+			$(this).addClass("active");
+		});
+		/*Добавить дополнительные элементы*/
+
+		$('#add-bar').hide();
+		$('#add-island').hide();
+
+		$(document).on('click', '#stojka', function () {
+			if($('#stojka').prop('checked'))	{
+				$("#add-bar").fadeIn(500);
+			}
+			else {
+				$("#add-bar").fadeOut(500);	
+			}
+		});
+
+		$(document).on('click', '#addIsland', function () {
+			if($('#addIsland').prop('checked'))	{
+				$("#add-island").fadeIn(500);
+			}
+			else {
+				$("#add-island").fadeOut(500);	
+			}
+		});
+		/*Выбор наличия и протяженности криволинейных участков*/
+		$('#curvilinear').hide();
+
+		$("#have_crv_uch").click(function(){
+			$("#curvilinear").fadeIn(1000);
+		});
+		$("#no_crv_uch").click(function(){
+			$("#curvilinear").fadeOut(1000);
+		});
+		/*Выбор наличия вырезов под технику*/
+		$('#holes-for-technics').hide();
+		$(document).on('click', '#virez', function () {
+			if($('#virez').prop('checked'))	{
+				$("#holes-for-technics").fadeIn(500);
+			}
+			else {
+				$("#holes-for-technics").fadeOut(500);	
+			}
+		});
+		/*Выбор формы и размеров технологических вырезов и отверстий*/
+		$('#perforation').hide();
+		$(document).on('click', '#techvir', function () {
+			if($('#techvir').prop('checked'))	{
+				$("#perforation").fadeIn(500);
+			}
+			else {
+				$("#perforation").fadeOut(500);	
+			}
+
+		});
+
+	});
+</script>
+<!--выбор между видами подоконников-->
+<script type="text/javascript">
+	$(document).ready(function() {
+		$("#podokonnik-line").hide();
+		$("#podokonnik-g").hide();
+		$("#podokonnik-balcony").hide();
+		$("#podokonnik-erker").hide();
+		$("#add-to-calculation").click(function(){
+			if($('#podokonnik1').prop('checked'))	{	
+				$("#podokonnik-line").fadeIn(500);
+			}
+			else {
+				$("#podokonnik-line").fadeOut(500);	
+			}
+			if($('#podokonnik2').prop('checked'))	{
+				$("#podokonnik-g").fadeIn(500);
+			}
+			else {
+				$("#podokonnik-g").fadeOut(500);	
+			}
+			if($('#podokonnik3').prop('checked'))	{
+				$("#podokonnik-balcony").fadeIn(500);
+			}
+			else {
+				$("#podokonnik-balcony").fadeOut(500);	
+			}
+			if($('#podokonnik4').prop('checked'))	{
+				$("#podokonnik-erker").fadeIn(500);
+			}
+			else {
+				$("#podokonnik-erker").fadeOut(500);	
+			}
+		});
+		/*кнопка закрыть*/
+		$("#cross-line").click(function(){
+			$('#podokonnik1').prop('checked',false);	
+			$("#podokonnik-line").fadeOut(500);
+		});
+		$("#cross-g").click(function(){
+			$('#podokonnik2').prop('checked',false);	
+			$("#podokonnik-g").fadeOut(500);
+		});
+		$("#cross-balcony").click(function(){
+			$('#podokonnik3').prop('checked',false);	
+			$("#podokonnik-balcony").fadeOut(500);
+		});
+		$("#cross-erker").click(function(){
+			$('#podokonnik4').prop('checked',false);	
+			$("#podokonnik-erker").fadeOut(500);
+		});
+	});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

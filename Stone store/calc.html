@@ -1,0 +1,1093 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>stone</title>
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" type="text/css" href="css/fonts.css">
+  <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/swipebox.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">    
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/media.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="js/jquery.swipebox.js"></script>
+</head>
+<body>
+  <header>
+    <div id="header-wrapper">
+      <div class="container">
+        <div class="row">
+          <nav class="navbar navbar-default">
+            <div class="container-fluid">
+              <!--W toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+              </div>
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav main-menu">
+                  <li>
+                    <a href="index.html">Главная 
+                      <!-- <span class="sr-only">(current)</span> -->
+                    </a>
+                  </li>
+                  <li><a href="about.html">О компании</a></li>
+                  <li><a href="services.html">Услуги</a></li>
+                  <li><a href="catalog.html">Каталог работы</a></li>
+                  <li><a href="portfolio.html">Портфолио</a></li>
+                  <li class="dropdown">
+                    <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Каталог камня 
+                      <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                      <div class="container">
+                        <div class="row">
+                          <li class="col-md-3"><a href="catalog-list.html">Мрамор</a></li>
+                          <li class="col-md-3"><a href="#catalog-list.html">Гранит</a></li>
+                          <li class="col-md-3"><a href="catalog-list.html">Кварц</a></li>
+                          <li class="col-md-3"><a href="catalog-list.html">Акрил</a></li>
+                        </div>
+                      </div>
+                    </ul>
+                  </li>
+                  <li><a href="about.html">Информация</a></li>
+                  <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+              </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+          </nav>
+        </div><!--row end-->
+      </div>
+    </div>
+
+    <div id="postheader">
+      <div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 col-sm-4 col-xs-6">
+              <div class="online-calc">
+                <div>
+                  <a href="#" class="btn orange-button">Он-лайн калькулятор</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-12">
+              <div class="logo">
+                <img class="img-responsive" src="images/header-logo.jpg">
+            </div>
+          </div>
+          <div class="col-md-3 col-md-offset-1 col-sm-4 col-xs-6">
+            <div class="header-contacts">
+              <div class="phone">
+                <a href="tel:+74957663817">+7 (495) 766-38-17</a>
+              </div>
+              <div class="schedule">
+                <p>ежедневно без выходных</p>
+              </div>
+              <div class="schedule">
+                <p>
+                  с 10.00 до 21.00
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<section id="calc-page">
+  <div class="container">
+   <div class="super_wrapper">
+    <div class="">
+      <div class="breadcrumbs text-center">
+        <a href="#">Главная</a> / Калькулятор он-лайн   
+      </div>
+      
+      <div class="calc-menu">
+        <ul class="list-inline text-center">
+          <li class="active"><a href="#"><h2 class="heading">калькулятор он-лайн</h2></a></li>
+          <li><a href="#"><h2 class="heading">Калькулятор АКРИЛ он-лайн</h2></a></li>
+        </ul>
+        <div class="text-center">
+          <h1 class="h3"><b>Выберите производителя и цвет камня</b></h1>
+        </div>
+        <div class="sep"></div>
+      </div>
+      
+      
+      <div class="tabs-calc">
+        <div>
+
+          <!-- Nav tabs -->
+          <ul class="nav nav-tabs" role="tablist">
+            <li role="presentation" class="active">
+              <a href="#home" aria-controls="home" role="tab" data-toggle="tab">
+                <img src="images/calc/logo1_tab.png" alt="">
+              </a>
+            </li>
+            <li role="presentation">
+              <a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">
+                <img src="images/calc/logo2_tab.png" alt="">
+              </a>
+            </li>
+            <li role="presentation">
+              <a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">
+                <img src="images/calc/logo3_tab.png" alt="">
+              </a>
+            </li>
+            <li role="presentation">
+              <a href="#settings1" aria-controls="settings1" role="tab" data-toggle="tab">
+                <img src="images/calc/logo4_tab.png" alt="">
+              </a>
+            </li>
+            <li role="presentation">
+              <a href="#settings2" aria-controls="settings2" role="tab" data-toggle="tab">
+                <img src="images/calc/logo5_tab.png" alt="">        
+              </a>
+            </li>
+            <li role="presentation">
+              <a href="#settings3" aria-controls="settings3" role="tab" data-toggle="tab">
+                <img src="images/calc/logo6_tab.png" alt="">
+              </a>
+            </li>
+          </ul>
+
+          <!-- Tab panes -->
+          <div class="tab-content">
+            <div role="tabpanel" class="tab-pane active" id="home">
+             <ul class="list-inline text-center">
+               <li class="stone-item">
+                <label for="ch">
+                  <img src="images/calc/stone/st1.png" alt="">
+                  <input  class="hidden" type="checkbox">
+                </label>  
+              </li>
+              <li class="stone-item">
+                <label for="">
+                  <img src="images/calc/stone/st2.png" alt="">
+                  <input class="hidden" type="radio">
+                </label>  
+              </li>
+              <li class="stone-item">
+                <label for="">
+                  <img src="images/calc/stone/st3.png" alt="">
+                  <input class="hidden" type="radio">
+                </label>  
+              </li>
+              <li class="stone-item">
+                <label for="">
+                  <img src="images/calc/stone/st4.png" alt="">
+                  <input class="hidden" type="radio">
+                </label>  
+              </li>
+              <li class="stone-item">
+                <label for="">
+                  <img src="images/calc/stone/st5.png" alt="">
+                  <input class="hidden" type="radio">
+                </label>  
+              </li>
+              <li class="stone-item">
+                <label for="">
+                  <img src="images/calc/stone/st6.png" alt="">
+                  <input class="hidden" type="radio">
+                </label>  
+              </li>
+              <li class="stone-item">
+                <label for="">
+                  <img src="images/calc/stone/st7.png" alt="">
+                  <input class="hidden" type="radio">
+                </label>  
+              </li>
+              <li class="stone-item">
+                <label for="">
+                  <img src="images/calc/stone/st8.png" alt="">
+                  <input class="hidden" type="radio">
+                </label>  
+              </li>
+              <li class="stone-item">
+                <label for="">
+                  <img src="images/calc/stone/st9.png" alt="">
+                  <input class="hidden" type="radio">
+                </label>  
+              </li>
+              <li class="stone-item">
+                <label for="">
+                  <img src="images/calc/stone/st10.png" alt="">
+                  <input class="hidden" type="radio">
+                </label>  
+              </li>
+              <li class="stone-item">
+                <label for="">
+                  <img src="images/calc/stone/st11.png" alt="">
+                  <input class="hidden" type="radio">
+                </label>  
+              </li>
+              <li class="stone-item">
+                <label for="">
+                  <img src="images/calc/stone/st12.png" alt="">
+                  <input class="hidden" type="radio">
+                </label>  
+              </li>
+              <li class="stone-item">
+                <label for="">
+                  <img src="images/calc/stone/st13.png" alt="">
+                  <input class="hidden" type="radio">
+                </label>  
+              </li>
+              <li class="stone-item">
+                <label for="">
+                  <img src="images/calc/stone/st14.png" alt="">
+                  <input class="hidden" type="radio">
+                </label>  
+              </li>
+
+            </ul>
+
+            
+          </div>
+          <div role="tabpanel" class="tab-pane" id="profile">
+           <ul class="list-inline text-center">
+             <li class="stone-item">
+              <label for="ch">
+                <img src="images/calc/stone/st1.png" alt="">
+                <input  class="hidden" type="checkbox">
+              </label>  
+            </li>
+            <li class="stone-item">
+              <label for="">
+                <img src="images/calc/stone/st2.png" alt="">
+                <input class="hidden" type="radio">
+              </label>  
+            </li>
+            <li class="stone-item">
+              <label for="">
+                <img src="images/calc/stone/st3.png" alt="">
+                <input class="hidden" type="radio">
+              </label>  
+            </li>
+            <li class="stone-item">
+              <label for="">
+                <img src="images/calc/stone/st4.png" alt="">
+                <input class="hidden" type="radio">
+              </label>  
+            </li>
+            <li class="stone-item">
+              <label for="">
+                <img src="images/calc/stone/st5.png" alt="">
+                <input class="hidden" type="radio">
+              </label>  
+            </li>
+            <li class="stone-item">
+              <label for="">
+                <img src="images/calc/stone/st6.png" alt="">
+                <input class="hidden" type="radio">
+              </label>  
+            </li>
+            <li class="stone-item">
+              <label for="">
+                <img src="images/calc/stone/st7.png" alt="">
+                <input class="hidden" type="radio">
+              </label>  
+            </li>
+            <li class="stone-item">
+              <label for="">
+                <img src="images/calc/stone/st8.png" alt="">
+                <input class="hidden" type="radio">
+              </label>  
+            </li>
+            <li class="stone-item">
+              <label for="">
+                <img src="images/calc/stone/st9.png" alt="">
+                <input class="hidden" type="radio">
+              </label>  
+            </li>
+            <li class="stone-item">
+              <label for="">
+                <img src="images/calc/stone/st10.png" alt="">
+                <input class="hidden" type="radio">
+              </label>  
+            </li>
+            <li class="stone-item">
+              <label for="">
+                <img src="images/calc/stone/st11.png" alt="">
+                <input class="hidden" type="radio">
+              </label>  
+            </li>
+            <li class="stone-item">
+              <label for="">
+                <img src="images/calc/stone/st12.png" alt="">
+                <input class="hidden" type="radio">
+              </label>  
+            </li>
+            <li class="stone-item">
+              <label for="">
+                <img src="images/calc/stone/st13.png" alt="">
+                <input class="hidden" type="radio">
+              </label>  
+            </li>
+            <li class="stone-item">
+              <label for="">
+                <img src="images/calc/stone/st14.png" alt="">
+                <input class="hidden" type="radio">
+              </label>  
+            </li>
+
+          </ul>  
+        </div>
+        <div role="tabpanel" class="tab-pane" id="messages">
+         <ul class="list-inline text-center">
+           <li class="stone-item">
+            <label for="ch">
+              <img src="images/calc/stone/st1.png" alt="">
+              <input  class="hidden" type="checkbox">
+            </label>  
+          </li>
+          <li class="stone-item">
+            <label for="">
+              <img src="images/calc/stone/st2.png" alt="">
+              <input class="hidden" type="radio">
+            </label>  
+          </li>
+          <li class="stone-item">
+            <label for="">
+              <img src="images/calc/stone/st3.png" alt="">
+              <input class="hidden" type="radio">
+            </label>  
+          </li>
+          <li class="stone-item">
+            <label for="">
+              <img src="images/calc/stone/st4.png" alt="">
+              <input class="hidden" type="radio">
+            </label>  
+          </li>
+          <li class="stone-item">
+            <label for="">
+              <img src="images/calc/stone/st5.png" alt="">
+              <input class="hidden" type="radio">
+            </label>  
+          </li>
+          <li class="stone-item">
+            <label for="">
+              <img src="images/calc/stone/st6.png" alt="">
+              <input class="hidden" type="radio">
+            </label>  
+          </li>
+          <li class="stone-item">
+            <label for="">
+              <img src="images/calc/stone/st7.png" alt="">
+              <input class="hidden" type="radio">
+            </label>  
+          </li>
+          <li class="stone-item">
+            <label for="">
+              <img src="images/calc/stone/st8.png" alt="">
+              <input class="hidden" type="radio">
+            </label>  
+          </li>
+          <li class="stone-item">
+            <label for="">
+              <img src="images/calc/stone/st9.png" alt="">
+              <input class="hidden" type="radio">
+            </label>  
+          </li>
+          <li class="stone-item">
+            <label for="">
+              <img src="images/calc/stone/st10.png" alt="">
+              <input class="hidden" type="radio">
+            </label>  
+          </li>
+          <li class="stone-item">
+            <label for="">
+              <img src="images/calc/stone/st11.png" alt="">
+              <input class="hidden" type="radio">
+            </label>  
+          </li>
+          <li class="stone-item">
+            <label for="">
+              <img src="images/calc/stone/st12.png" alt="">
+              <input class="hidden" type="radio">
+            </label>  
+          </li>
+          <li class="stone-item">
+            <label for="">
+              <img src="images/calc/stone/st13.png" alt="">
+              <input class="hidden" type="radio">
+            </label>  
+          </li>
+          <li class="stone-item">
+            <label for="">
+              <img src="images/calc/stone/st14.png" alt="">
+              <input class="hidden" type="radio">
+            </label>  
+          </li>
+
+        </ul>  
+      </div>
+      <div role="tabpanel" class="tab-pane" id="settings1">
+       <ul class="list-inline text-center">
+         <li class="stone-item">
+          <label for="ch">
+            <img src="images/calc/stone/st1.png" alt="">
+            <input  class="hidden" type="checkbox">
+          </label>  
+        </li>
+        <li class="stone-item">
+          <label for="">
+            <img src="images/calc/stone/st2.png" alt="">
+            <input class="hidden" type="radio">
+          </label>  
+        </li>
+        <li class="stone-item">
+          <label for="">
+            <img src="images/calc/stone/st3.png" alt="">
+            <input class="hidden" type="radio">
+          </label>  
+        </li>
+        <li class="stone-item">
+          <label for="">
+            <img src="images/calc/stone/st4.png" alt="">
+            <input class="hidden" type="radio">
+          </label>  
+        </li>
+        <li class="stone-item">
+          <label for="">
+            <img src="images/calc/stone/st5.png" alt="">
+            <input class="hidden" type="radio">
+          </label>  
+        </li>
+        <li class="stone-item">
+          <label for="">
+            <img src="images/calc/stone/st6.png" alt="">
+            <input class="hidden" type="radio">
+          </label>  
+        </li>
+        <li class="stone-item">
+          <label for="">
+            <img src="images/calc/stone/st7.png" alt="">
+            <input class="hidden" type="radio">
+          </label>  
+        </li>
+        <li class="stone-item">
+          <label for="">
+            <img src="images/calc/stone/st8.png" alt="">
+            <input class="hidden" type="radio">
+          </label>  
+        </li>
+        <li class="stone-item">
+          <label for="">
+            <img src="images/calc/stone/st9.png" alt="">
+            <input class="hidden" type="radio">
+          </label>  
+        </li>
+        <li class="stone-item">
+          <label for="">
+            <img src="images/calc/stone/st10.png" alt="">
+            <input class="hidden" type="radio">
+          </label>  
+        </li>
+        <li class="stone-item">
+          <label for="">
+            <img src="images/calc/stone/st11.png" alt="">
+            <input class="hidden" type="radio">
+          </label>  
+        </li>
+        <li class="stone-item">
+          <label for="">
+            <img src="images/calc/stone/st12.png" alt="">
+            <input class="hidden" type="radio">
+          </label>  
+        </li>
+        <li class="stone-item">
+          <label for="">
+            <img src="images/calc/stone/st13.png" alt="">
+            <input class="hidden" type="radio">
+          </label>  
+        </li>
+        <li class="stone-item">
+          <label for="">
+            <img src="images/calc/stone/st14.png" alt="">
+            <input class="hidden" type="radio">
+          </label>  
+        </li>
+
+      </ul>  
+    </div>
+    <div role="tabpanel" class="tab-pane" id="settings2">
+      <ul class="list-inline text-center">
+       <li class="stone-item">
+        <label for="ch">
+          <img src="images/calc/stone/st1.png" alt="">
+          <input  class="hidden" type="checkbox">
+        </label>  
+      </li>
+      <li class="stone-item">
+        <label for="">
+          <img src="images/calc/stone/st2.png" alt="">
+          <input class="hidden" type="radio">
+        </label>  
+      </li>
+      <li class="stone-item">
+        <label for="">
+          <img src="images/calc/stone/st3.png" alt="">
+          <input class="hidden" type="radio">
+        </label>  
+      </li>
+      <li class="stone-item">
+        <label for="">
+          <img src="images/calc/stone/st4.png" alt="">
+          <input class="hidden" type="radio">
+        </label>  
+      </li>
+      <li class="stone-item">
+        <label for="">
+          <img src="images/calc/stone/st5.png" alt="">
+          <input class="hidden" type="radio">
+        </label>  
+      </li>
+      <li class="stone-item">
+        <label for="">
+          <img src="images/calc/stone/st6.png" alt="">
+          <input class="hidden" type="radio">
+        </label>  
+      </li>
+      <li class="stone-item">
+        <label for="">
+          <img src="images/calc/stone/st7.png" alt="">
+          <input class="hidden" type="radio">
+        </label>  
+      </li>
+      <li class="stone-item">
+        <label for="">
+          <img src="images/calc/stone/st8.png" alt="">
+          <input class="hidden" type="radio">
+        </label>  
+      </li>
+      <li class="stone-item">
+        <label for="">
+          <img src="images/calc/stone/st9.png" alt="">
+          <input class="hidden" type="radio">
+        </label>  
+      </li>
+      <li class="stone-item">
+        <label for="">
+          <img src="images/calc/stone/st10.png" alt="">
+          <input class="hidden" type="radio">
+        </label>  
+      </li>
+      <li class="stone-item">
+        <label for="">
+          <img src="images/calc/stone/st11.png" alt="">
+          <input class="hidden" type="radio">
+        </label>  
+      </li>
+      <li class="stone-item">
+        <label for="">
+          <img src="images/calc/stone/st12.png" alt="">
+          <input class="hidden" type="radio">
+        </label>  
+      </li>
+      <li class="stone-item">
+        <label for="">
+          <img src="images/calc/stone/st13.png" alt="">
+          <input class="hidden" type="radio">
+        </label>  
+      </li>
+      <li class="stone-item">
+        <label for="">
+          <img src="images/calc/stone/st14.png" alt="">
+          <input class="hidden" type="radio">
+        </label>  
+      </li>
+
+    </ul>  
+  </div>
+  <div role="tabpanel" class="tab-pane" id="settings3">
+   <ul class="list-inline text-center">
+     <li class="stone-item">
+      <label for="ch">
+        <img src="images/calc/stone/st1.png" alt="">
+        <input  class="hidden" type="checkbox">
+      </label>  
+    </li>
+    <li class="stone-item">
+      <label for="">
+        <img src="images/calc/stone/st2.png" alt="">
+        <input class="hidden" type="radio">
+      </label>  
+    </li>
+    <li class="stone-item">
+      <label for="">
+        <img src="images/calc/stone/st3.png" alt="">
+        <input class="hidden" type="radio">
+      </label>  
+    </li>
+    <li class="stone-item">
+      <label for="">
+        <img src="images/calc/stone/st4.png" alt="">
+        <input class="hidden" type="radio">
+      </label>  
+    </li>
+    <li class="stone-item">
+      <label for="">
+        <img src="images/calc/stone/st5.png" alt="">
+        <input class="hidden" type="radio">
+      </label>  
+    </li>
+    <li class="stone-item">
+      <label for="">
+        <img src="images/calc/stone/st6.png" alt="">
+        <input class="hidden" type="radio">
+      </label>  
+    </li>
+    <li class="stone-item">
+      <label for="">
+        <img src="images/calc/stone/st7.png" alt="">
+        <input class="hidden" type="radio">
+      </label>  
+    </li>
+    <li class="stone-item">
+      <label for="">
+        <img src="images/calc/stone/st8.png" alt="">
+        <input class="hidden" type="radio">
+      </label>  
+    </li>
+    <li class="stone-item">
+      <label for="">
+        <img src="images/calc/stone/st9.png" alt="">
+        <input class="hidden" type="radio">
+      </label>  
+    </li>
+    <li class="stone-item">
+      <label for="">
+        <img src="images/calc/stone/st10.png" alt="">
+        <input class="hidden" type="radio">
+      </label>  
+    </li>
+    <li class="stone-item">
+      <label for="">
+        <img src="images/calc/stone/st11.png" alt="">
+        <input class="hidden" type="radio">
+      </label>  
+    </li>
+    <li class="stone-item">
+      <label for="">
+        <img src="images/calc/stone/st12.png" alt="">
+        <input class="hidden" type="radio">
+      </label>  
+    </li>
+    <li class="stone-item">
+      <label for="">
+        <img src="images/calc/stone/st13.png" alt="">
+        <input class="hidden" type="radio">
+      </label>  
+    </li>
+    <li class="stone-item">
+      <label for="">
+        <img src="images/calc/stone/st14.png" alt="">
+        <input class="hidden" type="radio">
+      </label>  
+    </li>
+
+  </ul>
+</div>
+</div>
+
+</div>
+<div class="sep"></div>
+</div>
+<div class="size-calc">
+  <div class="text-center">
+    <h3 class="h3"><b>Укажите размеры будущего изделия и стороны обработки кромки!</b></h1>
+    </div>
+    
+    <div class="row fir-wrap">
+      <div class="col-sm-6 first">
+        <div class="col-md-6">
+          <div class="choose-size">
+            <ul class="text-center list-unstyled">
+              <li class="head-size">Толщина столешницы</li>
+              <li>
+                <label for="">
+                  20мм
+                  <input class="hidden" type="checkbox">
+                </label>
+              </li>
+              <li class="active">
+                <label for="">
+                  30мм
+                  <input class="hidden" type="checkbox">
+                </label>    
+              </li>
+              <li>
+                <label for="">
+                  40мм
+                  <input class="hidden" type="checkbox">
+                </label>
+              </li>
+              <li>
+                <label for="">
+                  60мм
+                  <input class="hidden" type="checkbox">
+                </label>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 choose-size-sec">
+          <div class="choose-size">
+            <ul class="text-center list-unstyled">
+              <li class="head-size">Форма столешницы</li>
+              <li class="active">
+                <label for="">
+                  Прямая столешница
+                  <input class="hidden" type="checkbox">
+                </label>
+              </li>
+              <li >
+                <label for="">
+                  Г-образная столешница 
+                  <input class="hidden" type="checkbox">
+                </label>    
+              </li>
+              <li>
+                <label for="">
+                  П-образная столешница
+                  <input class="hidden" type="checkbox">
+                </label>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <img src="images/calc/stouns-size/sz1.png" class="img-responsive img-sz-1" alt="">
+      </div>
+    </div>
+    <div class="row fir-wrap">
+      <div class="col-sm-6 first">
+        <div class="col-md-6">
+          <div class="choose-size">
+            <ul class="text-center list-unstyled">
+              <li class="head-size">Толщина столешницы</li>
+              <li>
+                <label for="">
+                  20мм
+                  <input class="hidden" type="checkbox">
+                </label>
+              </li>
+              <li class="active">
+                <label for="">
+                  30мм
+                  <input class="hidden" type="checkbox">
+                </label>    
+              </li>
+              <li>
+                <label for="">
+                  40мм
+                  <input class="hidden" type="checkbox">
+                </label>
+              </li>
+              <li>
+                <label for="">
+                  60мм
+                  <input class="hidden" type="checkbox">
+                </label>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 choose-size-sec">
+          <div class="choose-size">
+            <ul class="text-center list-unstyled">
+              <li class="head-size">Форма столешницы</li>
+              <li>
+                <label for="">
+                  Прямая столешница
+                  <input class="hidden" type="checkbox">
+                </label>
+              </li>
+              <li class="active">
+                <label for="">
+                  Г-образная столешница 
+                  <input class="hidden" type="checkbox">
+                </label>    
+              </li>
+              <li>
+                <label for="">
+                  П-образная столешница
+                  <input class="hidden" type="checkbox">
+                </label>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <img src="images/calc/stouns-size/sz2.png" class="img-responsive img-sz-2" alt="">
+      </div>
+    </div>
+    <div class="row fir-wrap">
+      <div class="col-sm-6 first">
+        <div class="col-md-6">
+          <div class="choose-size">
+            <ul class="text-center list-unstyled">
+              <li class="head-size">Толщина столешницы</li>
+              <li>
+                <label for="">
+                  20мм
+                  <input class="hidden" type="checkbox">
+                </label>
+              </li>
+              <li class="active">
+                <label for="">
+                  30мм
+                  <input class="hidden" type="checkbox">
+                </label>    
+              </li>
+              <li>
+                <label for="">
+                  40мм
+                  <input class="hidden" type="checkbox">
+                </label>
+              </li>
+              <li>
+                <label for="">
+                  60мм
+                  <input class="hidden" type="checkbox">
+                </label>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 choose-size-sec">
+          <div class="choose-size">
+            <ul class="text-center list-unstyled">
+              <li class="head-size">Форма столешницы</li>
+              <li>
+                <label for="">
+                  Прямая столешница
+                  <input class="hidden" type="checkbox">
+                </label>
+              </li>
+              <li >
+                <label for="">
+                  Г-образная столешница 
+                  <input class="hidden" type="checkbox">
+                </label>    
+              </li>
+              <li class="active">
+                <label for="">
+                  П-образная столешница
+                  <input class="hidden" type="checkbox">
+                </label>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <img src="images/calc/stouns-size/sz3.png" class="img-responsive img-sz-3" alt="">
+      </div>
+    </div>
+    <div class="sep"></div>
+  </div>
+  
+  
+  <div class="form-make sec_calc clearfix">
+    <div class="text-center">
+      <h3 class="h3" style="margin-top: 0"><b>Выберите форму обработки кромки!</b></h1>
+      </div>
+      
+      <div class="col-md-2 col-sm-3 col-xs-4 form-content-wrapper">
+        <img src="images/sec-calc/sk1.png" class="img-responsive" alt="">
+        <div>
+          <input type="radio">
+          <span class="short-desk">A</span>
+        </div>
+      </div>
+      <div class="col-md-2 col-sm-3 col-xs-4 form-content-wrapper">
+        <img src="images/sec-calc/sk2.png" alt="">
+        <div>
+          <input type="radio">
+          <span class="short-desk">A-01</span>
+        </div>
+      </div>
+      <div class="col-md-2 col-sm-3 col-xs-4 form-content-wrapper">
+        <img src="images/sec-calc/sk3.png" alt="">
+        <div>
+          <input type="radio">
+          <span class="short-desk">H</span>
+        </div>
+      </div>
+      <div class="col-md-2 col-sm-3 col-xs-4 form-content-wrapper">
+        <img src="images/sec-calc/sk4.png" alt="">
+        <div>
+          <input type="radio">
+          <span class="short-desk">T</span>
+        </div>
+      </div>
+      <div class="col-md-2 col-sm-3 col-xs-4 form-content-wrapper">
+        <img src="images/sec-calc/sk5.png" alt="">
+        <div>
+          <input type="radio">
+          <span class="short-desk">V</span>
+        </div>
+      </div>
+      <div class="col-md-2 col-sm-3 col-xs-4 form-content-wrapper">
+        <img src="images/sec-calc/sk6.png" alt="">
+        <div>
+          <input type="radio">
+          <span class="short-desk">Z</span>
+        </div>
+      </div>
+      <div class="col-md-2 col-sm-3 col-xs-4 form-content-wrapper">
+        <img src="images/sec-calc/sk7.png" alt="">
+        <div>
+          <input type="radio">
+          <span class="short-desk">Z-01</span>
+        </div>
+      </div>
+      <div class="col-md-2 col-sm-3 col-xs-4 form-content-wrapper">
+        <img src="images/sec-calc/sk8.png" alt="">
+        <div>
+          <input type="radio">
+          <span class="short-desk">Z-03</span>
+        </div>
+      </div>
+      
+    </div>
+    <div class="sep"></div>
+    
+    
+    <div class="form-make-sec clearfix" style="margin-bottom: 100px;">
+      <div class="text-center">
+        <h3 class="h3" style="margin-top: 0"><b>Выберите необходимые вырезы!</b></h1>
+        </div>
+        
+        <div class="col-md-3 col-sm-4 col-xs-6 form-content-wrapper">
+          <img src="images/sec-calc/oth1.png" class="" alt="">
+          <div>
+            <input type="checkbox">
+            <span class="short-desk">Накладная мойка</span>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-4 col-xs-6 form-content-wrapper">
+          <img src="images/sec-calc/oth2.png" alt="">
+          <div>
+            <input type="checkbox">
+            <span class="short-desk">Встраиваимая мойка</span>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-4 col-xs-6 form-content-wrapper">
+          <img src="images/sec-calc/oth3.png" alt="">
+          <div>
+           <input type="checkbox">
+           <span class="short-desk">Варочная поверхность</span>
+         </div>
+       </div>
+       <div class="col-md-3 col-sm-4 col-xs-6 form-content-wrapper con_wp">
+        <img src="images/sec-calc/oth4.png" alt="">
+        <div>
+          <span class="short-desk">
+            Закругление углов<br>
+            Кол-во <input type="text" class="sm_inp" placeholder="0 шт.">
+          </span>
+          
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-4 col-xs-6 form-content-wrapper con_wp">
+        <img src="images/sec-calc/oth5.png" alt="">
+        <div>
+          <span class="short-desk">
+            Сверление отверстий <br>
+            до 12 мм <input style="margin-left: 37px;" type="text" class="sm_inp" placeholder="0 мм"><br>
+            от 12 до 40 мм <input type="text" class="sm_inp" placeholder="0 мм"><br>
+            свыше 50 мм <input style="margin-left: 11px;" type="text" class="sm_inp" placeholder="0 мм">
+          </span>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-4 col-xs-6 form-content-wrapper con_wp">
+        <img src="images/sec-calc/oth6.png" alt="">
+        <div>
+          <span class="short-desk">
+            Лекальные скругления <br>
+            Диаметр <input class="sm_inp" type="text" placeholder="0 мм">
+          </span>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-4 col-xs-6 form-content-wrapper">
+        <img src="images/sec-calc/oth7.png" alt="">
+        <div>
+          <input type="checkbox">
+          <span class="short-desk">Плинтус A</span>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-4 col-xs-6 form-content-wrapper">
+        <img src="images/sec-calc/oth8.png" alt="">
+        <div>
+          <input type="checkbox">
+          <span class="short-desk">Плинтус Z</span>
+        </div>
+      </div>
+      
+    </div>
+    <div class="text-center calc-it">
+      <a href="#">РАССЧИТАТЬ</a>
+    </div>
+    <br>
+    
+    
+    
+    
+  </div>
+</div>
+</div>
+</section>
+
+<section id="contacts">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        <div class="contacts text-center  ">
+          <h2>Ждем вас</h2>
+          <div class="address">
+            <p>МО, Красногорский район, д. Путилково, стр.16</p>
+            <p>ТЦ "КУХНИПАРК"</p>
+            <p>ПН-ВС 10-21</p>
+            <a href="tel:+74957663817" class="tel">+7(495) 766-38-17</a>
+            <a href="mailto:sherlstone@yandex.ru" class="mail">sherlstone@yandex.ru</a>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<footer>
+  <p class="text-center">Copyright by sherlstone. All rights reserved.</p>
+</footer>
+
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

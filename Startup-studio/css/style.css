@@ -1,0 +1,410 @@
+body{
+    background: #faf9f7;
+}
+.header_content_wrapper .container{
+    padding: 14px 50px;
+    background: white;
+    font-family: "Open Sans", sans-serif;
+}
+
+.logo img{
+    width: initial;
+    margin: 12px 0;
+}
+.search{margin: 17px 0}
+.search input[type="text"]{
+    width: 100%;
+    padding: 7px 20px;
+    border: 1px solid #e8e8e8;
+    border-radius: 17px;
+}
+.search button[type="submit"]{
+    border: none;
+    background: transparent;
+    position: absolute;
+    top: 24px;
+    right: 28px;
+}
+.cart{
+    width: 85%;
+    height: 43px;
+    border: 2px solid rgb(33, 163, 116);
+    border-radius: 21px;
+    line-height: 36px;
+    position: relative;
+    margin-top: 12px;
+}
+.cart span{
+    padding: 0 17px;
+    font-size: 14px;
+    color: rgb(33, 163, 116);
+    font-weight: bold;
+    vertical-align: middle;
+}
+.cart img{
+    position: absolute;
+    right: -2px;
+    transition: .4s;
+}
+.cart:hover{cursor: pointer}
+.cart:hover img{
+    transform: rotateZ(360deg);
+}
+
+
+.phone_numbers li{
+    color: #4A4A4A;
+    text-align: center;
+}
+/*menu*/
+header .navbar .container {
+    background: #f07a60;
+}
+header .nav.navbar-nav li a {
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    padding: 15px 33px;
+}
+header .nav.navbar-nav li a:hover, header .nav.navbar-nav li a:focus {
+    text-decoration: none;
+    background-color: rgba(218, 113, 92, 0.6);
+    transition: .3s;
+}
+header .nav.navbar-nav li.dropdown.open .dropdown-menu{
+    background: #F07A60;
+}
+
+/*menu*/
+
+/*slider*/
+.slider_wrapper .container{
+    padding: 0;
+    margin-top: -25px;
+}
+.carousel-indicators .active {
+    width: 13px;
+    height: 13px;
+    background-color: #f07a60;
+    border-color: #f07a60;
+}
+.carousel-indicators li {
+    width: 13px;
+    height: 13px;
+    background-color: white;
+}
+.slider_text_wrapper{
+    font-family: "Open Sans", sans-serif;
+}
+.slider_text_header{
+    color: #333333;
+    text-shadow: none;
+    font-size: 36px;
+}
+.carousel-caption{
+    width: 500px;
+    position: absolute;
+    left: 10%;
+    top: 20%;
+    text-align: left;
+}
+.slider_text_desk{    margin: 20px 0;}
+.slider_text_desk p{
+    font-size: 17px;
+    font-family: "Open Sans", sans-serif;
+    color: #4b4b4b;
+    text-shadow: none;
+}
+.readmore{
+    margin-top: 10px;
+    display: inline-block;
+
+}
+.readmore a{
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    color: #f07a60;
+    text-decoration: none;
+    text-shadow: none;
+    padding: 7px 18px;
+
+    border: 2px solid #f07a60;
+    border-radius: 20px;
+    transition: .4s;
+
+}
+
+.readmore:hover a{
+    background: #f07a60;
+    color: white
+}
+/*slider*/
+
+/*tabs*/
+
+
+.product_tabs_wrapper .container{padding: 50px 0 0 0; background: white }
+.product_tabs_wrapper .container .tab-content{
+    margin-top: 35px;
+}
+.product_tabs_wrapper .container .tab-content .tab-pane .col-md-3{
+    margin-bottom: 30px;
+}
+
+.product_tabs_wrapper .container .nav-tabs{border-bottom:2px solid #f07a60 }
+.product_tabs_wrapper .container .nav-tabs li.active a{
+    background: #f07a60;
+    color: white;
+}
+.product_tabs_wrapper .container .nav-tabs li a{
+    border: none;
+    border-bottom: 1px solid #f07a60;
+    border-radius: 0;
+    color: #666666;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+}
+
+.goods_top_block{
+    border: 1px solid #ccc;
+    position: relative;
+    padding: 2px;
+    transition: .4s;
+    overflow: hidden;
+
+}
+.goods_top_block img{
+    width: 100%;
+}
+.goods_top_block .btns{
+    position: absolute;
+    text-align: center;
+    bottom: -45px;
+    transition: .4s;
+}
+.goods_top_block .btns div {
+    width: 84px;
+    color: white;
+    padding: 2px;
+}
+.goods_top_block .btns img{
+    width: initial;
+}
+
+.g_more{
+    background: #f07a60;
+    float: left;
+}
+.g_cart{
+    background: #21a374;
+    margin: 0 2px;
+    float: left;
+}
+.g_compare{
+    background: #1a91af;
+    float: left;
+}
+.discount_pers{
+    display: inline-block;
+    position: absolute;
+    top: 15px;
+    right: 0;
+    color: white;
+    background: #e84a4a;
+    font-family: "Open Sans", sans-serif;
+    padding: 4px 8px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.g_img{padding: 7px}
+.goods_top_block:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.goods_top_block:hover .btns{
+    bottom: 0;
+}
+
+
+
+.g_name{
+    font-size: 16px;
+    font-family: "OpenSans", sans-serif;
+    color: rgb(102, 102, 102);
+    margin-top: 15px;
+}
+.g_price {
+    font-family: "Open Sans", sans-serif;
+}
+.g_price .new{
+    color: #21a374;
+    font-size: 18px;
+    font-weight: bold;
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.g_price .old{
+    float: right;
+    font-size: 14px;
+    color: rgb(153, 153, 153);
+    font-weight: bold;
+    text-decoration: line-through;
+    padding-top: 5px;
+    margin-right: 35px;
+}
+
+.product_tabs_wrapper .container .tab-content .tab-pane .col-lg-3 {
+    margin-bottom: 35px;
+}
+
+/*tabs*/
+
+
+/*brands*/
+.brands_wrapper .container{
+    background: white;
+    padding-bottom: 30px;
+}
+.brands_title{
+    margin: 50px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+
+}
+.brands_wrapper .container .row .col-md-3{
+    margin-bottom: 20px;
+}
+/*brands*/
+/*footer*/
+footer{font-family: "Open Sans", sans-serif}
+.footer_container_wrapper .container{
+    border-top: 3px solid #e84a4a;
+    background: #f7f7f7 ;
+    padding-top: 35px ;
+    padding-bottom: 20px;
+}
+.footer_menu li{padding-top: 4px }
+.footer_menu li a{
+    color: black;
+    text-decoration: none;
+}
+footer .schedule li{
+    color: #646464;
+}
+footer .schedule li:first-child{
+    color: black;
+    padding-bottom: 5px;
+}
+footer .socials li:first-child{
+    display: inline-block;
+    width: 100%;
+}
+footer .phone_numbers ul li{
+    text-align: left;
+}
+footer .address ul li, footer .phone_numbers ul li{color: #646464}
+footer .address ul li:first-child, footer .phone_numbers ul li:first-child{color: black}
+/*footer*/
+
+
+
+@media(max-width:1199px){
+    header .nav.navbar-nav li a {padding: 15px 19px}
+
+    .goods_top_block .btns div{
+        width: 94px;
+    }
+}
+
+@media(max-width:991px){
+    .cart span {padding: 0 10px;}
+    header .nav.navbar-nav li a {
+        padding: 15px 8px;
+        font-size: 16px;
+    }
+    .carousel-caption {
+        width: 417px;
+        position: absolute;
+        left: 4%;
+        top: 5%;
+        text-align: left;
+        background: #f3f3f3;
+    }
+    .goods_top_block .btns div {width: 112px}
+
+}
+@media(max-width: 767px){
+    .g_price .old{
+        width: 100%;
+        text-align: center;
+        margin: -5px 0 20px;
+    }
+    .cart_wrapper{
+        float: right;
+    }
+    .cart{border: none}
+    .navbar-toggle .icon-bar{background: white}
+    .phone_numbers li{
+        color: white;
+        text-align: center;
+        font-size: 15px;
+    }
+    .search button[type="submit"] {
+        position: inherit;
+        border: none;
+        top: 24px;
+        right: 28px;
+        margin-top: 12px;
+        padding: 6px 32px;
+        background: white;
+        border-radius: 20px;
+        font-size: 15px;
+    }
+    .cart img {
+        position: absolute;
+        right: -32px;
+        background: white;
+        border-radius: 20px;
+        box-shadow: 0 0 4px #bfe3c8;
+        top: -6px;
+    }
+    .logo img{width: 66px}
+
+     .g_more, .g_cart, .g_compare{
+            float: none;
+        }
+        .g_cart {margin: 2px 0;}
+        .goods_top_block .btns{
+            bottom: 0;
+            left: -100%;
+        }
+        .goods_top_block:hover .btns {
+            left: 0
+        }
+}
+@media(max-width: 600px){
+    .footer_container_wrapper .container .row div {
+        width: 100%;
+        margin: 5px 0;
+        text-align: center;
+    }
+    footer .phone_numbers ul li {
+        text-align: center;
+    }
+}
+@media(max-width: 530px){
+    .product_tabs_wrapper .container{padding: 0}
+    .product_tabs_wrapper .container .nav-tabs li{
+        width: 100%;
+        text-align: center;
+    }
+    .product_tabs_wrapper .container .nav-tabs li.active a, .product_tabs_wrapper .container .nav-tabs li a{margin: 0}
+}
+@media(max-width: 500px){
+    .brands_wrapper .container .row .col-md-3{
+        width: 100%;
+    }
+}

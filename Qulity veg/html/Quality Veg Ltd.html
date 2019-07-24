@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="../css/default.css">
+    <link rel="stylesheet" href="../css/skeleton.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/Quality%20Veg%20Ltd.css">
+    <link rel="stylesheet" href="../css/nivo-slider.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="../css/style.css" type="text/css" media="screen"/>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 0) {
+                    $('#scroller').fadeIn();
+                } else {
+                    $('#scroller').fadeOut();
+                }
+            });
+            $('#scroller').click(function () {
+                $('body,html').animate({
+                    scrollTop: 0
+                }, 400);
+                return false;
+            });
+        });
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#link_block").on("click", "a", function (event) {
+                event.preventDefault();
+                var id = $(this).attr('href'),
+                        top = $(id).offset().top;
+                $('body,html').animate({scrollTop: top}, 8000);
+            });
+        });
+    </script>
+
+</head>
+<body>
+<div class="container header">
+    <div class="row cus_menu">
+        <!--Верхнее меню-->
+        <div class="one columns"><img class="img_mob_pos" src="../img/logo.png" alt=""></div>
+
+        <div class="seven columns menu_punkt" id="link_block">
+            <ul class="head_menu">
+                <li class="active"><a href="#why_we">Почему выбирают нас?</a></li>
+                <li><a href="#our_production">Что мы предлагаем?</a></li>
+                <li><a href="#slider1as">Сбор урожая</a></li>
+                <li><a href="#footer">Контакты</a></li>
+            </ul>
+        </div>
+
+        <div class="mobile_menu">
+
+            <div class="six columns mobilebtn">
+
+                <select size="1" class="mobilemenu" onchange="location.href=this.value" title="Главная">
+                    <option value="/" selected="selected">Почему выбирают нас?</option>
+                    <option value="/#">Что мы пердлагаем?</option>
+                    <option value="/#">Сбор урожая</option>
+                    <option value="/#">Контакты</option>
+
+                </select>
+
+
+            </div>
+        </div>
+        <div class="two columns language">
+            <ul class="lang_flag">
+                <li><a href="#"><img src="../img/rus_flag.png" alt=""></a></li>
+                <li><a href="#"><img src="../img/american_flag.png" alt=""></a></li>
+                <li><a href="#"><img src="../img/ivrit_flag.png" alt=""></a></li>
+            </ul>
+        </div>
+
+        <div class="three columns part" id="">
+            <div>
+                <a href="#blue_block"><span>Партнерство</span></a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--ПРОДАЖА ОВОЩЕЙ ОПТОМ-->
+<div class="container tractor">
+    <div class="tractor_1">
+        <div class="tractor_article">
+            <p>
+                <span class="veg_sell">Продажа <br> овощей оптом </span>
+                <br>
+                <span class="veg_help"> Поможем вашему бизнесу <br> свежими овощами</span>
+
+            <div class="link_trak"><a href="#blue_block" class="partnership">Партнерство</a></div>
+            </p>
+        </div>
+    </div>
+    <div class="vegit_div">
+        <ul class="img_veg">
+            <li class="veg_sliva1"><img src="../img/vegitables/bur.png" alt=""></li>
+            <li class="veg_sliva2"><img src="../img/vegitables/flow.png" alt=""></li>
+            <li class="veg_sliva3"><img src="../img/vegitables/mor.png" alt=""></li>
+            <li class="veg_sliva4"><img src="../img/vegitables/potato.png" alt=""></li>
+            <li class="veg_sliva5"><img src="../img/vegitables/veg1.png" alt=""></li>
+            <li class="veg_sliva6"><img src="../img/vegitables/bur.png" alt=""></li>
+            <li class="veg_sliva7"><img src="../img/vegitables/flow.png" alt=""></li>
+            <li class="veg_sliva8"><img src="../img/vegitables/mor.png" alt=""></li>
+            <li class="veg_sliva9"><img src="../img/vegitables/potato.png" alt=""></li>
+            <li class="veg_sliva10"><img src="../img/vegitables/veg1.png" alt=""></li>
+            <li class="veg_sliva11"><img src="../img/vegitables/bur.png" alt=""></li>
+            <li class="veg_sliva12"><img src="../img/vegitables/flow.png" alt=""></li>
+            <li class="veg_sliva13"><img src="../img/vegitables/mor.png" alt=""></li>
+            <li class="veg_sliva14"><img src="../img/vegitables/potato.png" alt=""></li>
+            <li class="veg_sliva15"><img src="../img/vegitables/veg1.png" alt=""></li>
+            <li class="veg_sliva16"><img src="../img/vegitables/bur.png" alt=""></li>
+            <li class="veg_sliva17"><img src="../img/vegitables/flow.png" alt=""></li>
+            <li class="veg_sliva18"><img src="../img/vegitables/mor.png" alt=""></li>
+            <li class="veg_sliva19"><img src="../img/vegitables/potato.png" alt=""></li>
+            <li class="veg_sliva20"><img src="../img/vegitables/veg1.png" alt=""></li>
+            <li class="veg_sliva21"><img src="../img/vegitables/bur.png" alt=""></li>
+            <li class="veg_sliva22"><img src="../img/vegitables/flow.png" alt=""></li>
+            <li class="veg_sliva23"><img src="../img/vegitables/mor.png" alt=""></li>
+            <li class="veg_sliva24"><img src="../img/vegitables/potato.png" alt=""></li>
+            <li class="veg_sliva25"><img src="../img/vegitables/veg1.png" alt=""></li>
+        </ul>
+    </div>
+</div>
+
+<!--Почему выбирают нас-->
+
+<div class="container why_we" id="why_we">
+    <div class="why_you_choose_us">
+        <div>
+            <p>
+                Почему <br> выбирают нас?
+            </p>
+        </div>
+    </div>
+
+    <div class="why_we_article">
+        <div>
+            <ul class="why_we_list_artc">
+                <li>
+                    <div class="number_article">
+                        <div class="color1"><span>1</span></div>
+                    </div>
+                    <div class="article1_all">
+                        <img class="why_img1" src="../img/vegitables/blue_clock.png" alt="">
+
+                        <p>Понимаем и ценим <br> ваше и свое время</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="number_article">
+                        <div class="color2"><span>2</span></div>
+                    </div>
+                    <div class="article1_all">
+                        <img class="why_img1" src="../img/vegitables/clock.png" alt="">
+
+                        <p>Весомый уровень <br> знаний в этой отрасли</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="number_article">
+                        <div class="color3"><span>3</span></div>
+                    </div>
+                    <div class="article1_all">
+                        <img class="why_img1" src="../img/vegitables/carrot.png" alt="">
+
+                        <p>Мы следим за качеством <br> нашей продукции </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="number_article">
+                        <div class="color4"><span>4</span></div>
+                    </div>
+                    <div class="article1_all">
+                        <img class="why_img1" src="../img/vegitables/dic.png" alt="">
+
+                        <p>Не используем добавок <br> и отказываемся от гмо</p>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!--Наша продукция-->
+
+<div class="container tractor our_production" id="our_production">
+    <div id="scroller"></div>
+    <div class="list_product">
+        <ul class="ul_list_prod">
+            <li class="col_name">
+                <div class="name">Наша <br> продукция</div>
+            </li>
+            <li>
+                <div>
+                    <ul class="ul_list_prod_2">
+                        <li><a href="#" class="veg1">Редис</a></li>
+                        <li><a href="#" class="veg2">Морковь</a></li>
+                        <li><a href="#" class="veg3">Картофель</a></li>
+                        <li><a href="#" class="veg4">Свекла</a></li>
+                        <li><a href="#" class="veg5">Сельдерей</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div class="img_prod"><img class="img_example" src="../img/vegitables/Untitled-16.png" alt=""></div>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<!--Голубой блок-->
+
+<div class="container blue_block tractor" id="blue_block">
+    <div class="blue_block_list">
+        <ul class="ul-blue">
+            <li class="thisis both_blue">This is <span class="ps_version both_blue">photoshop's version</span> <br> of
+                lorem ipsum. Proin gravia
+            </li>
+            <li class="but_link">
+                <div class="blue_link_block">
+                    <div class="blue_link_block_1"><a href="#">Партнерство</a></div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<!--Слайдер-->
+<div class="container slider" id="slider1as">
+    <div class="slider_txt">
+   <span class="slider_txt_1"> 
+       <p>Сбор урожая</p>
+   </span>
+    </div>
+    <div id="wrapper">
+        <div class="slider-wrapper theme-default">
+            <div id="slider" class="nivoSlider">
+                <img src="../img/slide1.png" data-thumb="img/slide2.png" alt=""/>
+                <img src="../img/slide2.png" data-thumb="images/up.jpg" alt="" title=""/>
+                <img src="../img/slide1.png" data-thumb="images/walle.jpg" alt="" data-transition="slideInLeft"/>
+                <img src="../img/slide2.png" data-thumb="images/nemo.jpg" alt="" title="#htmlcaption"/>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Футер-->
+<div class="container footer" id="footer">
+    <div class="footer_list">
+        <div class="footer_list_2">
+            <ul class="ul_foot">
+                <li class="mob_foter">
+                    <div class="foo_name_block"><p class="foo_name">Контакты</p></div>
+                </li>
+                <li class="list_of_footer_lists">
+                    <ul class="ul_foot_2">
+                        <li><span class="sp1_1">Почта:</span>&nbsp<span class="sp1"><a
+                                href="#">Partners@Qualityveg.com</a></span></li>
+                        <li><span class="sp1_2">Телефон:</span>&nbsp<span class="sp2">+7 856 659 65 89</span></li>
+                        <li><span class="sp1_3">Skype:</span>&nbsp<span class="sp3">Qualityveg.com</span></li>
+                        <li><span class="sp1_4">Адрес:</span>&nbsp<span
+                                class="sp4">г.Москва пр.Шевченка 25 Офис 101</span></li>
+                        <li><span class="sp5"><a href="#">Показать на яндекс карте</a></span></li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="ul_foot_3">
+                        <li class="foot_img">
+                            <div><a href="#"><img src="../img/callback.png" alt=""></a></div>
+                        </li>
+                        <li class="foot_img_desk">
+                            <div><span>Обратная <br> связь</span></div>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<script type="text/javascript" src="../scripts/jquery-1.9.0.min.js"></script>
+<script type="text/javascript" src="../scripts/jquery.nivo.slider.js"></script>
+<script type="text/javascript">
+    $(window).load(function () {
+        $('#slider').nivoSlider();
+    });
+</script>
+</body>
+</html>

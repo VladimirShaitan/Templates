@@ -1,0 +1,941 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>MAIN PAGE</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="css/fonts.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/swipebox.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/jquery.swipebox.js"></script>
+</head>
+
+<body>
+    <header>
+        <div id="header-wrapper">
+            <div class="container">
+                <div class="row">
+                    <nav class="navbar navbar-default">
+                        <div class="container-fluid">
+                            <!--W toggle get grouped for better mobile display -->
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                            </div>
+                            <!-- Collect the nav links, forms, and other content for toggling -->
+                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                <ul class="nav navbar-nav main-menu">
+                                    <li>
+                                        <a href="index.html">Главная 
+                      <!-- <span class="sr-only">(current)</span> -->
+                    </a>
+                                    </li>
+                                    <li><a href="about.html">О компании</a></li>
+                                    <li><a href="services.html">Услуги</a></li>
+                                    <li><a href="catalog.html">Каталог работы</a></li>
+                                    <li><a href="portfolio.html">Портфолио</a></li>
+                                    <li class="dropdown">
+                                        <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Каталог камня 
+                      <span class="caret"></span>
+                    </a>
+                                        <ul class="dropdown-menu">
+                                            <div class="container">
+                                                <div class="row">
+                                                    <li class="col-md-3"><a href="catalog-list.html">Мрамор</a></li>
+                                                    <li class="col-md-3"><a href="#catalog-list.html">Гранит</a></li>
+                                                    <li class="col-md-3"><a href="catalog-list.html">Кварц</a></li>
+                                                    <li class="col-md-3"><a href="catalog-list.html">Акрил</a></li>
+                                                </div>
+                                            </div>
+                                        </ul>
+                                    </li>
+                                    <li><a href="about.html">Информация</a></li>
+                                    <li><a href="contacts.html">Контакты</a></li>
+                                </ul>
+                            </div>
+                            <!-- /.navbar-collapse -->
+                        </div>
+                        <!-- /.container-fluid -->
+                    </nav>
+                </div>
+                <!--row end-->
+            </div>
+        </div>
+
+        <div id="postheader">
+            <div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-4 col-xs-6">
+                            <div class="online-calc">
+                                <div>
+                                    <a href="#" class="btn orange-button">Он-лайн калькулятор</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-12">
+                            <div class="logo">
+                                <img class="img-responsive" src="images/header-logo.jpg">
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-md-offset-1 col-sm-4 col-xs-6">
+                            <div class="header-contacts">
+                                <div class="phone">
+                                    <a href="tel:+74957663817">+7 (495) 766-38-17</a>
+                                </div>
+                                <div class="schedule">
+                                    <p>ежедневно без выходных</p>
+                                </div>
+                                <div class="schedule">
+                                    <p>
+                                        с 10.00 до 21.00
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+    <section id="newCalcAcrill">
+        <div class="container">
+            <div class="super_wrapper">
+                <div>
+                    <div class="breadcrumbs text-center">
+                        <a href="#">Главная</a> / Калькулятор он-лайн
+                    </div>
+                    <div class="text-center">
+                        <h1 class="h3"><b>Онлайн калькулятор столешницы из искусственного камня</b></h1>
+                    </div>
+                    <div class="sep"></div>
+                    <div class="text-center">
+                        <p>Компания leStone предлагает клиентам заказать столешницу из искусственного камня с расчетом стоимости онлайн – это позволяет заранее рассчитать бюджет на отделочные работы и приобрести наиболее подходящее по цене изделие.</p>
+                    </div>
+                </div>
+                <!-- choose material starts here -->  
+                <div class="chooseMaterialNewAcrill">
+                    <h3 class="text-center"><b>Выбор материала</b></h3>
+                    <div class="matToChooseWrapper">
+                        <ul class="list-unstyled text-center aterialNewAcrillList">
+                            <li id="parentMaterial">
+                                <label class="parentMaterial" for="lg-hi-macs">
+                                    <img src="images/newCalcAcrill/lg-hi-macs.png" alt="" class="img-responsive">
+                                    <h5><b>LG Hi-Macs</b></h5>
+                                    <input id="lg-hi-macs" name="parentListItem" type="radio">
+                                </label>
+                                <label class="parentMaterial" for="grandex">
+                                    <img src="images/newCalcAcrill/grandex.png" alt="" class="img-responsive">
+                                    <h5><b>Grandex</b></h5>
+                                    <input id="grandex" name="parentListItem" type="radio">
+                                </label>
+                                <label class="parentMaterial" for="samsung-staron">
+                                    <img src="images/newCalcAcrill/Samsung-Staron.png" alt="" class="img-responsive">
+                                    <h5><b>Samsung Staron</b></h5>
+                                    <input id="samsung-staron" name="parentListItem" type="radio">
+                                </label>
+                                <label class="parentMaterial" for="dupont-corian">
+                                    <img src="images/newCalcAcrill/DuPont-Corian.png" alt="" class="img-responsive">
+                                    <h5><b>DuPont Corian</b></h5>
+                                    <input id="dupont-corian" name="parentListItem" type="radio">
+                                </label>
+                                <label class="parentMaterial" for="tristone">
+                                    <img src="images/newCalcAcrill/tristone.png" alt="" class="img-responsive">
+                                    <h5><b>Tristone</b></h5>
+                                    <input id="tristone" name="parentListItem" type="radio">
+                                </label>
+                                <label class="parentMaterial" for="hanex">
+                                    <img src="images/newCalcAcrill/Hanex.png" alt="" class="img-responsive">
+                                    <h5><b>Hanex</b></h5>
+                                    <input id="hanex" name="parentListItem" type="radio">
+                                </label>
+                                <label class="parentMaterial" for="dupont-montelli">
+                                    <img src="images/newCalcAcrill/dupont-montelli.png" alt="" class="img-responsive">
+                                    <h5><b>DuPont Montelli</b></h5>
+                                    <input id="dupont-montelli" name="parentListItem" type="radio">
+                                </label>
+                                <label class="parentMaterial" for="akrilika">
+                                    <img src="images/newCalcAcrill/akrilika.png" alt="" class="img-responsive">
+                                    <h5><b>Akrilika</b></h5>
+                                    <input id="akrilika" name="parentListItem" type="radio">
+                                </label>
+                            </li>
+                            
+                            
+
+                            
+                            
+                            <li class="childMaterial" style="display: none" data-child="1">
+                                <label for="LG1">
+                                    <img src="images/newCalcAcrill/staron/solidSanded.png" alt="" class="img-responsive">
+                                    <h5><b>LG Hi-Macs</b></h5>
+                                    <input id="LG1" name="subParentListItem" type="radio">
+                                </label>
+                                <label for="LG2">
+                                    <img src="images/newCalcAcrill/staron/aspenMetallic.png" alt="" class="img-responsive">
+                                    <h5><b>LG Hi-Macs</b></h5>
+                                    <input id="LG2" name="subParentListItem" type="radio">
+                                </label>
+                                <label for="LG3">
+                                    <img src="images/newCalcAcrill/staron/pebble.png" alt="" class="img-responsive">
+                                    <h5><b>LG Hi-Macs</b></h5>
+                                    <input id="LG3" name="subParentListItem" type="radio">
+                                </label>
+                                <label for="LG4">
+                                    <img src="images/newCalcAcrill/staron/mosaicQuarry.png" alt="" class="img-responsive">
+                                    <h5><b>LG Hi-Macs</b></h5>
+                                    <input id="LG4" name="subParentListItem" type="radio">
+                                </label>
+                                <label for="LG5">
+                                    <img src="images/newCalcAcrill/staron/tempest.png" alt="" class="img-responsive">
+                                    <h5><b>LG Hi-Macs</b></h5>
+                                    <input id="LG5" name="subParentListItem" type="radio">
+                                </label>
+                            </li>
+                            
+                            <li class="childMaterial" style="display: none" data-child="2">
+                                <label for="Grandex1">
+                                    <img src="images/newCalcAcrill/staron/solidSanded.png" alt="" class="img-responsive">
+                                    <h5><b>Grandex</b></h5>
+                                    <input id="Grandex1" name="subParentListItem" type="radio">
+                                </label>
+                                <label for="Grandex2">
+                                    <img src="images/newCalcAcrill/staron/aspenMetallic.png" alt="" class="img-responsive">
+                                    <h5><b>Grandex</b></h5>
+                                    <input id="Grandex2" name="subParentListItem" type="radio">
+                                </label>
+                                <label for="Grandex3">
+                                    <img src="images/newCalcAcrill/staron/pebble.png" alt="" class="img-responsive">
+                                    <h5><b>Grandex</b></h5>
+                                    <input id="Grandex3" name="subParentListItem" type="radio">
+                                </label>
+                                <label for="Grandex4">
+                                    <img src="images/newCalcAcrill/staron/mosaicQuarry.png" alt="" class="img-responsive">
+                                    <h5><b>Grandex</b></h5>
+                                    <input id="Grandex4" name="subParentListItem" type="radio">
+                                </label>
+                                <label for="Grandex5">
+                                    <img src="images/newCalcAcrill/staron/tempest.png" alt="" class="img-responsive">
+                                    <h5><b>Grandex</b></h5>
+                                    <input id="Grandex5" name="subParentListItem" type="radio">
+                                </label>
+                            </li>
+                            
+                            <li class="childMaterial" style="display: none" data-child="3">
+                                <label for="solidSanded">
+                                    <img src="images/newCalcAcrill/staron/solidSanded.png" alt="" class="img-responsive">
+                                    <h5><b>Solid / Sanded</b></h5>
+                                    <input id="solidSanded" name="subParentListItem" type="radio">
+                                </label>
+                                <label for="aspenMetallic">
+                                    <img src="images/newCalcAcrill/staron/aspenMetallic.png" alt="" class="img-responsive">
+                                    <h5><b>Aspen / Metallic</b></h5>
+                                    <input id="aspenMetallic" name="subParentListItem" type="radio">
+                                </label>
+                                <label for="pebble">
+                                    <img src="images/newCalcAcrill/staron/pebble.png" alt="" class="img-responsive">
+                                    <h5><b>Pebble</b></h5>
+                                    <input id="pebble" name="subParentListItem" type="radio">
+                                </label>
+                                <label for="mosaicQuarry">
+                                    <img src="images/newCalcAcrill/staron/mosaicQuarry.png" alt="" class="img-responsive">
+                                    <h5><b>Mosaic / Quarry</b></h5>
+                                    <input id="mosaicQuarry" name="subParentListItem" type="radio">
+                                </label>
+                                <label for="tempest">
+                                    <img src="images/newCalcAcrill/staron/tempest.png" alt="" class="img-responsive">
+                                    <h5><b>Tempest</b></h5>
+                                    <input id="tempest" name="subParentListItem" type="radio">
+                                </label>
+                            </li>
+                          <li class="childMaterial" style="display: none" data-child="4">
+                                <label for="Corian1">
+                                    <img src="images/newCalcAcrill/staron/solidSanded.png" alt="" class="img-responsive">
+                                    <h5><b>DuPont Corian</b></h5>
+                                    <input id="Corian1" name="subParentListItem" type="radio">
+                                </label>
+                                <label for="Corian2">
+                                    <img src="images/newCalcAcrill/staron/aspenMetallic.png" alt="" class="img-responsive">
+                                    <h5><b>DuPont Corian</b></h5>
+                                    <input id="Corian2" name="subParentListItem" type="radio">
+                                </label>
+                                <label for="Corian3">
+                                    <img src="images/newCalcAcrill/staron/pebble.png" alt="" class="img-responsive">
+                                    <h5><b>DuPont Corian</b></h5>
+                                    <input id="Corian3" name="subParentListItem" type="radio">
+                                </label>
+                                <label for="Corian4">
+                                    <img src="images/newCalcAcrill/staron/mosaicQuarry.png" alt="" class="img-responsive">
+                                    <h5><b>DuPont Corian</b></h5>
+                                    <input id="Corian4" name="subParentListItem" type="radio">
+                                </label>
+                                <label for="Corian5">
+                                    <img src="images/newCalcAcrill/staron/tempest.png" alt="" class="img-responsive">
+                                    <h5><b>DuPont Corian</b></h5>
+                                    <input id="Corian5" name="subParentListItem" type="radio">
+                                </label>
+                            </li>
+                            
+                          <li class="childMaterial" style="display: none" data-child="5">
+                                <label for="Tristone1">
+                                    <img src="images/newCalcAcrill/staron/solidSanded.png" alt="" class="img-responsive">
+                                    <h5><b>Tristone</b></h5>
+                                    <input id="Tristone1" name="subParentListItem" type="radio">
+                                </label>
+                                <label for="Tristone2">
+                                    <img src="images/newCalcAcrill/staron/aspenMetallic.png" alt="" class="img-responsive">
+                                    <h5><b>Tristone</b></h5>
+                                    <input id="Tristone2" name="subParentListItem" type="radio">
+                                </label>
+                                <label for="Tristone3">
+                                    <img src="images/newCalcAcrill/staron/pebble.png" alt="" class="img-responsive">
+                                    <h5><b>Tristone</b></h5>
+                                    <input id="Tristone3" name="subParentListItem" type="radio">
+                                </label>
+                                <label for="Tristone4">
+                                    <img src="images/newCalcAcrill/staron/mosaicQuarry.png" alt="" class="img-responsive">
+                                    <h5><b>Tristone</b></h5>
+                                    <input id="Tristone4" name="subParentListItem" type="radio">
+                                </label>
+                                <label for="Tristone5">
+                                    <img src="images/newCalcAcrill/staron/tempest.png" alt="" class="img-responsive">
+                                    <h5><b>Tristone</b></h5>
+                                    <input id="Tristone5" name="subParentListItem" type="radio">
+                                </label>
+                            </li>
+                          <li class="childMaterial" style="display: none" data-child="6">
+                                <label for="Hanex1">
+                                    <img src="images/newCalcAcrill/staron/solidSanded.png" alt="" class="img-responsive">
+                                    <h5><b>Hanex</b></h5>
+                                    <input id="Hanex1" name="subParentListItem" type="radio">
+                                </label>
+                                <label for="Hanex2">
+                                    <img src="images/newCalcAcrill/staron/aspenMetallic.png" alt="" class="img-responsive">
+                                    <h5><b>Hanex</b></h5>
+                                    <input id="Hanex2" name="subParentListItem" type="radio">
+                                </label>
+                                <label for="Hanex3">
+                                    <img src="images/newCalcAcrill/staron/pebble.png" alt="" class="img-responsive">
+                                    <h5><b>Hanex</b></h5>
+                                    <input id="Hanex3" name="subParentListItem" type="radio">
+                                </label>
+                                <label for="Hanex4">
+                                    <img src="images/newCalcAcrill/staron/mosaicQuarry.png" alt="" class="img-responsive">
+                                    <h5><b>Hanex</b></h5>
+                                    <input id="Hanex4" name="subParentListItem" type="radio">
+                                </label>
+                                <label for="Hanex5">
+                                    <img src="images/newCalcAcrill/staron/tempest.png" alt="" class="img-responsive">
+                                    <h5><b>Hanex</b></h5>
+                                    <input id="Hanex5" name="subParentListItem" type="radio">
+                                </label>
+                            </li>
+                          <li class="childMaterial" style="display: none" data-child="7">
+                                <label for="Montelli1">
+                                    <img src="images/newCalcAcrill/staron/solidSanded.png" alt="" class="img-responsive">
+                                    <h5><b>DuPont Montelli</b></h5>
+                                    <input id="Montelli1" name="subParentListItem" type="radio">
+                                </label>
+                                <label for="Montelli2">
+                                    <img src="images/newCalcAcrill/staron/aspenMetallic.png" alt="" class="img-responsive">
+                                    <h5><b>DuPont Montelli</b></h5>
+                                    <input id="Montelli2" name="subParentListItem" type="radio">
+                                </label>
+                                <label for="Montelli3">
+                                    <img src="images/newCalcAcrill/staron/pebble.png" alt="" class="img-responsive">
+                                    <h5><b>DuPont Montelli</b></h5>
+                                    <input id="Montelli3" name="subParentListItem" type="radio">
+                                </label>
+                                <label for="Montelli4">
+                                    <img src="images/newCalcAcrill/staron/mosaicQuarry.png" alt="" class="img-responsive">
+                                    <h5><b>DuPont Montelli</b></h5>
+                                    <input id="Montelli4" name="subParentListItem" type="radio">
+                                </label>
+                                <label for="Montelli5">
+                                    <img src="images/newCalcAcrill/staron/tempest.png" alt="" class="img-responsive">
+                                    <h5><b>DuPont Montelli</b></h5>
+                                    <input id="Montelli5" name="subParentListItem" type="radio">
+                                </label>
+                            </li>
+                          <li class="childMaterial" style="display: none" data-child="8">
+                                <label for="Akrilika1">
+                                    <img src="images/newCalcAcrill/staron/solidSanded.png" alt="" class="img-responsive">
+                                    <h5><b>Akrilika</b></h5>
+                                    <input id="Akrilika1" name="subParentListItem" type="radio">
+                                </label>
+                                <label for="Akrilika2">
+                                    <img src="images/newCalcAcrill/staron/aspenMetallic.png" alt="" class="img-responsive">
+                                    <h5><b>Akrilika</b></h5>
+                                    <input id="Akrilika2" name="subParentListItem" type="radio">
+                                </label>
+                                <label for="Akrilika3">
+                                    <img src="images/newCalcAcrill/staron/pebble.png" alt="" class="img-responsive">
+                                    <h5><b>Akrilika</b></h5>
+                                    <input id="Akrilika3" name="subParentListItem" type="radio">
+                                </label>
+                                <label for="Akrilika4">
+                                    <img src="images/newCalcAcrill/staron/mosaicQuarry.png" alt="" class="img-responsive">
+                                    <h5><b>Akrilika</b></h5>
+                                    <input id="Akrilika4" name="subParentListItem" type="radio">
+                                </label>
+                                <label for="Akrilika5">
+                                    <img src="images/newCalcAcrill/staron/tempest.png" alt="" class="img-responsive">
+                                    <h5><b>Akrilika</b></h5>
+                                    <input id="Akrilika5" name="subParentListItem" type="radio">
+                                </label>
+                            </li>               
+                        </ul>
+                    </div>
+                </div>
+              <!-- choose material ends here -->  
+              
+            <div class="chooseFormStoleshNew">
+                <div class="text-center">
+                    <h2 class="h3"><b>Выбор формы столешницы</b></h2>
+                </div>
+                <div class="sep"></div>
+                
+                <div class="col-md-4 text-center">
+                    <label onclick="showPram()" for="pram" class="kitchenShapesLabel">
+                        <div class="shape_image_wrapper">
+                            <img src="images/calc/shape1.jpg" alt="" class="img-responsive">
+                        </div>
+                        <h4><b>Прямая</b></h4>
+                        <input name="chooseShape" checked id="pram" type="radio">
+                    </label>
+                </div>
+                
+                <div class="col-md-4 text-center">
+                    <label onclick="showGshape()" for="gshape" class="kitchenShapesLabel">
+                         <div class="shape_image_wrapper">
+                            <img src="images/calc/shape2.png" alt="" class="img-responsive">
+                        </div>
+                        <h4><b>Г-образная</b></h4>
+                        <input name="chooseShape" id="gshape" type="radio">
+                    </label>
+                </div>
+                
+                <div class="col-md-4 text-center">
+                    <label onclick="showPshape()" for="pshape" class="kitchenShapesLabel">
+                        <div class="shape_image_wrapper">
+                            <img src="images/calc/shape3.png" alt="" class="img-responsive">
+                        </div>
+                        <h4><b>П-образная</b></h4>
+                        <input name="chooseShape" id="pshape" type="radio">
+                    </label>
+                </div> 
+            </div> 
+            
+            <div class="layouts_wrapper col-sm-12">
+                <div id="pramShape"><!-- 985 x 615-->
+                  <h3 class="text-center headingCalc h2">Размеры в пикселах</h3>
+                  <!-- r -->
+                   <label for="leftTopR" class="leftTopR">
+                      R
+                       <input id="leftTopR" type="checkbox">
+                    </label>
+                   <label for="leftBotR" class="leftBotR">
+                      R
+                       <input id="leftBotR" type="checkbox">
+                    </label>
+                   <label for="RightTopR" class="RightTopR">
+                      R
+                       <input id="RightTopR" type="checkbox">
+                    </label>
+                   <label for="RightBotR" class="RightBotR">
+                      R
+                       <input id="RightBotR" type="checkbox">
+                    </label>
+                     <!-- r -->
+                     <!-- other ccheckboxes -->
+                     <label for="virezPodVarku" class="virezPodVarku">
+                        <input id="virezPodVarku" type="checkbox">
+                        Вырез по варку
+                    </label>
+                    <label for="sterjPodGorachee" class="sterjPodGorachee">
+                         <input id="sterjPodGorachee" type="checkbox">
+                         Стержни под горячее
+                    </label>
+                    <label for="moykaIzKamna" class="moykaIzKamna">
+                         <input id="moykaIzKamna" type="checkbox">
+                         Мойка из камня
+                    </label>
+                    <label for="virezPodMoyku" class="virezPodMoyku">
+                         <input id="virezPodMoyku" type="checkbox">
+                         Вырез под мойку
+                    </label>
+                    <label for="stokVodi" class="stokVodi">
+                         <input id="stokVodi" type="checkbox">
+                         Проточка для стока воды
+                    </label>
+                    <!-- other ccheckboxes -->
+                    
+                    <!-- selects -->
+                    <select name="" id="tortsCromkaLeft">
+                        <option value="tortsCrom" selected>Торцевая кромка</option>
+                        <option value="tortsCrom 2">Торцевая кромка 2</option>
+                        <option value="tortsCrom 3">Торцевая кромка 3</option>
+                    </select>
+                    <select name="" id="tortsCromkaTop">
+                        <option value="tortsCrom" selected>Торцевая кромка</option>
+                        <option value="tortsCrom 2">Торцевая кромка 2</option>
+                        <option value="tortsCrom 3">Торцевая кромка 3</option>
+                    </select>
+                    <select name="" id="tortsCromkaBot">
+                        <option value="tortsCrom" selected>Торцевая кромка</option>
+                        <option value="tortsCrom 2">Торцевая кромка 2</option>
+                        <option value="tortsCrom 3">Торцевая кромка 3</option>
+                    </select>
+                    <select name="" id="tortsCromkaRight">
+                        <option value="tortsCrom" selected>Торцевая кромка</option>
+                        <option value="tortsCrom 2">Торцевая кромка 2</option>
+                        <option value="tortsCrom 3">Торцевая кромка 3</option>
+                    </select>
+                    <!-- selects -->
+                    
+                    <!-- inputs -->
+                    <input placeholder="0 мм" id="sizeTop" type="text">
+                    <input placeholder="0 мм" id="sizeRight" type="text">
+                    <!-- inputs -->
+                </div>
+                 
+                                 
+                <div id="gshapeRoom" style="display: none"><!-- 985 x 615-->
+                  <h3 class="text-center headingCalc h2">Размеры в пикселах</h3>
+                  <!-- r -->
+                     <label for="leftTopRgshape" class="leftTopRgshape">
+                      R
+                       <input id="leftTopRgshape" type="checkbox">
+                    </label>
+                    <label for="leftBotRgshape" class="leftBotRgshape">
+                       <input id="leftBotRgshape" type="checkbox">
+                      R
+                    </label>
+                    <label for="midTopRgshape" class="midTopRgshape">
+                      R
+                       <input id="midTopRgshape" type="checkbox">
+                    </label>
+                    <label for="midBotRgshape" class="midBotRgshape">
+                      R
+                       <input id="midBotRgshape" type="checkbox">
+                    </label>
+                    <label for="rightTopRgshape" class="rightTopRgshape">
+                       <input id="rightTopRgshape" type="checkbox">
+                      R
+                    </label>
+                    <label for="rightBotRgshape" class="rightBotRgshape">
+                      R
+                       <input id="rightBotRgshape" type="checkbox">
+                    </label>                 
+                  <!-- r -->
+                     <!-- other ccheckboxes -->
+                    <label for="virezPodVarkuGhape" class="virezPodVarkuGhape">
+                      Вырез под варку
+                       <input id="virezPodVarkuGhape" type="checkbox">
+                    </label>
+                    <label for="podGoracheeGshape" class="podGoracheeGshape">
+                      Стержни под горячее
+                       <input id="podGoracheeGshape" type="checkbox">
+                    </label>
+                    <label for="stokVodiGshape" class="stokVodiGshape">
+                       <input id="stokVodiGshape" type="checkbox">
+                      Проточка для стока воды
+                    </label>  
+                    <label for="mojkaIzKamGshape" class="mojkaIzKamGshape">
+                       <input id="mojkaIzKamGshape" type="checkbox">
+                      Мойка из камня
+                    </label>  
+                    <label for="VirezMojkaGshape" class="VirezMojkaGshape">
+                       <input id="VirezMojkaGshape" type="checkbox">
+                      Вырез под мойку
+                    </label>  
+                    <!-- other ccheckboxes -->
+                    
+                    <!-- selects -->
+                    <select name="" id="topLeftCromkaGhape">
+                        <option value="tortsCrom" selected>Торцевая кромка</option>
+                        <option value="tortsCrom 2">Торцевая кромка 2</option>
+                        <option value="tortsCrom 3">Торцевая кромка 3</option>
+                    </select>
+                    <select name="" id="midLeftCromkaGhape">
+                        <option value="tortsCrom" selected>Торцевая кромка</option>
+                        <option value="tortsCrom 2">Торцевая кромка 2</option>
+                        <option value="tortsCrom 3">Торцевая кромка 3</option>
+                    </select>
+                    <select name="" id="botLeftCromkaGhape">
+                        <option value="tortsCrom" selected>Торцевая кромка</option>
+                        <option value="tortsCrom 2">Торцевая кромка 2</option>
+                        <option value="tortsCrom 3">Торцевая кромка 3</option>
+                    </select>
+                   <select name="" id="topRightCromkaGhape">
+                        <option value="tortsCrom" selected>Торцевая кромка</option>
+                        <option value="tortsCrom 2">Торцевая кромка 2</option>
+                        <option value="tortsCrom 3">Торцевая кромка 3</option>
+                    </select>
+                   <select name="" id="midRightCromkaGhape">
+                        <option value="tortsCrom" selected>Торцевая кромка</option>
+                        <option value="tortsCrom 2">Торцевая кромка 2</option>
+                        <option value="tortsCrom 3">Торцевая кромка 3</option>
+                    </select>
+                   <select name="" id="botRightCromkaGhape">
+                        <option value="tortsCrom" selected>Торцевая кромка</option>
+                        <option value="tortsCrom 2">Торцевая кромка 2</option>
+                        <option value="tortsCrom 3">Торцевая кромка 3</option>
+                    </select>
+                    <!-- selects -->
+                    
+                    <!-- inputs -->
+                    <input placeholder="0 мм" id="sizeLeftTopGshape" type="text">
+                    <input placeholder="0 мм" id="sizeLeftBotGshape" type="text">
+                    <input placeholder="0 мм" id="sizeRightTopGshape" type="text">
+                    <input placeholder="0 мм" id="sizeRightBotGshape" type="text">
+                    <!-- inputs -->
+                </div>
+                
+                
+                
+                   <div id="pshapeRoom" style="display: none"><!-- 985 x 615-->
+                   <h3 class="text-center headingCalc h2">Размеры в пикселах</h3>
+                   
+                  <!-- r -->
+                     <label for="leftTopPshapeFirst" class="leftTopPshapeFirst">
+                      R
+                       <input id="leftTopPshapeFirst" type="checkbox">
+                    </label>
+                     <label for="leftTopPshapeSec" class="leftTopPshapeSec">
+                       <input id="leftTopPshapeSec" type="checkbox">
+                      R
+                    </label>
+                     <label for="RightTopPshapeFirst" class="RightTopPshapeFirst">
+                       <input id="RightTopPshapeFirst" type="checkbox">
+                      R
+                    </label>
+                     <label for="RightTopPshapeSec" class="RightTopPshapeSec">
+                       <input id="RightTopPshapeSec" type="checkbox">
+                      R
+                    </label>
+                     <label for="RightBotPshapeFirst" class="RightBotPshapeFirst">
+                       <input id="RightBotPshapeFirst" type="checkbox">
+                      R
+                    </label>
+                     <label for="RightBotPshapeSec" class="RightBotPshapeSec">
+                       <input id="RightBotPshapeSec" type="checkbox">
+                      R
+                    </label>
+                     <label for="LeftBotPshapeFirst" class="LeftBotPshapeFirst">
+                      R
+                       <input id="LeftBotPshapeFirst" type="checkbox">
+                    </label>
+                     <label for="LeftBotPshapeSec" class="LeftBotPshapeSec">
+                       <input id="LeftBotPshapeSec" type="checkbox">
+                      R
+                    </label>
+                
+                  <!-- r -->
+                     <!-- other ccheckboxes -->
+                    <label for="virezPodVarkuPshape" class="virezPodVarkuPshape">
+                      Вырез под варку
+                       <input id="virezPodVarkuPshape" type="checkbox">
+                    </label>
+                    <label for="sterjPogGorPshape" class="sterjPogGorPshape">
+                      Стержни под горячее
+                       <input id="sterjPogGorPshape" type="checkbox">
+                    </label>
+                    <label for="stockPshape" class="stockPshape">
+                       <input id="stockPshape" type="checkbox">
+                      Проточка для стока воды
+                    </label>
+                    <label for="virezMojkaPshape" class="virezMojkaPshape">
+                       <input id="virezMojkaPshape" type="checkbox">
+                      Вырез под мойку
+                    </label>
+                    <label for="stoneMojkaPshape" class="stoneMojkaPshape">
+                       <input id="stoneMojkaPshape" type="checkbox">
+                      Мойка из камня
+                    </label>
+ 
+                    <!-- other ccheckboxes -->
+                    
+                    <!-- selects -->
+
+                   <select name="" id="leftFirstGhapeCrom">
+                        <option value="tortsCrom" selected>Торцевая кромка</option>
+                        <option value="tortsCrom 2">Торцевая кромка 2</option>
+                        <option value="tortsCrom 3">Торцевая кромка 3</option>
+                    </select>
+                    <select name="" id="leftSecGhapeCrom">
+                        <option value="tortsCrom" selected>Торцевая кромка</option>
+                        <option value="tortsCrom 2">Торцевая кромка 2</option>
+                        <option value="tortsCrom 3">Торцевая кромка 3</option>
+                    </select>
+                    <select name="" id="leftThiGhapeCrom">
+                        <option value="tortsCrom" selected>Торцевая кромка</option>
+                        <option value="tortsCrom 2">Торцевая кромка 2</option>
+                        <option value="tortsCrom 3">Торцевая кромка 3</option>
+                    </select>
+                    
+                    <select name="" id="midFirstGhapeCrom">
+                        <option value="tortsCrom" selected>Торцевая кромка</option>
+                        <option value="tortsCrom 2">Торцевая кромка 2</option>
+                        <option value="tortsCrom 3">Торцевая кромка 3</option>
+                    </select>
+                    <select name="" id="midSecGhapeCrom">
+                        <option value="tortsCrom" selected>Торцевая кромка</option>
+                        <option value="tortsCrom 2">Торцевая кромка 2</option>
+                        <option value="tortsCrom 3">Торцевая кромка 3</option>
+                    </select>
+                    <select name="" id="midSecGhapeCrom">
+                        <option value="tortsCrom" selected>Торцевая кромка</option>
+                        <option value="tortsCrom 2">Торцевая кромка 2</option>
+                        <option value="tortsCrom 3">Торцевая кромка 3</option>
+                    </select>
+                    <select name="" id="midThiGhapeCrom">
+                        <option value="tortsCrom" selected>Торцевая кромка</option>
+                        <option value="tortsCrom 2">Торцевая кромка 2</option>
+                        <option value="tortsCrom 3">Торцевая кромка 3</option>
+                    </select>
+                    <select name="" id="RightFirstGhapeCrom">
+                        <option value="tortsCrom" selected>Торцевая кромка</option>
+                        <option value="tortsCrom 2">Торцевая кромка 2</option>
+                        <option value="tortsCrom 3">Торцевая кромка 3</option>
+                    </select>
+                    <select name="" id="RightSecGhapeCrom">
+                        <option value="tortsCrom" selected>Торцевая кромка</option>
+                        <option value="tortsCrom 2">Торцевая кромка 2</option>
+                        <option value="tortsCrom 3">Торцевая кромка 3</option>
+                    </select>
+                    <select name="" id="RightThiGhapeCrom">
+                        <option value="tortsCrom" selected>Торцевая кромка</option>
+                        <option value="tortsCrom 2">Торцевая кромка 2</option>
+                        <option value="tortsCrom 3">Торцевая кромка 3</option>
+                    </select>
+                       
+                    <!-- selects -->
+                    
+                    <!-- inputs -->
+                    <input placeholder="0 мм" id="sizeFirstPshape" type="text">
+                    <input placeholder="0 мм" id="sizeSecPshape" type="text">
+                    <input placeholder="0 мм" id="sizeThiPshape" type="text">
+                    <input placeholder="0 мм" id="sizeForthPshape" type="text">
+                    <input placeholder="0 мм" id="sizeFifthPshape" type="text">
+                    <input placeholder="0 мм" id="sizeSixPshape" type="text">
+                    <!-- inputs -->
+                </div>
+                
+                
+                
+                
+                
+                
+            </div>
+                
+            <div class="chooseKromkaWrapper clearfix">
+                <div class="text-center">
+                    <h2 class="h3"><b>Выбор торцевой кромки</b></h2>
+                </div>
+                <div class="sep"></div>
+                <div class="col-md-3 cromkaItem">
+                       <label for="topCorner">
+                        <img src="images/newCalcAcrill/krom/topCorner.png" class="img-responsive" alt="">
+                        <p>скругление верхнего угла (3, 6 или 9 мм) 0 р./м</p>
+                        <input id="topCorner" name="chooseKromkaRadio" type="radio">
+                    </label>
+                 </div>
+                <div class="col-md-3 cromkaItem">
+                       <label for="topBotCorner">
+                        <img src="images/newCalcAcrill/krom/topBotCorner.png" class="img-responsive" alt="">
+                        <p>скругление верхнего и нижнего угла 500 р./м</p>
+                        <input id="topBotCorner" name="chooseKromkaRadio" type="radio">
+                    </label>
+                </div>
+                <div class="col-md-3 cromkaItem">
+                     <label for="okrugl">
+                        <img src="images/newCalcAcrill/krom/okrugl.png" class="img-responsive" alt="">
+                        <p>округлая кромка 1900 р./м</p>
+                        <input id="okrugl" name="chooseKromkaRadio" type="radio">
+                    </label>
+                 </div>
+                <div class="col-md-3 cromkaItem">
+                    <label for="topCornerAndStep">
+                        <img src="images/newCalcAcrill/krom/topCornerAndStep.png" class="img-responsive" alt="">
+                        <p>скругление верхнего угла и ступенька 500 р./м</p>
+                        <input id="topCornerAndStep" name="chooseKromkaRadio" type="radio">
+                    </label>
+                 </div>
+                <div class="col-md-3 cromkaItem">
+                       <label for="podgibTortsKrom">
+                        <img src="images/newCalcAcrill/krom/podgibTortsKrom.png" class="img-responsive" alt="">
+                        <p>подгиб торцевой кромки с низу 990 р./м</p>
+                        <input id="podgibTortsKrom" name="chooseKromkaRadio" type="radio">
+                    </label>
+                </div>
+                <div class="col-md-3 cromkaItem">
+                       <label for="antipereliv">
+                        <img src="images/newCalcAcrill/krom/antipereliv.png" class="img-responsive" alt="">
+                        <p>"антиперелив" 1450 р./м</p>
+                        <input id="antipereliv" name="chooseKromkaRadio" type="radio">
+                    </label>
+                 </div>
+                <div class="col-md-3 cromkaItem">
+                       <label for="incrustration">
+                        <img src="images/newCalcAcrill/krom/incrustration.png" class="img-responsive" alt="">
+                        <p>инкрустация 1900 р./м</p>
+                        <input id="incrustration" name="chooseKromkaRadio" type="radio">
+                    </label>
+                 </div>
+                <div class="col-md-3 cromkaItem">
+                       <label for="figureFaska">
+                        <img src="images/newCalcAcrill/krom/figureFaska.png" class="img-responsive" alt="">
+                        <p>фигурная фаска 1050 р./м</p>
+                        <input id="figureFaska" name="chooseKromkaRadio" type="radio">
+                    </label>
+                </div>
+            </div>    
+            
+            <div class="chooseWallBortWrapper clearfix">
+                 <div class="text-center">
+                    <h3 class="h3"><b>Выбор пристенного бортика</b></h3>
+                </div>
+                <div class="sep"></div>
+                <div class="col-md-3 bortItem">
+                       <label for="bortEmpty">
+                        <img src="images/newCalcAcrill/bort/bortEmpty.png" class="img-responsive" alt="">
+                        <p>скругление верхнего угла (3, 6 или 9 мм) 0 р./м</p>
+                        <input id="bortEmpty" name="chooseBortRadio" type="radio">
+                    </label>
+                 </div>
+                <div class="col-md-3 bortItem">
+                       <label for="bort1">
+                        <img src="images/newCalcAcrill/bort/bort1.png" class="img-responsive" alt="">
+                        <p>скругление верхнего и нижнего угла 500 р./м</p>
+                        <input id="bort1" name="chooseBortRadio" type="radio">
+                    </label>
+                </div>
+                <div class="col-md-3 bortItem">
+                     <label for="bort2">
+                        <img src="images/newCalcAcrill/bort/bort2.png" class="img-responsive" alt="">
+                        <p>округлая кромка 1900 р./м</p>
+                        <input id="bort2" name="chooseBortRadio" type="radio">
+                    </label>
+                 </div>
+            </div>   
+            
+            <div class="orderLocationWrapper">
+                <div class="text-center">
+                    <h3 class="h3"><b> Территориальность заказа (замер, доставка и монтаж):</b></h3>
+                </div>
+                <div class="sep"></div>
+                <label for="inMkad">
+                    <input id="inMkad" name="location"  class="pull-left" type="radio"> 
+                    <p>Москва (в пределах МКАД)</p>
+                </label> <br>
+                <label for="outOfMkad">
+                    <input id="outOfMkad" name="location" class="pull-left" type="radio"> 
+                    <p>Москва и московская область (за МКАД)</p>
+                </label>
+                
+            </div>
+               <div class="summaryWrapper">
+                 <div class="text-center">
+                     <h3 class="h3"><b>Итого (расчет выполнен <span class="sumColor">04.08.2017</span>, действителен в течение недели):</b></h3>
+                </div>
+                <div class="sep"></div>
+                
+                <ul class="list-unstyled summaryList">
+                    <li><b>Материал:</b> Не выбарно</li>
+                    <li><b>Площадь столешницы:</b> 1.5 м² (округлено до минимального заказа)</li>
+                    <li><b>Стеновой бортик:</b> приставной (90°), высота от 30 до 50 мм, 0 м.п. (0 руб.)</li>
+                    <li><b>Торцевая кромка:</b> фигурная фаска, 0.6 м.п. (630 руб.)</li>
+                    <li><b>Замер:</b> 1500 руб.</li>
+                    <li><b>Доставка:</b> 2500 руб.</li>
+                    <li><b>Монтаж:</b> 4000 руб.</li>
+                    <li><b>ИТОГОВАЯ СУММА: </b> <span class="sumColor">04.08.2017</span></li>
+                </ul>
+               </div>
+                
+            <div class="btnNewACrillWrapper">
+                <div class="calc-it">
+                    <a href="#">Сохранить</a>
+                    <a href="#" >Сделать заявку</a>
+              </div>
+            </div>  
+            <div class="formToSendNewAcrill">
+                <form  class="text-center" action="">
+                    <input placeholder="ИМЯ" type="text">
+                    <input placeholder="EMAIL" type="email">
+                    <input placeholder="ТЕЛЕФОН" type="phone">
+                <button type="submit" class="submitAcrillNewForm">Готово</button>
+                </form>
+            </div>  
+
+                
+                
+                
+                
+                
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+    </section>
+
+
+
+    <section id="contacts">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <div class="contacts text-center  ">
+                        <h2>Ждем вас</h2>
+                        <div class="address">
+                            <p>МО, Красногорский район, д. Путилково, стр.16</p>
+                            <p>ТЦ "КУХНИПАРК"</p>
+                            <p>ПН-ВС 10-21</p>
+                            <a href="tel:+74957663817" class="tel">+7(495) 766-38-17</a>
+                            <a href="mailto:sherlstone@yandex.ru" class="mail">sherlstone@yandex.ru</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p class="text-center">Copyright by sherlstone. All rights reserved.</p>
+    </footer>
+
+
+
+
+
+
+    <script src="js/script.js"></script> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,1225 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css"/>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,400italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body id="body">
+<header><!--header-->
+    <!--Menu №1 -->
+<div class="container sm-menu-top">
+    <div class="row top_menu_holder">
+        <div class="col-lg-10 col-lg-offset-2 col-md-12 top_menu_holder2">
+           <ul class="col-lg-12 col-md-12 men_left">
+               <li><img src="images/header/location.png" alt=""/>г.Одесса ул. Вильямса 50/2</li>
+               <li><img src="images/header/eye.png" alt=""/>Онлайн в магазине: 4589</li>
+               <li><img src="images/header/user.png" alt=""/>Учётная запись</li>
+               <li class="last_menu_item"><img src="images/header/phone.png" alt=""/>8 (048) <strong>716-91-64</strong></li>
+           </ul>
+        </div>
+    </div>
+</div>
+    <!--Menu №1 -->
+
+    <!--Menu №2 -->
+    <nav id="another_menu" class="navbar navbar-default">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header marg_0" >
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand logo_holder" href="/"><div class="logo"><img src="images/header/logo.png" alt="logo"/><br><span class="text_under_logo hidden-md hidden-sm hidden-xs">Магазин дисков и шин</span></div></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav main_menu_right">
+                    <li class="active"><a href="#">О нас<span class="sr-only">(current)</span></a></li>
+                    <li><a href="#">Оплата и доставка</a></li>
+                    <li><a href="#">Наши работы</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right men_right_main">
+                    <li><a href="#"><img src="images/header/libre.png" alt=""/>Сравнения</a></li>
+                    <li><a href="#"><img src="images/header/cart.png" alt=""/>Корзина</a></li>
+                    <li><a href="#"><img src="images/header/heart.png" alt=""/>Избранные</a></li>
+                    <li class="dropdown hide_menu">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Контактная информация<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li class="drop_cont"><a href="#"><span class="img_hol"><img src="images/header/location.png" alt=""/></span>г.Одесса ул. Вильямса 50/2</a></li>
+                            <li class="drop_cont"><a href="#"><span class="img_hol"><img src="images/header/eye.png"  alt=""/></span>Онлайн в магазине: 4589</a></li>
+                            <li class="drop_cont"><a href="#"><span class="img_hol"><img src="images/header/user.png"   alt=""/></span>Учётная запись</a></li>
+                            <li class="drop_cont"><a href="#"><span class="img_hol"><img src="images/header/phone.png"  alt=""/></span>8 (048) <strong>716-91-64</strong></a></li>
+                        </ul>
+                    </li>
+                    <li class="search_small">
+                        <form action="">
+                            <div class="form_fields_holder">
+                                <input type="search" class="form-control" placeholder="Поиск шин и дисков..."/>
+                                <span class="serch_but"><button type="submit"><img src="images/header/search.png" alt="search"/></button></span>
+                            </div>
+                        </form>
+                    </li>
+
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    <!--Menu №2 -->
+
+    <!--search-->
+    <div class="container search">
+        <div class="row">
+            <div class="col-lg-10 col-lg-offset-2 form_holder">
+                <form action="">
+                    <div class="form_fields_holder">
+                        <input type="search" class="form-control" placeholder="Поиск шин и дисков..."/>
+                        <span class="serch_but"><button type="submit"><img src="images/header/search.png" alt="search"/></button></span>
+                        <div class="text_under_search">В нашем магазине более 3000 + шин и дисков</div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--Search-->
+
+    <!--separator-->
+    <div class="header_separator">
+        <hr/>
+    </div>
+    <!--separator-->
+</header><!--header-->
+
+<section id="filter"><!--Filter-->
+    <div  class="container-fluid">
+        <div class="row">
+
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs tabs_holder" role="tablist">
+                <li role="presentation" class="active"><a href="#tires" aria-controls="tires" role="tab" data-toggle="tab" class="tab_link"><img src="images/section/wheel2.png" alt=""/> Шины <sup class="quantity">856</sup></a></li>
+                <li role="presentation"><a href="#drives" aria-controls="drives" role="tab" data-toggle="tab" class="tab_link"><img src="images/section/wheel.png" alt=""/> Диски <sup class="quantity">4568</sup></a></li>
+                <li role="presentation" class="last"><a href="#model" aria-controls="model" role="tab" data-toggle="tab" class="tab_link"><img src="images/section/truck.png" alt=""/> Подбор по модели авто </a></li>
+            </ul>
+
+            <!-- Tab panes -->
+            <div class="tab-content tabs_content_holder">
+                <!-- Первый таб -->
+                <div role="tabpanel" class="tab-pane fade in active" id="tires">
+                <div class="container">
+                    <div class="row marg_0">
+
+                        <!-- Первая колонка -->
+                                <div class="col-lg-3 filtr_content_holder">
+                                    <ul class="filtr_content">
+                                     <li>
+                                         <img src="images/section/wheel3.png" alt="width"/>
+                                         <span class="filtr_name">Ширина:</span>
+                                            <select class="form-control sel">
+                                                <option>Все</option>
+                                                <option>100</option>
+                                                <option>140</option>
+                                                <option>160</option>
+                                                <option>165</option>
+                                            </select>
+                                     </li>
+                                     <li>
+                                         <img src="images/section/profile.png" alt="width"/>
+                                         <span class="filtr_name">Профиль:</span>
+                                            <select class="form-control sel">
+                                                <option>Все</option>
+                                                <option>100</option>
+                                                <option>30</option>
+                                                <option>31</option>
+                                                <option>32</option>
+                                            </select>
+                                     </li>
+
+                                    </ul>
+                                </div>
+                        <!-- Первая колонка -->
+
+                        <!-- Вторая колонка -->
+                                <div class="col-lg-3 filtr_content_holder">
+                                    <ul class="filtr_content">
+                                     <li>
+                                         <img src="images/section/diametr.png" alt="width"/>
+                                         <span class="filtr_name">Диаметр:</span>
+                                            <select class="form-control sel">
+                                                <option>Все</option>
+                                                <option>100</option>
+                                                <option>140</option>
+                                                <option>160</option>
+                                                <option>165</option>
+                                            </select>
+                                     </li>
+                                     <li>
+                                         <img src="images/section/season.png" alt="width"/>
+                                         <span class="filtr_name">Сезонность:</span>
+                                            <select class="form-control sel">
+                                                <option>Все</option>
+                                                <option>100</option>
+                                                <option>30</option>
+                                                <option>31</option>
+                                                <option>32</option>
+                                            </select>
+                                     </li>
+
+                                    </ul>
+                                </div>
+                        <!-- Вторая колонка -->
+
+                        <!-- Третья колонка -->
+                                <div class="col-lg-3 filtr_content_holder">
+                                    <ul class="filtr_content">
+                                     <li>
+                                         <img src="images/section/brand.png" alt="width"/>
+                                         <span class="filtr_name">Произв.:</span>
+                                            <select class="form-control sel">
+                                                <option>Все</option>
+                                                <option>100</option>
+                                                <option>140</option>
+                                                <option>160</option>
+                                                <option>165</option>
+                                            </select>
+                                     </li>
+                                     <li>
+                                         <img src="images/section/bu.png" alt="width"/>
+                                         <span class="filtr_name">Б/у:</span>
+                                         <label class="lbl_bu"><input type="checkbox" class="checkbox_bu" value="1" name="k"><span></span></label>
+                                     </li>
+
+                                    </ul>
+                                </div>
+                        <!-- Третья колонка -->
+
+                        <!-- Четвертая колонка -->
+
+                                <div class="col-lg-3">
+                                    <ul class="fitr_buttons">
+                                        <li class="accept"><a href="#">Применить фильтр</a></li>
+                                        <li class="deny"><a href="#">Сбросить параметры</a></li>
+                                    </ul>
+                                </div>
+                        <!-- Четвертая колонка -->
+
+                    </div>
+                </div>
+               </div>
+                <!-- Первый таб -->
+
+                <!-- Второй таб -->
+                <div role="tabpanel" class="tab-pane fade" id="drives">
+                    <div class="container">
+                        <div class="row marg_0">
+
+                            <!-- Первая колонка -->
+                            <div class="col-lg-3 filtr_content_holder">
+                                <ul class="filtr_content">
+                                    <li>
+                                        <img src="images/section/wheel3.png" alt="width"/>
+                                        <span class="filtr_name">Ширина:</span>
+                                        <select class="form-control sel">
+                                            <option>Все</option>
+                                            <option>100</option>
+                                            <option>140</option>
+                                            <option>160</option>
+                                            <option>165</option>
+                                        </select>
+                                    </li>
+                                    <li>
+                                        <img src="images/section/profile.png" alt="width"/>
+                                        <span class="filtr_name">Профиль:</span>
+                                        <select class="form-control sel">
+                                            <option>Все</option>
+                                            <option>100</option>
+                                            <option>30</option>
+                                            <option>31</option>
+                                            <option>32</option>
+                                        </select>
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <!-- Первая колонка -->
+
+                            <!-- Вторая колонка -->
+                            <div class="col-lg-3 filtr_content_holder">
+                                <ul class="filtr_content">
+                                    <li>
+                                        <img src="images/section/diametr.png" alt="width"/>
+                                        <span class="filtr_name">Диаметр:</span>
+                                        <select class="form-control sel">
+                                            <option>Все</option>
+                                            <option>100</option>
+                                            <option>140</option>
+                                            <option>160</option>
+                                            <option>165</option>
+                                        </select>
+                                    </li>
+                                    <li>
+                                        <img src="images/section/season.png" alt="width"/>
+                                        <span class="filtr_name">Сезонность:</span>
+                                        <select class="form-control sel">
+                                            <option>Все</option>
+                                            <option>100</option>
+                                            <option>30</option>
+                                            <option>31</option>
+                                            <option>32</option>
+                                        </select>
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <!-- Вторая колонка -->
+
+                            <!-- Третья колонка -->
+                            <div class="col-lg-3 filtr_content_holder">
+                                <ul class="filtr_content">
+                                    <li>
+                                        <img src="images/section/brand.png" alt="width"/>
+                                        <span class="filtr_name">Произв.:</span>
+                                        <select class="form-control sel">
+                                            <option>Все</option>
+                                            <option>100</option>
+                                            <option>140</option>
+                                            <option>160</option>
+                                            <option>165</option>
+                                        </select>
+                                    </li>
+                                    <li>
+                                        <img src="images/section/bu.png" alt="width"/>
+                                        <span class="filtr_name">Б/у:</span>
+                                        <label class="lbl_bu"><input type="checkbox" class="checkbox_bu" value="1" name="k"><span></span></label>
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <!-- Третья колонка -->
+
+                            <!-- Четвертая колонка -->
+
+                            <div class="col-lg-3">
+                                <ul class="fitr_buttons">
+                                    <li class="accept"><a href="#">Применить фильтр</a></li>
+                                    <li class="deny"><a href="#">Сбросить параметры</a></li>
+                                </ul>
+                            </div>
+                            <!-- Четвертая колонка -->
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Второй таб -->
+
+                <!-- Третий таб -->
+                <div role="tabpanel" class="tab-pane fade" id="model">
+                    <div class="container">
+                        <div class="row marg_0">
+
+                            <!-- Первая колонка -->
+                            <div class="col-lg-3 filtr_content_holder">
+                                <ul class="filtr_content">
+                                    <li>
+                                        <img src="images/section/wheel3.png" alt="width"/>
+                                        <span class="filtr_name">Ширина:</span>
+                                        <select class="form-control sel">
+                                            <option>Все</option>
+                                            <option>100</option>
+                                            <option>140</option>
+                                            <option>160</option>
+                                            <option>165</option>
+                                        </select>
+                                    </li>
+                                    <li>
+                                        <img src="images/section/profile.png" alt="width"/>
+                                        <span class="filtr_name">Профиль:</span>
+                                        <select class="form-control sel">
+                                            <option>Все</option>
+                                            <option>100</option>
+                                            <option>30</option>
+                                            <option>31</option>
+                                            <option>32</option>
+                                        </select>
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <!-- Первая колонка -->
+
+                            <!-- Вторая колонка -->
+                            <div class="col-lg-3 filtr_content_holder">
+                                <ul class="filtr_content">
+                                    <li>
+                                        <img src="images/section/diametr.png" alt="width"/>
+                                        <span class="filtr_name">Диаметр:</span>
+                                        <select class="form-control sel">
+                                            <option>Все</option>
+                                            <option>100</option>
+                                            <option>140</option>
+                                            <option>160</option>
+                                            <option>165</option>
+                                        </select>
+                                    </li>
+                                    <li>
+                                        <img src="images/section/season.png" alt="width"/>
+                                        <span class="filtr_name">Сезонность:</span>
+                                        <select class="form-control sel">
+                                            <option>Все</option>
+                                            <option>100</option>
+                                            <option>30</option>
+                                            <option>31</option>
+                                            <option>32</option>
+                                        </select>
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <!-- Вторая колонка -->
+
+                            <!-- Третья колонка -->
+                            <div class="col-lg-3 filtr_content_holder">
+                                <ul class="filtr_content">
+                                    <li>
+                                        <img src="images/section/brand.png" alt="width"/>
+                                        <span class="filtr_name">Произв.:</span>
+                                        <select class="form-control sel">
+                                            <option>Все</option>
+                                            <option>100</option>
+                                            <option>140</option>
+                                            <option>160</option>
+                                            <option>165</option>
+                                        </select>
+                                    </li>
+                                    <li>
+                                        <img src="images/section/bu.png" alt="width"/>
+                                        <span class="filtr_name">Б/у:</span>
+                                        <label class="lbl_bu"><input type="checkbox" class="checkbox_bu" value="1" name="k"><span></span></label>
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <!-- Третья колонка -->
+
+                            <!-- Четвертая колонка -->
+
+                            <div class="col-lg-3">
+                                <ul class="fitr_buttons">
+                                    <li class="accept"><a href="#">Применить фильтр</a></li>
+                                    <li class="deny"><a href="#">Сбросить параметры</a></li>
+                                </ul>
+                            </div>
+                            <!-- Четвертая колонка -->
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Третий таб -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section><!--Filter-->
+<section id="slider"><!--slider-->
+
+    <div id="carousel-example-generic" class="carousel slide" data-interval="2500" data-ride="carousel" >
+        <!-- Indicators -->
+        <ol class="carousel-indicators car_ind">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="images/section/slide.png" width="100%" alt="">
+                <div class="carousel-caption">
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/section/slide.png" width="100%" alt="">
+                <div class="carousel-caption">
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/section/slide.png" width="100%" alt="">
+                <div class="carousel-caption">
+                </div>
+            </div>
+          </div>
+    </div>
+</section><!--slider-->
+
+<section><!--services-->
+    <div class="container-fluid services_wrapper">
+        <div class="container">
+            <div class="row ">
+                <div class="block_name">
+                    <img src="images/section/carServices.png" alt=""/><br/>
+                    <h4>Услуги компании</h4>
+                </div>
+                <div class="row services_content_wrapper">
+
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 block_service">
+                        <img src="images/section/serices/shinomontaj.png" alt=""/>
+                        <span class="word">Шиномонтаж</span>
+                        <div class="hidden_hover">
+                            <p class="text_desk">Балансировка <br/>Ремонт боковый порезов <br/>Азот</p>
+                            <a class="take_serv" href="#">Заказать услугу</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 block_service">
+                        <img src="images/section/serices/disk.png" alt=""/>
+                        <span class="word">Прокатка дисков</span>
+                        <div class="hidden_hover">
+                            <p class="text_desk">Балансировка <br/>Ремонт боковый порезов <br/>Азот</p>
+                            <a class="take_serv" href="#">Заказать услугу</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 block_service">
+                        <img src="images/section/serices/disc_painting.png" alt=""/>
+                        <span class="word">Полировка дисков</span>
+                        <div class="hidden_hover">
+                            <p class="text_desk">Балансировка <br/>Ремонт боковый порезов <br/>Азот</p>
+                            <a class="take_serv" href="#">Заказать услугу</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 block_service">
+                        <img src="images/section/serices/wheels.png" alt=""/>
+                        <span class="word">Консервация</span>
+                        <div class="hidden_hover">
+                            <p class="text_desk">Балансировка <br/>Ремонт боковый порезов <br/>Азот</p>
+                            <a class="take_serv" href="#">Заказать услугу</a>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 block_service">
+                        <img src="images/section/serices/house.png" alt=""/>
+                        <span class="word">Сезонное хранение</span>
+                        <div class="hidden_hover">
+                            <p class="text_desk">Балансировка <br/>Ремонт боковый порезов <br/>Азот</p>
+                            <a class="take_serv" href="#">Заказать услугу</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 block_service">
+                        <img src="images/section/serices/poroh_painting.png" alt=""/>
+                        <span class="word">порошковая покраска</span>
+                        <div class="hidden_hover">
+                            <p class="text_desk">Балансировка <br/>Ремонт боковый порезов <br/>Азот</p>
+                            <a class="take_serv" href="#">Заказать услугу</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 block_service">
+                        <img src="images/section/serices/sand.png" alt=""/>
+                        <span class="word">Пескоструй</span>
+                        <div class="hidden_hover">
+                            <p class="text_desk">Балансировка <br/>Ремонт боковый порезов <br/>Азот</p>
+                            <a class="take_serv" href="#">Заказать услугу</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 block_service">
+                        <img src="images/section/serices/Untitled-1.png" alt=""/>
+                        <span class="word">Крепёж</span>
+                        <div class="hidden_hover">
+                            <p class="text_desk">Балансировка <br/>Ремонт боковый порезов <br/>Азот</p>
+                            <a class="take_serv" href="#">Заказать услугу</a>
+                        </div>
+                    </div>
+                    <div class="wheel_img hidden-xs"><img src="images/section/serices/koleso.png" alt=""/></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section><!--services-->
+
+<section>
+   <div class="goods_wrapper">
+     <div class="container">
+          <div class="row">
+
+             <div class="goods_in_tabs">
+
+                    <!-- Nav tabs -->
+                 <div class="tabs">
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li role="presentation" class="active"><a  href="#new_goods" aria-controls="new_goods" role="tab" data-toggle="tab">Новинки</a></li>
+                        <li role="presentation"><a href="#sales_leader"  aria-controls="sales_leader" role="tab" data-toggle="tab">Лидеры продаж</a></li>
+                        <li role="presentation"><a href="#sec_goods"   aria-controls="sec_goods" role="tab" data-toggle="tab">Б/у товары</a></li>
+                     </ul>
+                 </div>
+                  <!-- Tab panes -->
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane fade in active" id="new_goods">
+                            <div class="row goods_keeper "><!-- keeper -->
+                                <div class="col-lg-3 col-md-4 col-sm-6 item_wrapper">
+                                    <div class="item">
+                                        <p class="product_category">код: <span>456</span></p>
+                                        <p class="product_favourite"><i class="fa fa-heart-o" aria-hidden="true"></i></p>
+                                        <div class="product_img text-center"><img src="images/section/goods/koleso.png" alt=""></div>
+                                        <div class="product_marks">
+                                            <div class="row"><img src="images/section/goods/hit.png" alt=""></div>
+                                            <div class="row"><img src="images/section/goods/super_price.png" alt=""></div>
+                                            <div class="row"><img src="images/section/goods/new.png" alt=""></div>
+                                        </div>
+                                        <p class="product_name">Bridgestone Ecopia EP150 175/65 R14 82H</p>
+                                        <div class="product_price">
+                                            <div class="row">
+                                                <div class="col-md-7 col-sm-6 col-xs-7">
+                                                    <span class="true_price">
+                                                <div class="add_to_cart text-center">
+                                                    <a href="#">В корзину</a>
+                                                </div>
+                                                    </span>
+                                                </div>
+                                                <div class="col-md-5 col-sm-6 col-xs-5"><span class="false_price">2399 грн</span></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="compare_goods">
+                                            <input type="checkbox">
+                                            <p>В сравнение</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="col-lg-3 col-md-4 col-sm-6 item_wrapper">
+                                    <div class="item">
+                                        <p class="product_category">код: <span>456</span></p>
+                                        <p class="product_favourite"><i class="fa fa-heart-o" aria-hidden="true"></i></p>
+                                        <div class="product_img text-center"><img src="images/section/goods/koleso.png" alt=""></div>
+                                        <div class="product_marks">
+                                            <div class="row"><img src="images/section/goods/hit.png" alt=""></div>
+                                            <div class="row"><img src="images/section/goods/super_price.png" alt=""></div>
+                                            <div class="row"><img src="images/section/goods/new.png" alt=""></div>
+                                        </div>
+                                        <p class="product_name">Bridgestone Ecopia EP150 175/65 R14 82H</p>
+                                        <div class="product_price">
+                                            <div class="row">
+                                                <div class="col-md-7 col-sm-6 col-xs-7">
+                                                    <span class="true_price">
+                                                <div class="add_to_cart text-center">
+                                                    <a href="#">В корзину</a>
+                                                </div>
+                                                    </span>
+                                                </div>
+                                                <div class="col-md-5 col-sm-6 col-xs-5"><span class="false_price">2399 грн</span></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="compare_goods">
+                                            <input type="checkbox">
+                                            <p>В сравнение</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6 item_wrapper">
+                                    <div class="item">
+                                        <p class="product_category">код: <span>456</span></p>
+                                        <p class="product_favourite"><i class="fa fa-heart-o" aria-hidden="true"></i></p>
+                                        <div class="product_img text-center"><img src="images/section/goods/koleso.png" alt=""></div>
+                                        <div class="product_marks">
+                                            <div class="row"><img src="images/section/goods/hit.png" alt=""></div>
+                                            <div class="row"><img src="images/section/goods/super_price.png" alt=""></div>
+                                            <div class="row"><img src="images/section/goods/new.png" alt=""></div>
+                                        </div>
+                                        <p class="product_name">Bridgestone Ecopia EP150 175/65 R14 82H</p>
+                                        <div class="product_price">
+                                            <div class="row">
+                                                <div class="col-md-7 col-sm-6 col-xs-7">
+                                                    <span class="true_price">
+                                                <div class="add_to_cart text-center">
+                                                    <a href="#">В корзину</a>
+                                                </div>
+                                                    </span>
+                                                </div>
+                                                <div class="col-md-5 col-sm-6 col-xs-5"><span class="false_price">2399 грн</span></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="compare_goods">
+                                            <input type="checkbox">
+                                            <p>В сравнение</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6 item_wrapper">
+                                    <div class="item">
+                                        <p class="product_category">код: <span>456</span></p>
+                                        <p class="product_favourite"><i class="fa fa-heart-o" aria-hidden="true"></i></p>
+                                        <div class="product_img text-center"><img src="images/section/goods/koleso.png" alt=""></div>
+                                        <div class="product_marks">
+                                            <div class="row"><img src="images/section/goods/hit.png" alt=""></div>
+                                            <div class="row"><img src="images/section/goods/super_price.png" alt=""></div>
+                                            <div class="row"><img src="images/section/goods/new.png" alt=""></div>
+                                        </div>
+                                        <p class="product_name">Bridgestone Ecopia EP150 175/65 R14 82H</p>
+                                        <div class="product_price">
+                                            <div class="row">
+                                                <div class="col-md-7 col-sm-6 col-xs-7">
+                                                    <span class="true_price">
+                                                <div class="add_to_cart text-center">
+                                                    <a href="#">В корзину</a>
+                                                </div>
+                                                    </span>
+                                                </div>
+                                                <div class="col-md-5 col-sm-6 col-xs-5"><span class="false_price">2399 грн</span></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="compare_goods">
+                                            <input type="checkbox">
+                                            <p>В сравнение</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane fade" id="sales_leader">
+                            <div class="row goods_keeper "><!-- keeper -->
+                                <div class="col-lg-3 col-md-4 col-sm-6 item_wrapper">
+                                    <div class="item">
+                                        <p class="product_category">код: <span>456</span></p>
+                                        <p class="product_favourite"><i class="fa fa-heart-o" aria-hidden="true"></i></p>
+                                        <div class="product_img text-center"><img src="images/section/goods/koleso.png" alt=""></div>
+                                        <div class="product_marks">
+                                            <div class="row"><img src="images/section/goods/hit.png" alt=""></div>
+                                            <div class="row"><img src="images/section/goods/super_price.png" alt=""></div>
+                                            <div class="row"><img src="images/section/goods/new.png" alt=""></div>
+                                        </div>
+                                        <p class="product_name">Bridgestone Ecopia EP150 175/65 R14 82H</p>
+                                        <div class="product_price">
+                                            <div class="row">
+                                                <div class="col-md-7 col-sm-6 col-xs-7">
+                                                    <span class="true_price">
+                                                <div class="add_to_cart text-center">
+                                                    <a href="#">В корзину</a>
+                                                </div>
+                                                    </span>
+                                                </div>
+                                                <div class="col-md-5 col-sm-6 col-xs-5"><span class="false_price">2399 грн</span></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="compare_goods">
+                                            <input type="checkbox">
+                                            <p>В сравнение</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="col-lg-3 col-md-4 col-sm-6 item_wrapper">
+                                    <div class="item">
+                                        <p class="product_category">код: <span>456</span></p>
+                                        <p class="product_favourite"><i class="fa fa-heart-o" aria-hidden="true"></i></p>
+                                        <div class="product_img text-center"><img src="images/section/goods/koleso.png" alt=""></div>
+                                        <div class="product_marks">
+                                            <div class="row"><img src="images/section/goods/hit.png" alt=""></div>
+                                            <div class="row"><img src="images/section/goods/super_price.png" alt=""></div>
+                                            <div class="row"><img src="images/section/goods/new.png" alt=""></div>
+                                        </div>
+                                        <p class="product_name">Bridgestone Ecopia EP150 175/65 R14 82H</p>
+                                        <div class="product_price">
+                                            <div class="row">
+                                                <div class="col-md-7 col-sm-6 col-xs-7">
+                                                    <span class="true_price">
+                                                <div class="add_to_cart text-center">
+                                                    <a href="#">В корзину</a>
+                                                </div>
+                                                    </span>
+                                                </div>
+                                                <div class="col-md-5 col-sm-6 col-xs-5"><span class="false_price">2399 грн</span></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="compare_goods">
+                                            <input type="checkbox">
+                                            <p>В сравнение</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6 item_wrapper">
+                                    <div class="item">
+                                        <p class="product_category">код: <span>456</span></p>
+                                        <p class="product_favourite"><i class="fa fa-heart-o" aria-hidden="true"></i></p>
+                                        <div class="product_img text-center"><img src="images/section/goods/koleso.png" alt=""></div>
+                                        <div class="product_marks">
+                                            <div class="row"><img src="images/section/goods/hit.png" alt=""></div>
+                                            <div class="row"><img src="images/section/goods/super_price.png" alt=""></div>
+                                            <div class="row"><img src="images/section/goods/new.png" alt=""></div>
+                                        </div>
+                                        <p class="product_name">Bridgestone Ecopia EP150 175/65 R14 82H</p>
+                                        <div class="product_price">
+                                            <div class="row">
+                                                <div class="col-md-7 col-sm-6 col-xs-7">
+                                                    <span class="true_price">
+                                                <div class="add_to_cart text-center">
+                                                    <a href="#">В корзину</a>
+                                                </div>
+                                                    </span>
+                                                </div>
+                                                <div class="col-md-5 col-sm-6 col-xs-5"><span class="false_price">2399 грн</span></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="compare_goods">
+                                            <input type="checkbox">
+                                            <p>В сравнение</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6 item_wrapper">
+                                    <div class="item">
+                                        <p class="product_category">код: <span>456</span></p>
+                                        <p class="product_favourite"><i class="fa fa-heart-o" aria-hidden="true"></i></p>
+                                        <div class="product_img text-center"><img src="images/section/goods/koleso.png" alt=""></div>
+                                        <div class="product_marks">
+                                            <div class="row"><img src="images/section/goods/hit.png" alt=""></div>
+                                            <div class="row"><img src="images/section/goods/super_price.png" alt=""></div>
+                                            <div class="row"><img src="images/section/goods/new.png" alt=""></div>
+                                        </div>
+                                        <p class="product_name">Bridgestone Ecopia EP150 175/65 R14 82H</p>
+                                        <div class="product_price">
+                                            <div class="row">
+                                                <div class="col-md-7 col-sm-6 col-xs-7">
+                                                    <span class="true_price">
+                                                <div class="add_to_cart text-center">
+                                                    <a href="#">В корзину</a>
+                                                </div>
+                                                    </span>
+                                                </div>
+                                                <div class="col-md-5 col-sm-6 col-xs-5"><span class="false_price">2399 грн</span></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="compare_goods">
+                                            <input type="checkbox">
+                                            <p>В сравнение</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane fade" id="sec_goods">
+                            <div class="row goods_keeper "><!-- keeper -->
+                                <div class="col-lg-3 col-md-4 col-sm-6 item_wrapper">
+                                    <div class="item">
+                                        <p class="product_category">код: <span>456</span></p>
+                                        <p class="product_favourite"><i class="fa fa-heart-o" aria-hidden="true"></i></p>
+                                        <div class="product_img text-center"><img src="images/section/goods/koleso.png" alt=""></div>
+                                        <div class="product_marks">
+                                            <div class="row"><img src="images/section/goods/hit.png" alt=""></div>
+                                            <div class="row"><img src="images/section/goods/super_price.png" alt=""></div>
+                                            <div class="row"><img src="images/section/goods/new.png" alt=""></div>
+                                        </div>
+                                        <p class="product_name">Bridgestone Ecopia EP150 175/65 R14 82H</p>
+                                        <div class="product_price">
+                                            <div class="row">
+                                                <div class="col-md-7 col-sm-6 col-xs-7">
+                                                    <span class="true_price">
+                                                <div class="add_to_cart text-center">
+                                                    <a href="#">В корзину</a>
+                                                </div>
+                                                    </span>
+                                                </div>
+                                                <div class="col-md-5 col-sm-6 col-xs-5"><span class="false_price">2399 грн</span></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="compare_goods">
+                                            <input type="checkbox">
+                                            <p>В сравнение</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="col-lg-3 col-md-4 col-sm-6 item_wrapper">
+                                    <div class="item">
+                                        <p class="product_category">код: <span>456</span></p>
+                                        <p class="product_favourite"><i class="fa fa-heart-o" aria-hidden="true"></i></p>
+                                        <div class="product_img text-center"><img src="images/section/goods/koleso.png" alt=""></div>
+                                        <div class="product_marks">
+                                            <div class="row"><img src="images/section/goods/hit.png" alt=""></div>
+                                            <div class="row"><img src="images/section/goods/super_price.png" alt=""></div>
+                                            <div class="row"><img src="images/section/goods/new.png" alt=""></div>
+                                        </div>
+                                        <p class="product_name">Bridgestone Ecopia EP150 175/65 R14 82H</p>
+                                        <div class="product_price">
+                                            <div class="row">
+                                                <div class="col-md-7 col-sm-6 col-xs-7">
+                                                    <span class="true_price">
+                                                <div class="add_to_cart text-center">
+                                                    <a href="#">В корзину</a>
+                                                </div>
+                                                    </span>
+                                                </div>
+                                                <div class="col-md-5 col-sm-6 col-xs-5"><span class="false_price">2399 грн</span></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="compare_goods">
+                                            <input type="checkbox">
+                                            <p>В сравнение</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6 item_wrapper">
+                                    <div class="item">
+                                        <p class="product_category">код: <span>456</span></p>
+                                        <p class="product_favourite"><i class="fa fa-heart-o" aria-hidden="true"></i></p>
+                                        <div class="product_img text-center"><img src="images/section/goods/koleso.png" alt=""></div>
+                                        <div class="product_marks">
+                                            <div class="row"><img src="images/section/goods/hit.png" alt=""></div>
+                                            <div class="row"><img src="images/section/goods/super_price.png" alt=""></div>
+                                            <div class="row"><img src="images/section/goods/new.png" alt=""></div>
+                                        </div>
+                                        <p class="product_name">Bridgestone Ecopia EP150 175/65 R14 82H</p>
+                                        <div class="product_price">
+                                            <div class="row">
+                                                <div class="col-md-7 col-sm-6 col-xs-7">
+                                                    <span class="true_price">
+                                                <div class="add_to_cart text-center">
+                                                    <a href="#">В корзину</a>
+                                                </div>
+                                                    </span>
+                                                </div>
+                                                <div class="col-md-5 col-sm-6 col-xs-5"><span class="false_price">2399 грн</span></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="compare_goods">
+                                            <input type="checkbox">
+                                            <p>В сравнение</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6 item_wrapper">
+                                    <div class="item">
+                                        <p class="product_category">код: <span>456</span></p>
+                                        <p class="product_favourite"><i class="fa fa-heart-o" aria-hidden="true"></i></p>
+                                        <div class="product_img text-center"><img src="images/section/goods/koleso.png" alt=""></div>
+                                        <div class="product_marks">
+                                            <div class="row"><img src="images/section/goods/hit.png" alt=""></div>
+                                            <div class="row"><img src="images/section/goods/super_price.png" alt=""></div>
+                                            <div class="row"><img src="images/section/goods/new.png" alt=""></div>
+                                        </div>
+                                        <p class="product_name">Bridgestone Ecopia EP150 175/65 R14 82H</p>
+                                        <div class="product_price">
+                                            <div class="row">
+                                                <div class="col-md-7 col-sm-6 col-xs-7">
+                                                    <span class="true_price">
+                                                <div class="add_to_cart text-center">
+                                                    <a href="#">В корзину</a>
+                                                </div>
+                                                    </span>
+                                                </div>
+                                                <div class="col-md-5 col-sm-6 col-xs-5"><span class="false_price">2399 грн</span></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="compare_goods">
+                                            <input type="checkbox">
+                                            <p>В сравнение</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+         <div class="row">
+             <div class="text-center but_cat">
+                 <a href="#">
+                     <img src="images/section/goods/squares.png" alt=""/> Весь каталог
+                 </a>
+             </div>
+         </div>
+
+        </div>
+   </div>
+</section>
+
+<section>
+    <div class="reviev_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="block_name text-center h3">
+                    <strong>Отзывы</strong>
+                </div>
+
+                <div id="carousel-example-generic1" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic1" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic1" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic1" data-slide-to="2"></li>
+                        <li data-target="#carousel-example-generic1" data-slide-to="3"></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <div class="rev_slide_wrapper">
+                                <div class="rev_slide_name h4"><strong>Василий Беликов, сегодня в 10:27</strong></div>
+                                <div class="rev_slide_content h5">
+                                    Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру
+                                    сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке,
+                                    а начинающему оратору отточить навык публичных выступлений в домашних условиях.
+                                    При создании генератора мы использовали небезызвестный универсальный код речей.
+                                    Текст генерируется абзацами
+                                </div>
+                            </div>
+                            <div class="rev_slide_wrapper">
+                                <div class="rev_slide_name h4"><strong>Василий Беликов, сегодня в 10:27</strong></div>
+                                <div class="rev_slide_content h5">
+                                    Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру
+                                    сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке,
+                                    а начинающему оратору отточить навык публичных выступлений в домашних условиях.
+                                    При создании генератора мы использовали небезызвестный универсальный код речей.
+                                    Текст генерируется абзацами
+                                </div>
+                            </div>
+                            <div class="rev_slide_wrapper">
+                                <div class="rev_slide_name h4"><strong>Василий Беликов, сегодня в 10:27</strong></div>
+                                <div class="rev_slide_content h5">
+                                    Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру
+                                    сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке,
+                                    а начинающему оратору отточить навык публичных выступлений в домашних условиях.
+                                    При создании генератора мы использовали небезызвестный универсальный код речей.
+                                    Текст генерируется абзацами
+                                </div>
+                            </div>
+                            <div class="rev_slide_wrapper">
+                                <div class="rev_slide_name h4"><strong>Василий Беликов, сегодня в 10:27</strong></div>
+                                <div class="rev_slide_content h5">
+                                    Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру
+                                    сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке,
+                                    а начинающему оратору отточить навык публичных выступлений в домашних условиях.
+                                    При создании генератора мы использовали небезызвестный универсальный код речей.
+                                    Текст генерируется абзацами
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="rev_slide_wrapper">
+                                <div class="rev_slide_name h4"><strong>Василий Беликов, сегодня в 10:27</strong></div>
+                                <div class="rev_slide_content h5">
+                                    Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру
+                                    сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке,
+                                    а начинающему оратору отточить навык публичных выступлений в домашних условиях.
+                                    При создании генератора мы использовали небезызвестный универсальный код речей.
+                                    Текст генерируется абзацами
+                                </div>
+                            </div>
+                            <div class="rev_slide_wrapper">
+                                <div class="rev_slide_name h4"><strong>Василий Беликов, сегодня в 10:27</strong></div>
+                                <div class="rev_slide_content h5">
+                                    Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру
+                                    сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке,
+                                    а начинающему оратору отточить навык публичных выступлений в домашних условиях.
+                                    При создании генератора мы использовали небезызвестный универсальный код речей.
+                                    Текст генерируется абзацами
+                                </div>
+                            </div>
+                            <div class="rev_slide_wrapper">
+                                <div class="rev_slide_name h4"><strong>Василий Беликов, сегодня в 10:27</strong></div>
+                                <div class="rev_slide_content h5">
+                                    Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру
+                                    сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке,
+                                    а начинающему оратору отточить навык публичных выступлений в домашних условиях.
+                                    При создании генератора мы использовали небезызвестный универсальный код речей.
+                                    Текст генерируется абзацами
+                                </div>
+                            </div>
+                            <div class="rev_slide_wrapper">
+                                <div class="rev_slide_name h4"><strong>Василий Беликов, сегодня в 10:27</strong></div>
+                                <div class="rev_slide_content h5">
+                                    Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру
+                                    сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке,
+                                    а начинающему оратору отточить навык публичных выступлений в домашних условиях.
+                                    При создании генератора мы использовали небезызвестный универсальный код речей.
+                                    Текст генерируется абзацами
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="rev_slide_wrapper">
+                                <div class="rev_slide_name h4"><strong>Василий Беликов, сегодня в 10:27</strong></div>
+                                <div class="rev_slide_content h5">
+                                    Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру
+                                    сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке,
+                                    а начинающему оратору отточить навык публичных выступлений в домашних условиях.
+                                    При создании генератора мы использовали небезызвестный универсальный код речей.
+                                    Текст генерируется абзацами
+                                </div>
+                            </div>
+                            <div class="rev_slide_wrapper">
+                                <div class="rev_slide_name h4"><strong>Василий Беликов, сегодня в 10:27</strong></div>
+                                <div class="rev_slide_content h5">
+                                    Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру
+                                    сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке,
+                                    а начинающему оратору отточить навык публичных выступлений в домашних условиях.
+                                    При создании генератора мы использовали небезызвестный универсальный код речей.
+                                    Текст генерируется абзацами
+                                </div>
+                            </div>
+                            <div class="rev_slide_wrapper">
+                                <div class="rev_slide_name h4"><strong>Василий Беликов, сегодня в 10:27</strong></div>
+                                <div class="rev_slide_content h5">
+                                    Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру
+                                    сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке,
+                                    а начинающему оратору отточить навык публичных выступлений в домашних условиях.
+                                    При создании генератора мы использовали небезызвестный универсальный код речей.
+                                    Текст генерируется абзацами
+                                </div>
+                            </div>
+                            <div class="rev_slide_wrapper">
+                                <div class="rev_slide_name h4"><strong>Василий Беликов, сегодня в 10:27</strong></div>
+                                <div class="rev_slide_content h5">
+                                    Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру
+                                    сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке,
+                                    а начинающему оратору отточить навык публичных выступлений в домашних условиях.
+                                    При создании генератора мы использовали небезызвестный универсальный код речей.
+                                    Текст генерируется абзацами
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="rev_slide_wrapper">
+                                <div class="rev_slide_name h4"><strong>Василий Беликов, сегодня в 10:27</strong></div>
+                                <div class="rev_slide_content h5">
+                                    Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру
+                                    сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке,
+                                    а начинающему оратору отточить навык публичных выступлений в домашних условиях.
+                                    При создании генератора мы использовали небезызвестный универсальный код речей.
+                                    Текст генерируется абзацами
+                                </div>
+                            </div>
+                            <div class="rev_slide_wrapper">
+                                <div class="rev_slide_name h4"><strong>Василий Беликов, сегодня в 10:27</strong></div>
+                                <div class="rev_slide_content h5">
+                                    Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру
+                                    сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке,
+                                    а начинающему оратору отточить навык публичных выступлений в домашних условиях.
+                                    При создании генератора мы использовали небезызвестный универсальный код речей.
+                                    Текст генерируется абзацами
+                                </div>
+                            </div>
+                            <div class="rev_slide_wrapper">
+                                <div class="rev_slide_name h4"><strong>Василий Беликов, сегодня в 10:27</strong></div>
+                                <div class="rev_slide_content h5">
+                                    Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру
+                                    сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке,
+                                    а начинающему оратору отточить навык публичных выступлений в домашних условиях.
+                                    При создании генератора мы использовали небезызвестный универсальный код речей.
+                                    Текст генерируется абзацами
+                                </div>
+                            </div>
+                            <div class="rev_slide_wrapper">
+                                <div class="rev_slide_name h4"><strong>Василий Беликов, сегодня в 10:27</strong></div>
+                                <div class="rev_slide_content h5">
+                                    Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру
+                                    сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке,
+                                    а начинающему оратору отточить навык публичных выступлений в домашних условиях.
+                                    При создании генератора мы использовали небезызвестный универсальный код речей.
+                                    Текст генерируется абзацами
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#carousel-example-generic1" role="button" data-slide="prev">
+                        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-example-generic1" role="button" data-slide="next">
+                        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="ab_us_wrapper">
+        <div class="container">
+         <div class="row">
+                <div class="ab_company_img text-center">
+                    <img  src="images/section/ab_company_big_img.jpg" alt=""/>
+                </div>
+            </div>
+            <div class="ab_company_name h3 text-center">
+                <strong>О компании</strong>
+            </div>
+            <div class="ab_company_content">
+                "СКАТ" предлагает Вам купить шины и автомобильные диски по выгодной цене.
+                Продажа автомобильных дисков и шин осуществляется нашей компанией более 10 лет.
+                За прошедшее время мы сумели создать широкую сеть пунктов продажи и обслуживания,
+                которые предоставляют клиентам огромный выбор шин для грузовых и легковых машин,
+                дисков к ним, а также все необходимые услуги по их хранению и установке.
+                Все наши товары и услуги имеют обязательную гарантию. Оцените преимущества сети «СКАТ»!
+            </div>
+            <div class="ab_more text-center">
+                <a href="#">Подробнее</a>
+            </div>
+
+            <div class="wrapper_ab_list">
+                <ul class="ab_list">
+                    <li class="col-lg-3 col-md-3 col-sm-12"><span><img src="images/section/ab_us/cart.png" alt=""/></span><strong>Доставка в течении<br/> 3-x дней</strong></li>
+                    <li class="col-lg-3 col-md-3 col-sm-12"><span><img src="images/section/ab_us/scroll.png" alt=""/></span><strong>Оплата оналайн<br/> прямо на сайте</strong></li>
+                    <li class="col-lg-3 col-md-3 col-sm-12"><span><img src="images/section/ab_us/map_mark.png" alt=""/></span><strong>Доставка по<br/> всей украине</strong></li>
+                    <li class="col-lg-3 col-md-3 col-sm-12"><span><img src="images/section/ab_us/medal.png" alt=""/></span><strong>Гарантия на<br/> продукцию</strong></li>
+                </ul>
+            </div>
+
+            </div>
+     </div>
+</section>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

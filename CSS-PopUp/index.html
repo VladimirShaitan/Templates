@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pop-up without JS</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<h1>Making Popups without JavaScript is simple</h1>
+<p>(when you know what to copy/paste without figuring it out, that is)</p>
+
+<label for="our-popup">Click on this to make the popup appear</label>
+
+
+<!-- Parent block for popup -->
+<span>
+    <input type="checkbox" id="our-popup" class="smoosh">
+    <label for="our-popup" class="overlay"></label>
+
+    <!--the popup starts here-->
+
+    <div class="overlay-dialogue">
+        <h2>Whatever you need to write</h2>
+        <p>Content goes here</p>
+        <label for="our-popup">Close</label>
+    </div>
+</span>
+
+
+</body>
+</html>

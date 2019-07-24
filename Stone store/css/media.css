@@ -1,0 +1,291 @@
+@media (min-width: 1200px){
+	section#online-calculator div.online-calculator-wrapper ul li a {
+			font-size: 34px;		
+	}
+	#postheader div.schedule p {
+		margin-left: 56px;
+	}
+}
+
+
+/* Large desktops and laptops */
+@media (max-width: 1199px) {
+	
+	section#online-calculator div.online-calculator-wrapper ul li a {
+			font-size: 2.7rem;		
+	}
+	#main-slider div.slider-form {
+		bottom: 260px;
+	}
+	#main-slider img.slider-form-image {
+		width: 100%;
+	}
+	button.deep-orange-button {
+		font-size: 2.2rem;
+	}
+	#main-slider input#Tel {
+		margin-bottom: 8px;
+	}
+
+	section#advantages div.item-wrapper {
+		padding-top: 68%;
+	}
+
+	#stoleshnica .add-element-img-wrapper.bar:before,
+	#stoleshnica .add-element-img-wrapper.bar:after,
+	#stoleshnica .add-element-img-wrapper:before,
+	#stoleshnica .add-element-img-wrapper:after {
+		display: none;
+	}
+	
+}
+	
+
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+	
+}
+
+@media (max-width: 991px) {
+	.nav>li>a {
+		padding: 10px 5px;
+	}
+	#postheader a.orange-button {
+		padding: 7px 8px;	
+	}
+	
+	#postheader a.orange-button:before {
+		display: none;
+		padding: 18px 29px;
+	}
+	#postheader div.online-calc>div {
+		margin-top: 28px;
+	}
+	#postheader div.phone a {
+		margin-top: 14px;
+		font-size: 28px;
+	}
+	#postheader div.schedule p {
+		margin-left: 27px;
+	
+	}
+	#postheader div.phone a:before {
+		width: 32px;
+		height: 32px;
+		background-size: cover;
+		left: -35px;
+		top: 6px;
+	}
+	section#online-calculator div.online-calculator-wrapper ul li a {
+		font-size: 2.1rem;
+	}
+	section#online-calculator div.shape div.settings-wrapper {
+		overflow: hidden;
+	}
+	/*потом эту хуйню исправить нужно*/
+	section#online-calculator img.producer {
+		margin: auto;
+	}
+	/*конец хуйни*/
+	section#offer div.circle-wrapper {
+		width: 175px;
+		height: 175px;
+	}
+	section#offer div.circle-wrapper img {
+		width: 175px;
+		height: auto;
+	}
+	section#offer div.circle-wrapper h2 {
+		margin-top: 68px;	
+	}
+	section#advantages div.item-wrapper {
+		height: 157px;
+		background-size: contain!important;
+	}
+	section#advantages div.col-md-3:first-child div.item-wrapper:after,
+	section#advantages div.col-md-3:nth-child(3) div.item-wrapper:after {
+		background-size: contain!important;
+		width: 45px;
+		bottom: 20px;
+    right: -39px;	
+    height: 16px;
+	}
+	section#advantages div.col-md-3:nth-child(2) div.item-wrapper:after {
+		background-size: contain!important;
+		width: 45px;
+		bottom: 20px;
+    right: -39px;	
+    height: 16px;
+	}
+	section#advantages div.item-wrapper {
+		padding-top: 62%;	
+	}
+	section#advantages div.item-wrapper span {
+		font-size: 16px;
+	}
+	section#offer div.images-wrapper:before {
+		width: 105px;
+		height: 105px;
+		margin-left: -51px;
+		margin-top: -51px;
+		background-size: contain;
+	}
+	#calc-page .tabs-calc div .tab-content:before{
+		display: none;
+	}
+	
+}
+
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+	ul.main-menu {	
+		display: block;
+		width: inherit;
+	}
+	.navbar-default .navbar-nav>li {
+		display: block;	
+	}
+	#postheader div.phone a {}
+	div#postheader {position: relative;}
+	div#postheader .row>div:first-child {
+		margin-top: 120px;
+	}
+	div#postheader .row>div:nth-child(2) {
+		position: absolute;
+    top:  15px;
+	}
+	div#postheader .row>div:nth-child(3) {
+		margin-top: 120px;
+	}
+	#postheader div.schedule p {
+		float: right;
+		margin-right: 27px;
+
+	}
+	#postheader div.schedule:last-child p {
+		margin-right: 85px;
+	}
+
+	section#online-calculator div.online-calculator-wrapper ul li:first-child a,
+	section#online-calculator div.online-calculator-wrapper ul li:last-child a  {
+		float: none;
+		text-align: center;
+	}
+
+		section#online-calculator div.online-calculator-wrapper ul li:last-child:before {
+		display: none;
+	}
+
+	section#online-calculator div.item-wrapper.neckline img {
+		width: initial;
+	}
+	section#online-calculator div.item-wrapper.shape .custom-radio:first-child:checked + label:after {
+
+	}
+
+
+
+	
+	section#offer div.circle-group-wrapper {
+		padding-top: 10px;
+	}
+
+	section#offer div.circle-wrapper {
+		margin: auto;
+		margin-bottom: 20px;
+		width: 128px;
+		height: 128px;
+
+	}
+	section#offer div.circle-wrapper h2 {
+		margin-top: 54px;
+		font-size: 35px;
+		margin-top: 46px;
+	}
+	section#offer h2 {
+		margin-top: 10px;
+		font-size: 35px;
+	}
+	section#offer div.images-wrapper:before {
+		display: none;
+	}
+	section#offer div.images-wrapper div.col-md-6 {
+		margin-bottom: 10px;
+	}
+
+	section#advantages div.col-md-3:first-child div.item-wrapper:after,
+	section#advantages div.col-md-3:nth-child(3) div.item-wrapper:after,
+	section#advantages div.col-md-3:nth-child(2) div.item-wrapper:after {
+		display: none;
+	}
+	section#advantages div.item-wrapper {
+		padding-top: 0;
+		position: relative;
+		margin-bottom: 20px;
+	}
+	section#advantages div.item-wrapper span {
+		font-size: 14px;
+		position: relative;
+		top: 64%;
+	}
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+	div#postheader .row>div:first-child {
+		width: 100%;
+		text-align: center;
+	}
+	div#postheader .row>div:nth-child(3) {
+		width: 100%;
+		margin-top: 0px;
+	}
+	#postheader div.phone {
+		text-align: center;
+	}
+	#main-slider img.slider-form-image {
+		opacity: 0;
+	}
+	#postheader div.phone a,
+	#postheader div.schedule,
+	#postheader div.schedule p {
+		float: none;
+	}
+	
+
+	#postheader div.schedule p,
+	#postheader div.schedule:last-child p {
+		margin-left: 0;
+		text-align: center;
+		margin-right: 0;
+	}
+	#postheader div.phone a:before {
+		display: none;
+	}
+
+	button.deep-orange-button {
+		font-size: 1.1rem;
+	}
+}
+
+
+
+ 
+
+
+
+
+	/*возможно, это надо будет удалить после утановки на ОС*/
+@media(max-width: 1199px){
+}
+@media(max-width: 991px){
+}
+
+@media(max-width: 767px){
+}
